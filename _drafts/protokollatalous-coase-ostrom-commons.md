@@ -6,6 +6,48 @@ categories: talous ai commons
 
 **HUOM: luonnos, ei valmis. Ei julkaista ennen kuin sisältö on käyty läpi.**
 
+## Tiivistelmä (ensimmäinen luonnos, tulee postauksen alkuun)
+
+Yritys ja tragedy of the commons ovat historiallisesti näyttäytyneet
+toisilleen vieraina ongelmina — toinen kysymys yrityksen rajoista (Coase),
+toinen yhteisten resurssien hallinnasta (Ostrom). Tämä postaus väittää,
+että ne ovat pohjimmiltaan sama ongelma: molemmat syntyvät siitä, että
+luottamuksen rakentaminen, valvonta ja sopimisen toimeenpano ovat kalliita.
+Yritys ratkaisee tämän niputtamalla resurssit hierarkian sisään; toimiva
+commons ratkaisee sen Ostromin instituutioilla (rajat, monitorointi,
+asteittaiset sanktiot, halpa konfliktinratkaisu); epäonnistuva commons ei
+ratkaise sitä lainkaan.
+
+AI-agentit, kryptografinen todistettavuus (attestaatio) ja ohjelmoitavat
+sopimukset alentavat juuri niitä kustannuksia — haku, todentaminen,
+neuvottelu, valvonta, toimeenpano — joiden takia molemmat instituutiot
+ylipäätään syntyivät. Koska kyse on samasta pohjimmaisesta ongelmasta,
+sama teknologinen isku ratkaisee molemmat yhtä aikaa, ei kahta erillistä
+kehityskulkua.
+
+Tästä seuraa neljä konkreettista johtopäätöstä, joita postauksessa
+puolustetaan: yritykset pienenevät, kun sekä ulkoiset transaktiot että
+itse työvoima muuttuvat agenttipohjaisiksi; open source ja yhteisomistus
+kukoistavat uutena kilpailukykyisenä vaihtoehtona suljetulle omistukselle;
+talouden tehokkuus kasvaa huomattavasti transaktiokustannusten
+vapauttaessa resursseja tuottavampaan käyttöön; ja maat, joilla on vähiten
+institutionaalista kitkaa muutokselle, saavat merkittävän kilpailuedun.
+
+Postaus esittelee myös kirjoittajan oman konseptin, Neutral Witnessin —
+koneellisen välikerroksen, joka mahdollistaa toimintakykyisen luottamuksen
+syntymisen osapuolten välille ilman että kenenkään tarvitsee paljastaa
+salaista tietoaan toisilleen — yhtenä konkreettisena ehdotuksena siitä,
+miten näitä kustannuksia käytännössä alennetaan. Ydinhypoteesi ei ole enää
+tutkimaton alue: se kytkeytyy suoraan tuoreeseen "Coasean singularity"
+-kirjallisuuteen (NBER 2025), mutta laajentaa sen yritysten rajoista
+commonsin hallintaan asti.
+
+*(Tarkistettava vielä kirjoittajan kanssa: onko sävy/pituus oikea, ja*
+*puuttuuko jokin keskeinen väite. Neutral Witness -kappale tulee myöhemmin*
+*muualla postauksessa merkitä "kirjoittajan näkemys" -laatikkoon; tässä*
+*tiivistelmässä sitä ei erotella yhtä eksplisiittisesti, koska abstract on*
+*aina jo lähtökohtaisesti tiivistys eikä varsinainen argumentin paikka.)*
+
 Rakenneluonnos ensimmäiselle postaukselle. Lähdemateriaali kokonaisuudessaan
 kansiossa `_material/`:
 
