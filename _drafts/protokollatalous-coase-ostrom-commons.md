@@ -80,49 +80,51 @@ varauksena:
     alkuperäisessä muistiossa: uutuusväitteet ovat hypoteeseja ennen
     systemaattista prior-art-kartoitusta.
 
-## Uusi osio: tapausvertailu — jäykkä instituutio vs. ketterä pieni talous
+## Uusi osio: tapausvertailu — kolmiportainen institutionaalisen kitkan asteikko
 
 Tarkoitus havainnollistaa protokollatalous-hypoteesia konkreettisella,
-ajatuskoemuotoisella maavertailulla — **ei empiirinen ennuste**, vaan
+ajatuskoemuotoisella vertailulla — **ei empiirinen ennuste**, vaan
 heuristinen skenaario samaan tapaan kuin "Coasean heaven" muualla
-muistiossa.
+muistiossa. Kaksi pistettä (jäykkä vs. ketterä) ei vielä testaa
+hypoteesia sen ääripäässä, koska myös ketterimmillä vakiintuneilla
+demokratioilla on puolueet ja hallinto, jotka voivat vastustaa muutosta.
+Siksi kolme pistettä yhden asteikon eri kohdissa:
 
-- **Jäykkä talous: Saksa.** Tunnettu vahvasta, hyvin toimivasta mutta
-  hitaasta byrokratiasta; institutionaalinen ja kansallinen
-  muutosvastarinta digitalisaatiolle on laajalti dokumentoitu (esim. fax-
-  ja paperiprosessien pitkä elinkaari julkishallinnossa, hidas
-  digitaalisen identiteetin käyttöönotto). Toimii tässä esimerkkinä
-  taloudesta, jossa transaktiokustannusten aleneminen (protokollat,
-  AI-agentit, digitaalinen identiteetti, attestaatiot) etenee hitaasti
-  institutionaalisen jäykkyyden takia, vaikka tekninen kyvykkyys olisi
-  olemassa.
-- **Ketterä vastinpari: nimeäminen valinnaista.** Ei ole pakko nimetä
-  oikeaa maata — "Talous B" tai "pieni saarivaltio" toimii yhtä hyvin ja
-  pysyy linjassa muun muistion varovaisuuden kanssa (sama heuristinen
-  status kuin "Coasean heaven" -käsitteellä). Kaksi vaihtoehtoista
-  linjaa, jos nimetään:
-  - **Viro**: paras jaettavuus/tarina (tunnettu digihallinnon
-    edelläkävijä, e-Residency, X-Road — todennäköinen yleisö joka
-    innostuisi jakamaan postausta), mutta lähtötaso on jo hyvä, joten
-    kasvu näyttäytyisi kunnioitettavana, ei "hurjana".
-  - **Aidosti vaatimaton/kehittyvä talous** (tai osa sellaista, tai
-    pieni saari): analyyttisesti vahvempi "hurja kasvu" -tarina, koska
-    matalasta lähtötasosta prosentuaalinen kasvu on näyttävämpää ja
-    koska siellä on vähemmän lukkiutunutta byrokratiaa purettavana —
-    sama "leapfrogging"-logiikka kuin mobiilimaksujen ohittaessa
-    pankkikonttorit kehittyvillä markkinoilla. Heikompi jaettavuus.
-  - *(Päätös kirjoittajalla — kumpi painaa enemmän, tarina/jaettavuus
-    vai analyyttinen vakuuttavuus.)*
+1. **Jäykkä suuri talous: Saksa.** Tunnettu vahvasta, hyvin toimivasta
+   mutta hitaasta byrokratiasta; institutionaalinen ja kansallinen
+   muutosvastarinta digitalisaatiolle on laajalti dokumentoitu (esim.
+   fax- ja paperiprosessien pitkä elinkaari julkishallinnossa, hidas
+   digitaalisen identiteetin käyttöönotto). Transaktiokustannusten
+   aleneminen (protokollat, AI-agentit, digitaalinen identiteetti,
+   attestaatiot) etenee hitaasti institutionaalisen jäykkyyden takia,
+   vaikka tekninen kyvykkyys olisi olemassa.
+2. **Ketterä mutta silti vakiintunut pieni talous: ehdotus Viro (tai
+   nimeämätön "Talous B").** Pieni, digihallinnossa edelläkävijä
+   (e-Residency, X-Road), omaksuu protokollatalouden teknologiapinon
+   nopeasti — mutta silti demokraattinen valtio vakiintunein puoluein
+   ja hallintorakentein, joilla on oma muutosvastarintansa. Ei siis
+   testaa hypoteesia sen ääripäässä, vaan välipisteenä.
+3. **Lähes instituutioton / erittäin nopealiikkeinen ääripää: pysyy
+   nimeämättömänä abstraktiona.** Ei kiinnitetä oikeaan maahan tai
+   alueeseen — kuvataan puhtaasti toiminnallisesti ("talous tai vyöhyke,
+   jossa ei ole vakiintuneita puolueita, virkakoneistoa tai perittyä
+   sääntelyä hidastamassa omaksumista"). Tämä pitää ääripään puhtaasti
+   heuristisena testinä hypoteesille ("mitä tapahtuisi kitkan lähestyessä
+   nollaa") ilman, että kiinnitetään väitteitä mihinkään todelliseen
+   paikkaan tai sen asukkaisiin.
+
+Asteikon kolme pistettä yhdessä havainnollistavat pääväitettä:
+mitä vähemmän institutionaalista kitkaa, sitä nopeammin ja
+täydellisemmin transaktiokustannusten alenemisen hyödyt realisoituvat
+— kytkeytyy suoraan johtopäätökseen 4 ("maat joissa vähemmän jäykkiä
+esteitä saavat kilpailuedun").
+
 - **Aikaväli: ehdotus 10 vuotta (2026 → 2036).** Riittävän lyhyt
   tuntuakseen ajankohtaiselta ja konkreettiselta, mutta riittävän pitkä
-  että koronkorko-tyyppinen kasvuero (esim. 8–10 %/v vs. 1–2 %/v) ehtii
-  näkyä silmin nähden BKT-kuilun repeämisenä — 20–25 vuotta alkaisi
-  tuntua liian abstraktilta/kaukaiselta lukijalle.
-- **Vertailun rakenne**: kuvataan kvalitatiivisesti, miten kuilu voisi
-  kehittyä kahden talouden välillä transaktiokustannusten alenemisen,
-  yritysrakenteen keventymisen ja protokollapohjaisen koordinoinnin
-  omaksumisnopeuden suhteen. Tämä kytkeytyy suoraan johtopäätökseen 4:
-  "maat joissa vähemmän jäykkiä esteitä saavat kilpailuedun".
+  että koronkorko-tyyppinen kasvuero (esim. 8–10 %/v vs. 1–2 %/v vs.
+  vielä nopeampi kolmannessa pisteessä) ehtii näkyä silmin nähden
+  BKT-kuilun repeämisenä — 20–25 vuotta alkaisi tuntua liian
+  abstraktilta/kaukaiselta lukijalle.
 - **Metodinen varaus**: merkitään selvästi ajatuskokeeksi/skenaarioksi,
   ei ennusteeksi tai empiiriseksi vertailututkimukseksi — samalla
   varovaisuudella kuin muualla muistiossa (uutuusväitteet = hypoteeseja).
@@ -177,9 +179,10 @@ argumentiksi eikä listaksi erillisiä havaintoja.
   sen governance-mekanismi tässä kehyksessä)?
 - Yhdistetäänkö tämä samaksi postaukseksi uudelleenkirjoitetun muistion kanssa
   vai omaksi, siihen linkittyväksi jatko-osaksi?
-- Maavertailun toinen osapuoli: Viro (parempi jaettavuus) vai aidosti
-  vaatimaton/kehittyvä talous (vahvempi "hurja kasvu" -tarina) — vai
-  pysytäänkö nimeämättömänä? (ks. tarkennettu pohdinta yllä)
+- Vertailun kohta 2 (ketterä mutta vakiintunut): nimetäänkö Viroksi vai
+  pysytäänkö nimeämättömänä "Talous B" -tasolla? Kohta 3 (lähes
+  instituutioton ääripää) on jo päätetty pitää nimeämättömänä
+  abstraktiona.
 - Miten muistio positioidaan suhteessa NBER:n "Coasean Singularity"
   -paperiin ja muuhun tuoreeseen "headless firm" -kirjallisuuteen
   (ks. `_material/prior-art-haku.md`) — mikä on tässä muistiossa uutta
