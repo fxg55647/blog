@@ -212,6 +212,80 @@ Self-Employment",
 [labormarketmatters.com/p/ai-and-independent-work-in-7-charts](https://www.labormarketmatters.com/p/ai-and-independent-work-in-7-charts).
 Täydellinen lista `_material/prior-art-haku.md`:ssä.)*
 
+## 6. Neutral Witness: kirjoittajan oma konsepti
+
+> **Kirjoittajan näkemys.** Neutral Witness ei ole vakiintunutta
+> teoriaa eikä tässä muistiossa johdettua yhteistä synteesiä, vaan
+> kirjoittajan oma tuote- ja arkkitehtuurikonsepti. Sitä ei esitetä
+> maailmanlaajuisesti uutena teknisenä keksintönä ilman erillistä
+> prior-art-tutkimusta — sen taloudellinen rooli on kuitenkin
+> määriteltävissä selkeästi.
+>
+> Neutral Witness ei ole pelkkä fact-checking-palvelu. Se on
+> luottamuksellinen koneellinen välikerros, joka voi vastaanottaa yhden
+> tai useiden osapuolten aineistoa — myös sellaista, jota vastapuolet
+> eivät saa nähdä — soveltaa ennalta sovittuja sääntöjä, ja palauttaa
+> vain kullekin osapuolelle sallitun tuloksen. Toimintalogiikka
+> tiivistyy muotoon **Observe → Verify → Attest**.
+>
+> **Käyttötapaus: monen osapuolen salaisten tietojen yli tapahtuva
+> laskenta.** Myyjä voi antaa järjestelmälle salaisia teknologia-,
+> asiakas- tai taloustietoja; ostaja voi antaa omat salaiset
+> hyväksymisrajansa. Neutral Witness arvioi yhteensopivuuden ja
+> palauttaa rajatun tuloksen ("ehto täyttyy", riskiluokka)
+> paljastamatta kaikkia lähtötietoja. Sama periaate soveltuu suljettuihin
+> huutokauppoihin, due diligenceen ja agenttien välisiin hankintoihin.
+> LLM itsessään ei ratkaise luottamuksellisuuden tai todennettavuuden
+> ongelmaa — tekninen toteutus voi eri riskitasoilla nojata
+> luottamukselliseen suoritusympäristöön (TEE), MPC:hen,
+> zero-knowledge-todisteisiin tai näiden yhdistelmiin.
+>
+> **Käyttötapaus: sisäinen valvontakerros.** Kun yksi ihminen delegoi
+> sadoille agenteille tehtäviä, principal ei ehdi tarkistaa jokaista
+> välitulosta manuaalisesti. Neutral Witness -tyyppinen kerros voi
+> toimia portinvartijana ennen kuin agentin tulos käynnistää maksun,
+> sopimuksen tai uuden agenttiketjun. Tämä tekee siitä symmetrisen
+> mekanismin: sama arkkitehtuuri voi alentaa sekä yritysten välisiä
+> luottamuskustannuksia että principal-agent-kustannuksia yhden
+> organisaation sisällä — mutta kasvattaa samalla oman
+> valvontakerroksensa kriittisyyttä, koska väärä tai kompromettoitu
+> todentaja voisi monistaa virheen laajaan agenttiverkostoon.
+>
+> **Rehellisen datan mekanismisuunnittelu.** Neutral Witnessin hyöty
+> riippuu siitä, että sille toimitettu evidenssi on kattavaa ja aidosti
+> kytköksissä todelliseen maailmaan — muuten järjestelmästä tulee
+> institutionaalinen Goodhart-kone. Kannustinraja voidaan kirjoittaa
+> muotoon `E[hyöty vilpistä] < p(havaitseminen) x seuraamus + menetetty
+> vakuus + mainehaitta + tulevan pääsyn arvo + juridinen vastuu` — sama
+> logiikka jota sovellettiin jo edellä turvallisuuden tarjoajien
+> lojaalisuuteen neljännessä maavertailupisteessä (piraattikaupunki).
+> Tavoite on totuudellinen minimidata: kerätään se, mikä on päätöksen
+> kannalta tarpeellista ja voidaan todentaa — ei kaikkea mikä teknisesti
+> olisi mahdollista kerätä.
+>
+> **Miksi tämä ei ole vain TEE-attestaatio.** Olemassa oleva
+> confidential-computing-kirjallisuus tekee tärkeän eron:
+> laitteistopohjainen TEE-attestaatio todistaa *identiteetin* ("mikä
+> ohjelmisto ajettiin"), ei *käyttäytymistä* ("käyttäytyikö ohjelmisto
+> oikein") (RAND, "Confidential Computing, Secure Enclaves, and
+> Attestation"). Tämä on täsmälleen se ero, jonka Neutral Witnessin
+> pitää ratkaista: sen verdict koskee sisällön arviointia, ei pelkkää
+> suoritusympäristön identiteettiä. Käytännön esimerkkejä
+> ZK-todisteiden yhdistämisestä TEE-attestaatioon on jo olemassa (esim.
+> confidential.ai), ja laitteistotason confidential computing on
+> tulossa myös kiihdyttimiin itseensä (NVIDIA Hopperin H100). Neutral
+> Witness rakentuisi siis olemassa olevien rakennuspalikoiden päälle,
+> ei tyhjästä — sen oma kontribuutio olisi nimenomaan verdict-kerroksessa
+> (mitä väitettä arvioidaan, kenelle tulos palautetaan), ei alla
+> olevassa kryptografisessa infrastruktuurissa.
+
+*(Lähteet: RAND, "Confidential Computing, Secure Enclaves, and
+Attestation",
+[rand.org](https://www.rand.org/pubs/tools/TLA4174-1/ai-security/appendixes/appendix-a/confidential-computing-etc.html).
+— confidential.ai, "Zero-Knowledge Proofs at Confidential",
+[confidential.ai/docs/zk](https://confidential.ai/docs/zk). Täydellinen
+lista `_material/prior-art-haku.md`:ssä, osio 6.)*
+
 ## Uusi osio: tapausvertailu — neliportainen institutionaalisen kitkan asteikko
 
 Tarkoitus havainnollistaa protokollatalous-hypoteesia konkreettisella,
