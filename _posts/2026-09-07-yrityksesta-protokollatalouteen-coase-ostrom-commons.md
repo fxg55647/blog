@@ -202,6 +202,34 @@ epädemokraattinen) valtiorakenne, vai ei mitään:
    polysentrisen (Ostrom-tyyppisen) hallinnan muoto ilman perinteistä
    valtiota, ei kaaos.
 
+   **"Piraattikaupunki": itsevahvistuva ero ja houkutusvoima.** Jos
+   piste 4:n kaupunki käyttää osan kasvavasta taloudestaan huippuluokan
+   turvallisuuteen (esim. parempi aseistus ja valvonta kuin ympäröivässä
+   kaaoksessa), turvallisuusero ympäröivään alueeseen ei pysy vakiona
+   vaan kasvaa itsestään: parempi turvallisuus houkuttelee yritteliästä
+   väkeä, mikä kasvattaa veropohjaa/resursseja, mikä rahoittaa vielä
+   parempaa turvallisuutta. Sama itsevahvistuva dynamiikka tunnetaan
+   historiallisista vapaakaupungeista ja -satamista, jotka houkuttelivat
+   kauppiaita nimenomaan ympäristöään paremman oikeusjärjestyksen ja
+   turvallisuuden ansiosta. Karkea kärkiluku havainnollistamaan: jos
+   piste 4:n kaupunki kasvaisi 10 vuoden aikavälillä esimerkiksi 10x
+   nopeammin kuin piste 1 (Saksa), ero näkyisi jyrkkänä käyränä — puhtaan
+   heuristinen luku, ei ennuste.
+
+   **Rinnakkainen kokeilu ja selviytyminen.** Teoriassa tällaisia
+   piraattikaupunkeja voisi syntyä monia samanaikaisesti eri puolilla
+   valtiotonta aluetta. Useimmat epäonnistuisivat todennäköisesti —
+   condottieri-kaappaus, ulkoinen valloitus, sisäinen kannustinjärjestelmän
+   pettäminen — mutta yksi tai muutama saattaisi selvitä ja menestyä.
+   Tämä on täsmälleen sama "variaatio → valinta → monistuminen"
+   -logiikka, joka esiteltiin jo yleisenä episteemisenä argumenttina
+   Hayek-osiossa (kohta 4 yllä): hajautettu, rinnakkainen kokeilu ei ole
+   arvokasta siksi että jokainen yritys onnistuisi, vaan siksi että
+   harvempien onnistumisten malli voidaan sen jälkeen monistaa muualle.
+   Piraattikaupunki-skenaario on siis konkreettinen ilmentymä samasta
+   periaatteesta, jota muistio muutenkin soveltaa instituutioihin
+   yleisemmällä tasolla.
+
 Asteikon neljä pistettä yhdessä havainnollistavat pääväitettä: mitä
 vähemmän institutionaalista kitkaa, sitä nopeammin ja täydellisemmin
 transaktiokustannusten alenemisen hyödyt realisoituvat — kytkeytyy
