@@ -96,20 +96,33 @@ muistiossa.
   AI-agentit, digitaalinen identiteetti, attestaatiot) etenee hitaasti
   institutionaalisen jäykkyyden takia, vaikka tekninen kyvykkyys olisi
   olemassa.
-- **Ketterä pieni talous: ehdotus Viro.** Pieni, resursseiltaan
-  vaatimaton mutta digihallinnossa ja e-identiteetissä pitkään
-  edelläkävijä (e-Residency, X-Road, digitaalinen julkishallinto jo
-  2000-luvulta lähtien). Toimii vastinparina: talous joka omaksuu
-  protokollatalouden mahdollistavan teknologiapinon (identity, evidence,
-  attestation, ohjelmoitavat sopimukset) nopeasti ja ketterästi.
-  *(Vahvistettava kirjoittajan kanssa — voidaan vaihtaa toiseen maahan,
-  jos Viro ei ole osuvin esimerkki.)*
-- **Vertailun rakenne**: valitaan aikaväli (esim. 15–20 vuotta) ja
-  kuvataan kvalitatiivisesti, miten kuilu voisi kehittyä kahden talouden
-  välillä transaktiokustannusten alenemisen, yritysrakenteen
-  keventymisen ja protokollapohjaisen koordinoinnin omaksumisnopeuden
-  suhteen. Tämä kytkeytyy suoraan alla olevaan johtopäätökseen "maat
-  joissa vähemmän jäykkiä esteitä saavat kilpailuedun".
+- **Ketterä vastinpari: nimeäminen valinnaista.** Ei ole pakko nimetä
+  oikeaa maata — "Talous B" tai "pieni saarivaltio" toimii yhtä hyvin ja
+  pysyy linjassa muun muistion varovaisuuden kanssa (sama heuristinen
+  status kuin "Coasean heaven" -käsitteellä). Kaksi vaihtoehtoista
+  linjaa, jos nimetään:
+  - **Viro**: paras jaettavuus/tarina (tunnettu digihallinnon
+    edelläkävijä, e-Residency, X-Road — todennäköinen yleisö joka
+    innostuisi jakamaan postausta), mutta lähtötaso on jo hyvä, joten
+    kasvu näyttäytyisi kunnioitettavana, ei "hurjana".
+  - **Aidosti vaatimaton/kehittyvä talous** (tai osa sellaista, tai
+    pieni saari): analyyttisesti vahvempi "hurja kasvu" -tarina, koska
+    matalasta lähtötasosta prosentuaalinen kasvu on näyttävämpää ja
+    koska siellä on vähemmän lukkiutunutta byrokratiaa purettavana —
+    sama "leapfrogging"-logiikka kuin mobiilimaksujen ohittaessa
+    pankkikonttorit kehittyvillä markkinoilla. Heikompi jaettavuus.
+  - *(Päätös kirjoittajalla — kumpi painaa enemmän, tarina/jaettavuus
+    vai analyyttinen vakuuttavuus.)*
+- **Aikaväli: ehdotus 10 vuotta (2026 → 2036).** Riittävän lyhyt
+  tuntuakseen ajankohtaiselta ja konkreettiselta, mutta riittävän pitkä
+  että koronkorko-tyyppinen kasvuero (esim. 8–10 %/v vs. 1–2 %/v) ehtii
+  näkyä silmin nähden BKT-kuilun repeämisenä — 20–25 vuotta alkaisi
+  tuntua liian abstraktilta/kaukaiselta lukijalle.
+- **Vertailun rakenne**: kuvataan kvalitatiivisesti, miten kuilu voisi
+  kehittyä kahden talouden välillä transaktiokustannusten alenemisen,
+  yritysrakenteen keventymisen ja protokollapohjaisen koordinoinnin
+  omaksumisnopeuden suhteen. Tämä kytkeytyy suoraan johtopäätökseen 4:
+  "maat joissa vähemmän jäykkiä esteitä saavat kilpailuedun".
 - **Metodinen varaus**: merkitään selvästi ajatuskokeeksi/skenaarioksi,
   ei ennusteeksi tai empiiriseksi vertailututkimukseksi — samalla
   varovaisuudella kuin muualla muistiossa (uutuusväitteet = hypoteeseja).
@@ -121,6 +134,16 @@ Merkitään kokonaan kirjoittajan omaksi, kärjistetyksi johtopäätökseksi
 listan tapaan) — tämä on postauksen kärki, ei liite:
 
 > **Kirjoittajan johtopäätökset.**
+> 0. **Yrityksen olemassaolo ja tragedy of the commons ovat pohjimmiltaan
+>    sama ongelma** — molemmat ovat seurausta siitä, että luottamuksen,
+>    valvonnan ja sopimisen transaktiokustannukset ovat kalliita: yritys
+>    ratkaisee tämän niputtamalla resurssit hierarkian sisään, commons
+>    ratkaisee (tai epäonnistuu ratkaisemaan) tämän Ostromin
+>    instituutioiden kautta. Koska kyseessä on sama pohjimmiltainen
+>    ongelma, sama teknologinen isku — transaktio-, verifiointi- ja
+>    valvontakustannusten romahdus — ratkaisee molemmat yhdellä kertaa,
+>    ei kahta erillistä kehityskulkua. Tämä on koko postauksen kattoteesi,
+>    johon kohdat 1–4 ovat sen ilmentymiä eri talouden osa-alueilla.
 > 1. **Yritykset pienenevät** — sekä siksi, että ulkoisten transaktioiden
 >    kustannus laskee (Coase), että siksi, että työvoima itsessään
 >    muuttuu yhä enemmän agenttipohjaiseksi (ihminen + N AI-agenttia
@@ -129,17 +152,22 @@ listan tapaan) — tämä on postauksen kärki, ei liite:
 >    koordinointi ja alenevat verifiointi-/luottamuskustannukset tekevät
 >    avoimesti omistetuista/ylläpidetyistä resursseista kilpailukykyisen
 >    vaihtoehdon suljetulle, yrityksen sisään niputetulle omistukselle.
+>    (Sama ilmiö kuin kohdassa 0: open source on jo nyt yksi commons-
+>    muoto, joka toimii osittain siksi että koordinointikustannukset
+>    ovat sille poikkeuksellisen alhaiset.)
 > 3. **Talouden tehokkuus kasvaa huomattavasti** — transaktiokustannusten
 >    lasku (search, verification, disclosure, negotiation, enforcement)
 >    vapauttaa resursseja tuottavampaan käyttöön laajasti koko
 >    taloudessa.
 > 4. **Maat, joissa on vähemmän jäykkiä institutionaalisia esteitä,
->    saavat kilpailuedun** — ks. Saksa vs. ketterä pieni talous
->    -tapausvertailu yllä.
+>    saavat kilpailuedun** — ks. maavertailu-tapaus yllä.
 
-Näiden neljän väitteen tulee näkyä postauksessa selvästi kirjoittajan
+Näiden viiden väitteen tulee näkyä postauksessa selvästi kirjoittajan
 omana kantana — ei esitetä "todistettuna" tai vakiintuneena tuloksena,
-vaan samalla tavalla merkittynä kuin Neutral Witness-kappale.
+vaan samalla tavalla merkittynä kuin Neutral Witness-kappale. Kohta 0 on
+tärkein: se on se lause, joka sitoo koko postauksen (Coase-osio,
+Ostrom/commons-osio, COW-malli, Neutral Witness ja maavertailu) yhdeksi
+argumentiksi eikä listaksi erillisiä havaintoja.
 
 ## Avoimet kysymykset ennen kirjoittamista
 
@@ -149,6 +177,10 @@ vaan samalla tavalla merkittynä kuin Neutral Witness-kappale.
   sen governance-mekanismi tässä kehyksessä)?
 - Yhdistetäänkö tämä samaksi postaukseksi uudelleenkirjoitetun muistion kanssa
   vai omaksi, siihen linkittyväksi jatko-osaksi?
-- Vahvistetaanko Viro maavertailun toiseksi osapuoleksi, vai joku muu pieni,
-  vaatimaton mutta ketterä talous?
-- Mikä aikaväli maavertailuun (15, 20, 25 vuotta)?
+- Maavertailun toinen osapuoli: Viro (parempi jaettavuus) vai aidosti
+  vaatimaton/kehittyvä talous (vahvempi "hurja kasvu" -tarina) — vai
+  pysytäänkö nimeämättömänä? (ks. tarkennettu pohdinta yllä)
+- Miten muistio positioidaan suhteessa NBER:n "Coasean Singularity"
+  -paperiin ja muuhun tuoreeseen "headless firm" -kirjallisuuteen
+  (ks. `_material/prior-art-haku.md`) — mikä on tässä muistiossa uutta
+  niihin nähden?
