@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "TYÖOTSIKKO: Yrityksestä protokollatalouteen — Coase, Ostrom ja commons"
+title: "Yrityksestä protokollatalouteen — Coase, Ostrom ja commons"
+date: 2026-09-07 18:00:00 +0300
 categories: talous ai commons
 ---
 
-**HUOM: luonnos, ei valmis. Ei julkaista ennen kuin sisältö on käyty läpi.**
+*Tämä postaus on yhä keskeneräinen työversio — rakenneluonnos ja tiivistelmä,*
+*ei viimeistelty teksti. Julkaistu tässä muodossa työn alla olevana muistiona.*
 
-## Tiivistelmä (ensimmäinen luonnos, tulee postauksen alkuun)
+## Tiivistelmä
 
 Yritys ja tragedy of the commons ovat historiallisesti näyttäytyneet
 toisilleen vieraina ongelmina — toinen kysymys yrityksen rajoista (Coase),
