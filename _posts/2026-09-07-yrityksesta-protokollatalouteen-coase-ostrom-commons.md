@@ -157,6 +157,33 @@ Siksi kolme pistettä yhden asteikon eri kohdissa:
    nollaa") ilman, että kiinnitetään väitteitä mihinkään todelliseen
    paikkaan tai sen asukkaisiin.
 
+   **Täsmennys: ei anarkia, vaan kannustinyhteensopiva yksityinen
+   hallinto.** Tärkeä käsitteellinen ero: todellinen anarkia (ei mitään
+   vakaata sääntöä) ei ole se, mitä tässä pisteessä oikeasti kuvataan —
+   siinä ei olisi mitään mekanismia joka pitäisi turvallisuuden
+   tarjoajat tai kansalaiset lojaaleina, ja se romahtaisi nopeasti.
+   Toimiva versio vaatii sen sijaan tehokasta, kevyttä ja kansalaisten
+   tukemaa pienhallintoa, jossa myös ostetun turvallisuuden tarjoajien
+   (esim. yksityiset turvallisuusyritykset) kannustimet on tietoisesti
+   suunniteltu tukemaan järjestelmää eivätkä kaappaamaan sitä —
+   historiallinen varoitus tästä on condottieri-ongelma (palkatut
+   asejoukot, jotka saattoivat kaapata tai kiristää työnantajaansa
+   renessanssin Italian kaupunkivaltioissa).
+
+   Ratkaisu on sama kannustinlogiikka kuin Neutral Witnessin
+   rehellisen datan mekanismisuunnittelussa (ks. kohta 5.3 yllä):
+   `E[hyöty petoksesta] < p(havaitseminen) x seuraamus + menetetty
+   tulevan pääsyn arvo + mainehaitta`. Jos sekä turvallisuuden
+   tarjoajat että kansalaiset saavat osuuden tulevasta talouskasvusta
+   (ei vain kertakorvausta), petoksen/kapinan odotusarvo jää
+   pienemmäksi kuin lojaalisuuden pitkän aikavälin tuotto. Jos tähän
+   vielä lisätään erillinen kannustin *paljastaa* kapinayrityksiä
+   (Ostromin graduated sanctions- ja mutual monitoring -periaatteiden
+   mukaisesti), kertaluonteinen petosriski muuttuu toistuvaksi peliksi,
+   jossa lojaalisuus on dominoiva strategia — ei siis anarkiaa, vaan
+   yksi mahdollinen polysentrisen (Ostrom-tyyppisen) hallinnan muoto
+   ilman perinteistä valtiota.
+
 Asteikon kolme pistettä yhdessä havainnollistavat pääväitettä:
 mitä vähemmän institutionaalista kitkaa, sitä nopeammin ja
 täydellisemmin transaktiokustannusten alenemisen hyödyt realisoituvat
