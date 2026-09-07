@@ -124,7 +124,7 @@ varauksena:
     alkuperäisessä muistiossa: uutuusväitteet ovat hypoteeseja ennen
     systemaattista prior-art-kartoitusta.
 
-## Uusi osio: tapausvertailu — kolmiportainen institutionaalisen kitkan asteikko
+## Uusi osio: tapausvertailu — neliportainen institutionaalisen kitkan asteikko
 
 Tarkoitus havainnollistaa protokollatalous-hypoteesia konkreettisella,
 ajatuskoemuotoisella vertailulla — **ei empiirinen ennuste**, vaan
@@ -132,7 +132,9 @@ heuristinen skenaario samaan tapaan kuin "Coasean heaven" muualla
 muistiossa. Kaksi pistettä (jäykkä vs. ketterä) ei vielä testaa
 hypoteesia sen ääripäässä, koska myös ketterimmillä vakiintuneilla
 demokratioilla on puolueet ja hallinto, jotka voivat vastustaa muutosta.
-Siksi kolme pistettä yhden asteikon eri kohdissa:
+Siksi neljä pistettä yhden asteikon eri kohdissa — kaksi viimeistä
+eroavat toisistaan siinä, onko taustalla jo toimiva (vaikkakin pieni tai
+epädemokraattinen) valtiorakenne, vai ei mitään:
 
 1. **Jäykkä suuri talous: Saksa.** Tunnettu vahvasta, hyvin toimivasta
    mutta hitaasta byrokratiasta; institutionaalinen ja kansallinen
@@ -148,47 +150,66 @@ Siksi kolme pistettä yhden asteikon eri kohdissa:
    demokraattinen valtio vakiintunein puoluein ja hallintorakentein,
    joilla on oma muutosvastarintansa. Ei siis testaa hypoteesia sen
    ääripäässä, vaan välipisteenä.
-3. **Lähes instituutioton / erittäin nopealiikkeinen ääripää: pysyy
-   nimeämättömänä abstraktiona.** Ei kiinnitetä oikeaan maahan tai
-   alueeseen — kuvataan puhtaasti toiminnallisesti ("talous tai vyöhyke,
-   jossa ei ole vakiintuneita puolueita, virkakoneistoa tai perittyä
-   sääntelyä hidastamassa omaksumista"). Tämä pitää ääripään puhtaasti
-   heuristisena testinä hypoteesille ("mitä tapahtuisi kitkan lähestyessä
-   nollaa") ilman, että kiinnitetään väitteitä mihinkään todelliseen
-   paikkaan tai sen asukkaisiin.
+3. **Pieni tehokas hallinto tai auktoritaarinen johto vahvalla
+   kansalaistuella: nimeämätön "paratiisisaari".** Ei kiinnitetä
+   oikeaan maahan tai alueeseen. Baseline-oletus: toimiva valtiorakenne
+   on jo olemassa — vain hyvin pieni, kevyt ja tehokas (tai
+   vaihtoehtoisesti auktoritaarinen mutta legitiimiksi koettu), jolloin
+   päätöksiä ei tarvitse neuvotella laajan puoluekentän tai jäykän
+   hallintokoneiston läpi. Kansalaisten vahva tuki (tai auktoritaarisen
+   johdon kyky sivuuttaa vastustus) tekee koko teknologiapinon
+   käyttöönotosta lähes kitkatonta muihin pisteisiin verrattuna.
+4. **Aidosti valtioton/anarkkinen tausta, josta yksi kaupunki nousee
+   alhaalta ylös: esimerkkikonteksti Somalian kaltainen tilanne.**
+   Tässä ei ole edes pientä toimivaa hallintoa taustalla — koko
+   järjestys pitäisi rakentaa tyhjästä. Konkreettinen skenaario:
+   yksittäinen kaupunki alkaa ostaa turvallisuutta yksityisiltä
+   toimijoilta (palkatuilta turvallisuusyrityksiltä) ja rakentaa oman
+   digitaalisen, kryptografisesti todennettavan päätöksentekonsa ilman
+   minkäänlaista kansallisen tason valtiorakennetta. Tämä on akateemisesti
+   tunnistettu malli, ei pelkkä ajatusleikki — Peter Leesonin "Better Off
+   Stateless: Somalia" -tutkimus (2007) dokumentoi juuri tällaista
+   valtiotonta, klaani- ja sopimuspohjaista kaupankäyntiä ja
+   turvallisuuden järjestämistä (ks. `_material/prior-art-haku.md`).
+   *(Metodinen huomautus: käytetään tässä yhtenä analyyttisenä
+   esimerkkinä olemassa olevaan tutkimukseen nojaten, ei väitteenä
+   koko maan nykytilanteesta — sama varovaisuus kuin muualla
+   muistiossa.)*
 
-   **Täsmennys: ei anarkia, vaan kannustinyhteensopiva yksityinen
-   hallinto.** Tärkeä käsitteellinen ero: todellinen anarkia (ei mitään
-   vakaata sääntöä) ei ole se, mitä tässä pisteessä oikeasti kuvataan —
-   siinä ei olisi mitään mekanismia joka pitäisi turvallisuuden
-   tarjoajat tai kansalaiset lojaaleina, ja se romahtaisi nopeasti.
-   Toimiva versio vaatii sen sijaan tehokasta, kevyttä ja kansalaisten
-   tukemaa pienhallintoa, jossa myös ostetun turvallisuuden tarjoajien
-   (esim. yksityiset turvallisuusyritykset) kannustimet on tietoisesti
-   suunniteltu tukemaan järjestelmää eivätkä kaappaamaan sitä —
-   historiallinen varoitus tästä on condottieri-ongelma (palkatut
+   **Täsmennys: tämä piste ei ole "anarkia" siinä mielessä että kaikki
+   olisi sallittua, vaan kannustinyhteensopivan yksityisen hallinnon
+   testi.** Ero pisteeseen 3 on juuri se, että täällä ei ole valmista
+   valtiorakennetta antamassa perälautaa — jos kannustimet pettävät,
+   koko järjestys romahtaa, koska ei ole ylempää tahoa joka pelastaisi
+   tilanteen. Ostettujen turvallisuuden tarjoajien kannustimet on siis
+   suunniteltava tietoisesti tukemaan järjestelmää eivätkä kaappaamaan
+   sitä — historiallinen varoitus tästä on condottieri-ongelma (palkatut
    asejoukot, jotka saattoivat kaapata tai kiristää työnantajaansa
-   renessanssin Italian kaupunkivaltioissa).
+   renessanssin Italian kaupunkivaltioissa; Machiavelli varoitti tästä
+   nimenomaisesti Ruhtinaassa).
 
    Ratkaisu on sama kannustinlogiikka kuin Neutral Witnessin
    rehellisen datan mekanismisuunnittelussa (ks. kohta 5.3 yllä):
    `E[hyöty petoksesta] < p(havaitseminen) x seuraamus + menetetty
    tulevan pääsyn arvo + mainehaitta`. Jos sekä turvallisuuden
-   tarjoajat että kansalaiset saavat osuuden tulevasta talouskasvusta
-   (ei vain kertakorvausta), petoksen/kapinan odotusarvo jää
-   pienemmäksi kuin lojaalisuuden pitkän aikavälin tuotto. Jos tähän
-   vielä lisätään erillinen kannustin *paljastaa* kapinayrityksiä
+   tarjoajat että kaupungin asukkaat saavat osuuden tulevasta
+   talouskasvusta (ei vain kertakorvausta), petoksen/kapinan odotusarvo
+   jää pienemmäksi kuin lojaalisuuden pitkän aikavälin tuotto. Jos
+   tähän vielä lisätään erillinen kannustin *paljastaa* kapinayrityksiä
    (Ostromin graduated sanctions- ja mutual monitoring -periaatteiden
    mukaisesti), kertaluonteinen petosriski muuttuu toistuvaksi peliksi,
-   jossa lojaalisuus on dominoiva strategia — ei siis anarkiaa, vaan
-   yksi mahdollinen polysentrisen (Ostrom-tyyppisen) hallinnan muoto
-   ilman perinteistä valtiota.
+   jossa lojaalisuus on dominoiva strategia — tuloksena yksi mahdollinen
+   polysentrisen (Ostrom-tyyppisen) hallinnan muoto ilman perinteistä
+   valtiota, ei kaaos.
 
-Asteikon kolme pistettä yhdessä havainnollistavat pääväitettä:
-mitä vähemmän institutionaalista kitkaa, sitä nopeammin ja
-täydellisemmin transaktiokustannusten alenemisen hyödyt realisoituvat
-— kytkeytyy suoraan johtopäätökseen 4 ("maat joissa vähemmän jäykkiä
-esteitä saavat kilpailuedun").
+Asteikon neljä pistettä yhdessä havainnollistavat pääväitettä: mitä
+vähemmän institutionaalista kitkaa, sitä nopeammin ja täydellisemmin
+transaktiokustannusten alenemisen hyödyt realisoituvat — kytkeytyy
+suoraan johtopäätökseen 4 ("maat joissa vähemmän jäykkiä esteitä
+saavat kilpailuedun"). Pisteet 3 ja 4 eroavat toisistaan siinä, että
+piste 3 on nopea *ja* vakaa (valtiorakenne antaa perälaudan), kun taas
+piste 4 olisi nopein mutta myös haurain (ei perälautaa, kaikki riippuu
+kannustinsuunnittelun onnistumisesta).
 
 ### Tarkennus: mistä "institutionaalinen kitka" oikeastaan koostuu
 
@@ -196,7 +217,7 @@ esteitä saavat kilpailuedun").
 fax) — se on eri kysymys kuin se, onko autonomisten agenttien toiminta
 ylipäätään *laillisesti sallittua*. Sama maa voi pärjätä eri tavalla
 kussakin kolmesta erillisestä osatekijästä, ja kaikki kolme vaikuttavat
-siihen missä kohtaa kolmiportaista asteikkoa maa todellisuudessa on:
+siihen missä kohtaa neliportaista asteikkoa maa todellisuudessa on:
 
 1. **Hallinnon oma automaatioaste.** Jos julkishallinto ei automatisoi
    *omia* prosessejaan (rekisterit, lupa-asiat, notariaattitoiminnot)
@@ -217,21 +238,24 @@ siihen missä kohtaa kolmiportaista asteikkoa maa todellisuudessa on:
    kääntäjän tai muun ihmisvälittäjän rooli on kirjattu lakiin
    pakollisena riippumatta siitä onko kryptografinen attestaatio
    teknisesti yhtä luotettava, tekninen kyvykkyys ei siirry
-   kilpailueduksi ennen kuin laki muuttuu. Kolmannen pisteen (lähes
-   instituutioton ääripää) nopea kasvu selittyy juuri tällä: siellä ei
-   ole vastaavia lakiin kirjattuja ihmisvälikäsiä purettavana lainkaan.
+   kilpailueduksi ennen kuin laki muuttuu. Pisteiden 3 ja 4 nopea kasvu
+   selittyy juuri tällä: kummassakaan ei ole vastaavia lakiin kirjattuja
+   ihmisvälikäsiä purettavana lainkaan — piste 4:ssä koska lakia
+   kansallisella tasolla ei ole ylipäätään, piste 3:ssa koska
+   pienuus/tehokkuus mahdollistaa uuden sääntelyn kirjoittamisen
+   suoraan alusta ilman legacy-taakkaa.
 
 Näiden kolmen osatekijän erottelu on tärkeä myös siksi, että ne voivat
 liikkua eri tahtiin: maa voi olla nopea kohdassa 1 mutta hidas kohdassa
-3, tai päinvastoin. Kolmiportainen asteikko yllä on siis yksinkertaistus
+3, tai päinvastoin. Neliportainen asteikko yllä on siis yksinkertaistus
 useammasta rinnakkaisesta akselista, ei yhdestä.
 
 - **Aikaväli: ehdotus 10 vuotta (2026 → 2036).** Riittävän lyhyt
   tuntuakseen ajankohtaiselta ja konkreettiselta, mutta riittävän pitkä
-  että koronkorko-tyyppinen kasvuero (esim. 8–10 %/v vs. 1–2 %/v vs.
-  vielä nopeampi kolmannessa pisteessä) ehtii näkyä silmin nähden
-  BKT-kuilun repeämisenä — 20–25 vuotta alkaisi tuntua liian
-  abstraktilta/kaukaiselta lukijalle.
+  että koronkorko-tyyppinen kasvuero (esim. 8–10 %/v pisteessä 2 vs.
+  1–2 %/v pisteessä 1 vs. vielä nopeampi pisteissä 3–4) ehtii näkyä
+  silmin nähden BKT-kuilun repeämisenä — 20–25 vuotta alkaisi tuntua
+  liian abstraktilta/kaukaiselta lukijalle.
 - **Metodinen varaus**: merkitään selvästi ajatuskokeeksi/skenaarioksi,
   ei ennusteeksi tai empiiriseksi vertailututkimukseksi — samalla
   varovaisuudella kuin muualla muistiossa (uutuusväitteet = hypoteeseja).
