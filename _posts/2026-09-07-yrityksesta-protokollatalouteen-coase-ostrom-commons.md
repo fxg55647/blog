@@ -286,6 +286,71 @@ Attestation",
 [confidential.ai/docs/zk](https://confidential.ai/docs/zk). Täydellinen
 lista `_material/prior-art-haku.md`:ssä, osio 6.)*
 
+## 7. Kolmivaiheinen talousvertailu: suunnitelmatalous, kapitalismi, optimoitu talous
+
+Yrityksen ja markkinan välinen jännite näyttäytyy selkeimmin, kun sen
+asettaa historialliseen kolmivaiheiseen kehykseen. Kehys on tarkoituksella
+heuristinen — ei deterministinen historialaki, vaan tutkimushypoteesi
+siitä, miten koordinaatioteknologian hinnan lasku voi siirtää
+institutionaalisia rajoja.
+
+**Vaihe I: suunnitelmatalous.** Yksi keskitetty allokoija päättää, kuka
+saa käyttää mitäkin resurssia. Tämän mallin heikkous ei ole ensisijaisesti
+moraalinen vaan episteeminen: jos suunnittelija on väärässä, koko
+järjestelmä on väärässä samalla tavalla. Yhteisen virheen riski on korkea,
+koska mitään rinnakkaista, riippumatonta koetta ei tehdä.
+
+**Vaihe II: kapitalismi joukkona pieniä kilpailevia suunnitelmatalouksia.**
+Kapitalismi ei poistanut suunnittelua — se hajautti sen suureen määrään
+keskenään kilpailevia yrityksiä. Yrityksen sisällä on edelleen hierarkia
+ja suunnittelu (ks. osio 1 yllä); yritysten *välillä* toimivat hinnat,
+kilpailu, markkinoille tulo, poistuminen ja konkurssi. Tämän episteeminen
+etu ei ole se, että joku yritys tietäisi oikean vastauksen etukäteen,
+vaan että useat toimijat voivat testata rinnakkain erilaisia hypoteeseja:
+osa epäonnistuu, mutta jokin voi osua taidon tai sattuman kautta lähemmäs
+toimivaa ratkaisua, ja markkina voi sen jälkeen monistaa onnistumista —
+**variaatio → valinta → monistuminen** (vrt. Hayek, 1945, hajautetun
+tiedon hyödyntämisestä hintajärjestelmän kautta). Hajautetun järjestelmän
+etu ei siis ole erehtymättömyys vaan virheiden matala korrelaatio:
+keskitetty järjestelmä voi monistaa yhden yhteisen virheen kaikkialle,
+hajautettu järjestelmä voi olla väärässä monella eri tavalla
+samanaikaisesti — ja juuri tämä variaatio on se, mistä markkina voi
+myöhemmin valita.
+
+**Vaihe III: optimoitu talous, jossa protokollat ja open source ovat
+keskeisessä roolissa.** Kaksi samanaikaista vaikutusta murtaa vaiheen II
+vakiintunutta muotoa. Ensinnäkin sisäinen automatisointi laskee yrityksen
+sisäisen työvoiman kustannusta: yksi ihminen voi AI-agenttien avulla
+johtaa paljon suurempaa määrää tehtäviä kuin ennen. Toiseksi ulkoisen
+koordinoinnin halpeneminen (protokollat, attestaatiot, ohjelmoitavat
+sopimukset) laskee ulkoisen koordinoinnin kustannusta: sama ihminen voi
+agenttien avulla ostaa ulkoa työn, kapasiteetin, datan tai logistiikan
+tarpeen mukaan sen sijaan, että palkkaisi kaiken pysyvästi — "yksi
+ihminen + N AI-agenttia + avoimet protokollamarkkinat" korvaa joissakin
+tehtävissä vanhan portaan "yksi ihminen → tiimi → osasto → yritys". Tämä
+on täsmälleen se mekanismi, joka on jo käynnissä empiirisesti: ks. osiossa
+5 mainittu Palagashvilin havainto solo-yritysperustamisten kasvusta
+AI-altistuneilla toimialoilla.
+
+Open source ei ole tässä vaiheessa uusi keksintö vaan jo olemassa oleva
+todiste siitä, että kolmas vaihe on osittain mahdollinen: se on commons,
+joka toimii ilman perinteistä yritysrajaa nimenomaan siksi, että sen
+koordinointikustannukset (koodin haku, väitteen — "tämä toimii" —
+todentaminen, versionhallinta, ylläpitäjien maineeseen perustuva
+laadunvalvonta) ovat poikkeuksellisen alhaiset verrattuna vastaavaan
+suljettuun kehitykseen. Tämä on sama ilmiö kuin osion 5 ydinsynteesi:
+sama infrastruktuuri, joka tekee markkinatransaktiosta yrityksen sisäisen
+koordinoinnin kaltaisen, voi tehdä commonsista yrityksen kaltaisesti
+koordinoitavan ilman että commonsista tulee yritys. Jos protokollatalouden
+hypoteesi pitää paikkansa laajemmin, open source ei jää poikkeukseksi
+vaan yleistyy: yhä useampi resurssiluokka voi toimia samalla periaatteella
+kuin avoin lähdekoodi nyt toimii.
+
+*(Lähteet: Hayek, F. A. (1945). The Use of Knowledge in Society.
+American Economic Review, 35(4), 519–530. Muu materiaali
+`_material/tyomuistiinpanot.md`, osiot 4 ja 14, ja
+`_material/uudelleenkirjoitettu-muistio.md`, osio 12.)*
+
 ## Uusi osio: tapausvertailu — neliportainen institutionaalisen kitkan asteikko
 
 Tarkoitus havainnollistaa protokollatalous-hypoteesia konkreettisella,
