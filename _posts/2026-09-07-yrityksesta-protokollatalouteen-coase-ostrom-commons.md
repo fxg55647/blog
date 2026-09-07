@@ -163,6 +163,42 @@ täydellisemmin transaktiokustannusten alenemisen hyödyt realisoituvat
 — kytkeytyy suoraan johtopäätökseen 4 ("maat joissa vähemmän jäykkiä
 esteitä saavat kilpailuedun").
 
+### Tarkennus: mistä "institutionaalinen kitka" oikeastaan koostuu
+
+"Jäykkyys" ei tarkoita pelkkää hallinnon *hitautta* (paperiprosessit,
+fax) — se on eri kysymys kuin se, onko autonomisten agenttien toiminta
+ylipäätään *laillisesti sallittua*. Sama maa voi pärjätä eri tavalla
+kussakin kolmesta erillisestä osatekijästä, ja kaikki kolme vaikuttavat
+siihen missä kohtaa kolmiportaista asteikkoa maa todellisuudessa on:
+
+1. **Hallinnon oma automaatioaste.** Jos julkishallinto ei automatisoi
+   *omia* prosessejaan (rekisterit, lupa-asiat, notariaattitoiminnot)
+   samaan tahtiin kuin yksityinen sektori, hallinnosta tulee itsestään
+   pullonkaula riippumatta siitä kuinka pitkälle yritysten välinen
+   protokollatalous muuten on edennyt — transaktio törmää lopulta
+   viranomaisrajapintaan, joka on yhä käsityötä.
+2. **Lainsäädännön sallivuus autonomisille agenteille.** Voiko AI-agentti
+   allekirjoittaa sitovan sopimuksen, hallita maksuja tai toimia
+   attestaation vastuutahona ilman ihmisen kättä pidemmällä? Nopeakin
+   hallinto voi silti tukkia koko mekanismin lainsäädännöllä, joka vaatii
+   ihmisen allekirjoitusta tai ihmisen vastuunkantoa jokaisessa
+   vaiheessa.
+3. **Lakien muutosnopeus.** Ei riitä että sääntely sallii uuden
+   teknologian rinnalla — kilpailuedun ratkaisee se, kuinka nopeasti maa
+   pystyy purkamaan legacy-portinvartijaroolit, jotka nyt ovat lain
+   *vaatimia*, ei vain totunnaisia. Esimerkki: jos notaarin, virallisen
+   kääntäjän tai muun ihmisvälittäjän rooli on kirjattu lakiin
+   pakollisena riippumatta siitä onko kryptografinen attestaatio
+   teknisesti yhtä luotettava, tekninen kyvykkyys ei siirry
+   kilpailueduksi ennen kuin laki muuttuu. Kolmannen pisteen (lähes
+   instituutioton ääripää) nopea kasvu selittyy juuri tällä: siellä ei
+   ole vastaavia lakiin kirjattuja ihmisvälikäsiä purettavana lainkaan.
+
+Näiden kolmen osatekijän erottelu on tärkeä myös siksi, että ne voivat
+liikkua eri tahtiin: maa voi olla nopea kohdassa 1 mutta hidas kohdassa
+3, tai päinvastoin. Kolmiportainen asteikko yllä on siis yksinkertaistus
+useammasta rinnakkaisesta akselista, ei yhdestä.
+
 - **Aikaväli: ehdotus 10 vuotta (2026 → 2036).** Riittävän lyhyt
   tuntuakseen ajankohtaiselta ja konkreettiselta, mutta riittävän pitkä
   että koronkorko-tyyppinen kasvuero (esim. 8–10 %/v vs. 1–2 %/v vs.
