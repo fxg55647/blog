@@ -124,6 +124,94 @@ varauksena:
     alkuperäisessä muistiossa: uutuusväitteet ovat hypoteeseja ennen
     systemaattista prior-art-kartoitusta.
 
+## 5. Puuttuva synteesi: sama infrastruktuuri, kaksi ratkaisua
+
+*(Kirjoitettu kokonaan auki koekappaleeksi — loput jäsennyksen kohdista
+ovat yhä luonnostasolla yllä.)*
+
+Ronald Coase kysyi vuonna 1937, miksi tuotantoa ylipäätään organisoidaan
+yrityksissä, jos hintamekanismi voi koordinoida resursseja. Vastaus oli,
+että markkinoiden käyttäminen itsessään maksaa: sopivan vastapuolen
+etsiminen, väitteiden todentaminen, ehdoista neuvotteleminen ja
+sopimusten toimeenpano synnyttävät kustannuksia, ja yritys voi korvata
+osan näistä toistuvista markkinatransaktioista organisaation sisäisellä
+ohjauksella (Coase, 1937). Elinor Ostrom osoitti puolestaan
+vuosikymmeniä myöhemmin, että yhteisiä resursseja — kalavesiä,
+metsälaitumia, kastelujärjestelmiä — voidaan hallita kestävästi ilman
+yksityistämistä tai valtion pakkoa, kunhan tietyt institutionaaliset
+ehdot täyttyvät: selkeät käyttöoikeuksien rajat, paikalliseen
+kontekstiin sovitettu monitorointi, asteittaiset sanktiot ja halpa
+konfliktinratkaisu.
+
+Näitä kahta tutkimusperinnettä ei ole tarpeen keksiä yhdistettäväksi
+tyhjästä — se on jo tehty. Paul Dragos Aligica on yhdessä Vlad Tarkon
+kanssa rakentanut "institutionaalisen diversiteetin" teoriaa, joka
+asettaa Coasen, Ostromin ja Williamsonin saman analyyttisen kehyksen
+sisään (Aligica, *Institutional Diversity and Political Economy: The
+Ostroms and Beyond*, Oxford University Press, 2014). Yhteinen havainto
+on, että sekä yrityksen raja että toimivan commonsin raja määräytyvät
+lopulta samasta asiasta: kuinka kalliita oikeuksien määrittely, valvonta,
+kannustimet ja toimeenpano ovat kussakin tapauksessa.
+
+Tuoreempi kirjallisuus on alkanut kysyä, mitä tapahtuu kun AI-agentit
+alentavat näitä kustannuksia rajusti. MIT:n, Harvardin ja Boston
+Universityn tutkijoiden NBER-paperi kysyy suoraan, romahduttaako
+agenttien mahdollistama lähes-ilmainen markkinakoordinointi perinteisen
+yrityksen tarpeen — käsite "Coasean singularity" ("The Coasean
+Singularity? Demand, Supply, and Market Design with AI Agents", NBER,
+2025). Rinnakkaisessa, toisessa kirjallisuushaarassa Ostromin
+periaatteita on alettu soveltaa suoraan agenttipohjaiseen
+commons-hallintaan: "Kami of the Commons: Towards Designing Agentic AI
+to Steward the Commons" (arXiv 2602.14940) kuvaa spekulatiivisen
+suunnittelun kautta AI-"stewardeja", jotka toteuttavat Ostromin
+graduated sanctions- ja mutual monitoring -periaatteita, ja "Ostrom
+Amongst the Machines: Blockchain as a Knowledge Commons" (Bodon,
+Bustamante ym., Pitt Law) käsittelee blockchainia knowledge commonsina
+nimenomaan Ostromin kehyksessä. Empiirisemmältä suunnalta Liya
+Palagashvili (Mercatus Center, GMU) on osoittanut Coase-pohjaisella
+analyysillä ja kahdella riippumattomalla yhdysvaltalaisella aineistolla,
+että solo-tyyppiset yritysperustamiset kasvavat nopeimmin juuri
+AI-altistuneilla toimialoilla — konkreettinen tuki sille, että
+transaktiokustannusten aleneminen todella siirtää tuotantoa pois
+perinteisen yrityksen sisältä ("AI, Transaction Costs, and a Quiet Shift
+Toward Self-Employment").
+
+Nämä kaksi kirjallisuushaaraa — "AI-agentit romahduttavat yrityksen
+rajan" ja "AI/blockchain voi toteuttaa Ostromin periaatteita" — eivät
+kuitenkaan vielä kohtaa toisiaan. Kumpikaan ei sano suoraan, että
+molemmat ovat pohjimmiltaan sama ilmiö kahdesta eri suunnasta
+katsottuna. Tässä on tämän muistion oma synteesi: **sama infrastruktuuri,
+joka tekee markkinatransaktiosta yrityksen sisäisen koordinoinnin
+kaltaisen — halpa haku, todennettava väite, matala neuvottelukustannus,
+automaattinen toimeenpano — voi tehdä commonsista yrityksen kaltaisesti
+koordinoitavan ilman että commonsista tulee yritys.** Yritys ja tragedy
+of the commons eivät ole kaksi erillistä ongelmaa, jotka sattuvat
+molemmat liittyvät luottamukseen; ne ovat sama transaktiokustannus- ja
+luottamusongelma kahdessa eri institutionaalisessa muodossa — toinen
+ratkaisi sen omistamalla, toinen (onnistuessaan) ratkaisi sen Ostromin
+instituutioilla, ja kumpikaan ratkaisu ei ollut ainoa mahdollinen, vaan
+se paras saatavilla oleva kompromissi silloin kun verifiointi,
+monitorointi ja toimeenpano olivat kalliita. Kun nämä kustannukset
+romahtavat samanaikaisesti usean kypsyneen teknologian ansiosta, ei ole
+syytä olettaa että vaikutus rajoittuisi vain toiseen näistä
+institutionaalisista muodoista.
+
+*(Lähteet tähän osioon: Coase, R. H. (1937). The Nature of the Firm.
+Economica, 4(16), 386–405. — Aligica, P. D. & Tarko, V. Institutional
+Diversity and Political Economy: The Ostroms and Beyond. Oxford
+University Press, 2014. — "The Coasean Singularity? Demand, Supply, and
+Market Design with AI Agents", NBER, 2025,
+[nber.org/system/files/chapters/c15309/c15309.pdf](https://www.nber.org/system/files/chapters/c15309/c15309.pdf).
+— "Kami of the Commons: Towards Designing Agentic AI to Steward the
+Commons", [arXiv:2602.14940](https://arxiv.org/html/2602.14940). —
+Bodon, H., Bustamante, P. ym. "Ostrom Amongst the Machines: Blockchain
+as a Knowledge Commons",
+[scholarship.law.pitt.edu/fac_articles/402](https://scholarship.law.pitt.edu/fac_articles/402/).
+— Palagashvili, L. "AI, Transaction Costs, and a Quiet Shift Toward
+Self-Employment",
+[labormarketmatters.com/p/ai-and-independent-work-in-7-charts](https://www.labormarketmatters.com/p/ai-and-independent-work-in-7-charts).
+Täydellinen lista `_material/prior-art-haku.md`:ssä.)*
+
 ## Uusi osio: tapausvertailu — neliportainen institutionaalisen kitkan asteikko
 
 Tarkoitus havainnollistaa protokollatalous-hypoteesia konkreettisella,
