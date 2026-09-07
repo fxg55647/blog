@@ -1,0 +1,27 @@
+title: "Leiman blogi"
+description: "Ajatuksia rakentamisesta, tekoälyagenteista ja turvallisesta automaatiosta."
+author: Leima
+url: "https://fxg55647.github.io"
+baseurl: "/blog"
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+minima:
+  skin: dark
+
+show_excerpts: true
+
+header_pages:
+  - about.md
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .jekyll-cache
+  - README.md
