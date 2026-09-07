@@ -142,12 +142,12 @@ Siksi kolme pistettä yhden asteikon eri kohdissa:
    aleneminen (protokollat, AI-agentit, digitaalinen identiteetti,
    attestaatiot) etenee hitaasti institutionaalisen jäykkyyden takia,
    vaikka tekninen kyvykkyys olisi olemassa.
-2. **Ketterä mutta silti vakiintunut pieni talous: ehdotus Viro (tai
-   nimeämätön "Talous B").** Pieni, digihallinnossa edelläkävijä
-   (e-Residency, X-Road), omaksuu protokollatalouden teknologiapinon
-   nopeasti — mutta silti demokraattinen valtio vakiintunein puoluein
-   ja hallintorakentein, joilla on oma muutosvastarintansa. Ei siis
-   testaa hypoteesia sen ääripäässä, vaan välipisteenä.
+2. **Ketterä mutta silti vakiintunut pieni talous: Viro.** Pieni,
+   digihallinnossa edelläkävijä (e-Residency, X-Road), omaksuu
+   protokollatalouden teknologiapinon nopeasti — mutta silti
+   demokraattinen valtio vakiintunein puoluein ja hallintorakentein,
+   joilla on oma muutosvastarintansa. Ei siis testaa hypoteesia sen
+   ääripäässä, vaan välipisteenä.
 3. **Lähes instituutioton / erittäin nopealiikkeinen ääripää: pysyy
    nimeämättömänä abstraktiona.** Ei kiinnitetä oikeaan maahan tai
    alueeseen — kuvataan puhtaasti toiminnallisesti ("talous tai vyöhyke,
@@ -223,9 +223,9 @@ argumentiksi eikä listaksi erillisiä havaintoja.
   sen governance-mekanismi tässä kehyksessä)?
 - Yhdistetäänkö tämä samaksi postaukseksi uudelleenkirjoitetun muistion kanssa
   vai omaksi, siihen linkittyväksi jatko-osaksi?
-- Vertailun kohta 2 (ketterä mutta vakiintunut): nimetäänkö Viroksi vai
-  pysytäänkö nimeämättömänä "Talous B" -tasolla? Kohta 3 (lähes
-  instituutioton ääripää) on jo päätetty pitää nimeämättömänä
+- ~~Vertailun kohta 2 (ketterä mutta vakiintunut): nimetäänkö Viroksi vai
+  pysytäänkö nimeämättömänä "Talous B" -tasolla?~~ Ratkaistu: Viro.
+  Kohta 3 (lähes instituutioton ääripää) pysyy nimeämättömänä
   abstraktiona.
 - Miten muistio positioidaan suhteessa NBER:n "Coasean Singularity"
   -paperiin ja muuhun tuoreeseen "headless firm" -kirjallisuuteen
