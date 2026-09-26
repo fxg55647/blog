@@ -28,8 +28,9 @@ sama teknologinen isku ratkaisee molemmat yhtä aikaa, ei kahta erillistä
 kehityskulkua.
 
 Tästä seuraa viisi konkreettista johtopäätöstä, joita postauksessa
-puolustetaan: yritykset pienenevät, kun sekä ulkoiset transaktiot että
-itse työvoima muuttuvat agenttipohjaisiksi; open source ja yhteisomistus
+puolustetaan: toimijoiden kyky vaihtaa kumppania kasvaa ja yritykset
+voivat pienentyä, kun sekä ulkoiset transaktiot että itse työvoima
+muuttuvat agenttipohjaisiksi; open source ja yhteisomistus
 kukoistavat uutena kilpailukykyisenä vaihtoehtona suljetulle omistukselle;
 talouden tehokkuus kasvaa huomattavasti transaktiokustannusten
 vapauttaessa resursseja tuottavampaan käyttöön; maat, joilla on vähiten
@@ -335,6 +336,9 @@ Integrity API (Android-dokumentaatio).)*
 Osa II käyttää lisäksi seuraavia olemassa olevia tuloksia; ne esitellään
 tarkemmin siinä kohdassa, jossa niitä käytetään:
 
+- **Hirschman (1970), *Exit, Voice, and Loyalty***: tyytymätön toimija
+  voi joko poistua (*exit*) tai yrittää vaikuttaa (*voice*) — pohja
+  vaihtokyvyn ja vaikutusmahdollisuuden erottelulle (II.1).
 - **Hayek (1945)**: hajautettu tieto ja sen hyödyntäminen
   hintajärjestelmän kautta — pohja kolmivaiheisen talousvertailun
   episteemiselle argumentille (II.3).
@@ -381,6 +385,34 @@ monitorointi ja toimeenpano olivat kalliita. Kun nämä kustannukset
 romahtavat samanaikaisesti usean kypsyneen teknologian ansiosta, ei ole
 syytä olettaa että vaikutus rajoittuisi vain toiseen näistä
 institutionaalisista muodoista.
+
+**Rajat: todentaminen ei ole toimeenpanoa, eikä pienuus ole
+hajautumista.** Halpa todentaminen vähentää yhtä syytä keskittää
+toimintaa suuriin organisaatioihin. Se ei kuitenkaan poista
+mittakaavaetuja, infrastruktuuririippuvuuksia eikä toimeenpanon
+tarvetta. Rikkomuksen todistaminen ei vielä tuo korvausta: tarvitaan
+myös järjestelyt vastuun kantamiseen, riitojen ratkaisemiseen ja
+päätösten toteuttamiseen. Halpa todentaminen ei itsessään takaa halpaa
+toimeenpanoa. Toimeenpano voi halventua lähinnä silloin, kun arvo on
+järjestelmän sisällä — esimerkiksi vakuutena sulkutilillä tai
+ohjelmoitavassa sopimuksessa, jolloin rikkomus voi laukaista
+seuraamuksen automaattisesti. Kun vastapuolen omaisuus on järjestelmän
+ulkopuolella, tarvitaan edelleen tuomioistuin.
+
+Siksi vallan hajautumista ei voi päätellä pelkästään yritysten koosta.
+Olennaista on, voiko toimija vaihtaa kumppania ja jatkaa toimintaansa
+ilman nykyisen portinvartijan lupaa. Tämä edellyttää muodollisen
+lähtöoikeuden lisäksi käyttökelpoisia vaihtoehtoja ja kohtuullisia
+vaihtokustannuksia. Todentamiskerroksen omistus ja hallinta vaikuttavat
+siihen, toteutuvatko nämä ehdot: kerros voi olla julkinen, yksityinen
+tai yhteisesti hallittu, eikä yhteinen riippuvuus siitä vielä tee siitä
+yhteisesti hallittua. Vaihtokyky ei myöskään ole vallan ainoa mittari —
+Hirschmanin (1970) termein *exit* rinnalla merkitsee *voice*, eli
+mahdollisuus vaikuttaa yhteisiin sääntöihin.
+
+Väite on tarkistettavissa: jos se pitää, toimijoiden
+vaihtokustannusten pitäisi laskea mitattavasti niillä aloilla, joilla
+todentaminen halpenee, riippumatta siitä, pienenevätkö yritykset.
 
 ### II.2 Neutral Witness: kirjoittajan oma konsepti
 
@@ -767,6 +799,15 @@ poikkeuksen. Esimerkki havainnollistaa mekanismia, ei koko asteikkoa.
 > institutionaalisen kitkan *ohittamista*, ei sen purkamista: jäykkä
 > maa voi hidastaa virallisia rajapintoja, mutta ei estää asiakasta
 > todistamasta mitä omalla näytöllään näkee.
+>
+> **Kytkentä vaihtokykyyn (II.1).** Datasiilojen purkaminen on
+> vaihtokyvyn periaatteen konkreettinen sovellus. Datan siirrettävyys
+> vahvistaa asiakkaan asemaa siinä määrin kuin se mahdollistaa
+> palveluntarjoajan vaihtamisen ja toiminnan jatkamisen muualla. Pelkkä
+> mahdollisuus ladata tiedot ulos ei vielä riitä, jos niiden käyttö
+> edellyttää edelleen vanhaa palvelua. Attestoitu todiste täyttää tämän
+> ehdon paremmin kuin raakadatan vienti, koska vastaanottaja voi
+> arvioida sen ilman alkuperäistä palvelua.
 
 ### II.6 Johtopäätökset (kirjoittajan oma näkemys -laatikko)
 
@@ -785,10 +826,15 @@ listan tapaan) — tämä on postauksen kärki, ei liite:
 >    valvontakustannusten romahdus — ratkaisee molemmat yhdellä kertaa,
 >    ei kahta erillistä kehityskulkua. Tämä on koko postauksen kattoteesi,
 >    johon kohdat 1–5 ovat sen ilmentymiä eri talouden osa-alueilla.
-> 1. **Yritykset pienenevät** — sekä siksi, että ulkoisten transaktioiden
->    kustannus laskee (Coase), että siksi, että työvoima itsessään
->    muuttuu yhä enemmän agenttipohjaiseksi (ihminen + N AI-agenttia
->    korvaa osan sisäisestä henkilöstöstä).
+> 1. **Vaihtokyky kasvaa, ja yritykset voivat pienentyä** — halpa
+>    todentaminen voi helpottaa kumppanin vaihtamista ja vähentää
+>    tarvetta koota toimintaa saman yrityksen sisään; lisäksi työvoima
+>    itsessään muuttuu yhä enemmän agenttipohjaiseksi (ihminen + N
+>    AI-agenttia korvaa osan sisäisestä henkilöstöstä). Yritykset voivat
+>    tämän seurauksena pienentyä. Vallan hajautumisen mittari on
+>    kuitenkin toimijoiden tosiasiallinen vaihtokyky: pienetkin
+>    yritykset voivat olla riippuvaisia samoista harvoista alustoista
+>    (II.1).
 > 2. **Open source ja yhteisomistus kukoistavat** — protokollapohjainen
 >    koordinointi ja alenevat verifiointi-/luottamuskustannukset tekevät
 >    avoimesti omistetuista/ylläpidetyistä resursseista kilpailukykyisen
