@@ -261,7 +261,45 @@ nojaavat kaappaukset: Androidin laitteistopohjainen avainattestaatio ja
 Play Integrity API antavat palvelimelle todisteen siitä, että sovellus
 ajetaan muokkaamattomana aidolla, lukitulla laitteella.
 
-### I.5 Muut lähteet, joihin osa II nojaa
+### I.5 Autonomiset rahtidronet ja ilmatilan sääntely
+
+Autonominen rahtikuljetus droneilla on jo arkikäytössä muutamissa
+maissa. Ruanda käynnisti lokakuussa 2016 maailman ensimmäisen
+kansallisen drone-toimituspalvelun: Ziplinen dronet kuljettavat verta
+tilauksesta sairaaloihin, aluksi 21 verensiirtoja tekevään
+hoitolaitokseen maan länsiosassa. Ghana seurasi huhtikuussa 2019
+"Fly-To-Save-A-Life"-palvelulla, joka kattaa arviolta 2 000
+terveydenhuollon toimipistettä neljästä jakelukeskuksesta ja jota Ghanan
+hallitus on kuvannut maailman suurimmaksi lääketoimitusten
+drone-palveluksi. Lancet
+Global Healthissa julkaistu tutkimus on arvioinut Ruandan
+veritoimitusten vaikutuksia.
+
+EU:ssa droneilla tapahtuva näköyhteyden ulkopuolinen lentäminen (BVLOS)
+kuuluu EASA:n "specific"-luokkaan, jossa jokainen operaatio vaatii
+riskiarvion (SORA) ja luvan, ellei se mahdu valmiiseen
+standardiskenaarioon. Miehittämättömän ilmaliikenteen hallinnan
+U-space-kehys (täytäntöönpanoasetukset (EU) 2021/664, 2021/665 ja
+2021/666) tuli voimaan 26.1.2023, mutta U-space-alueita on käytössä
+vasta osassa jäsenmaita; EASA ja komissio ovat ehdottaneet kevennettyä
+"U-space light" -mallia käyttöönoton nopeuttamiseksi.
+
+*(Lähteet kohtaan I.5: Gavi, "Rwanda launches world's first national
+drone delivery service powered by Zipline",
+[gavi.org](https://www.gavi.org/news/media-room/rwanda-launches-worlds-first-national-drone-delivery-service-powered-zipline).
+— Ghana Drone Delivery Service,
+[Ghanan terveysministeriö](https://moh.gov.gh/ghanas-medical-drone-delivery-system-takes-off/).
+— "Using drones to deliver blood products in Rwanda", *The Lancet Global
+Health*,
+[thelancet.com](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(22)00095-X/fulltext).
+— Hogan Lovells, "Rising to new challenges – the EU's legal framework for
+widespread commercial drone operations",
+[hoganlovells.com](https://www.hoganlovells.com/en/publications/rising-to-new-challenges-the-eus-legal-framework-for-widespread-commercial-drone-operations).
+— Unmanned Airspace, "EASA, European Commission propose new 'U-space
+light'",
+[unmannedairspace.info](https://www.unmannedairspace.info/uncategorized/39180/).)*
+
+### I.6 Muut lähteet, joihin osa II nojaa
 
 *(Lähteet kohtaan I.4: EU:n yleinen tietosuoja-asetus (EU) 2016/679, art.
 20. — Maksupalveludirektiivi (EU) 2015/2366 (PSD2). — Asetus (EU)
@@ -361,6 +399,15 @@ institutionaalisista muodoista.
 > valvontakerroksensa kriittisyyttä, koska väärä tai kompromettoitu
 > todentaja voisi monistaa virheen laajaan agenttiverkostoon.
 >
+> **Käyttötapaus: fyysisen toimituksen todentaminen.** Rahtidrone on
+> samalla anturi: sen sijainti, aika ja toimituskuittaus ovat
+> koneellisesti luettavaa evidenssiä. Neutral Witness voi todeta, että
+> toimitus tapahtui sovitussa paikassa ja ajassa, ja vapauttaa maksun
+> ilman että kummankaan osapuolen tarvitsee luottaa toisen ilmoitukseen
+> — Observe → Verify → Attest fyysisessä maailmassa. Rajoitus on sama
+> kuin muussakin anturidatassa: todiste on vain niin luotettava kuin
+> laite, joka sen tuottaa (vrt. laiteattestaatio, II.5).
+>
 > **Rehellisen datan mekanismisuunnittelu.** Neutral Witnessin hyöty
 > riippuu siitä, että sille toimitettu evidenssi on kattavaa ja aidosti
 > kytköksissä todelliseen maailmaan — muuten järjestelmästä tulee
@@ -442,6 +489,18 @@ tehtävissä vanhan portaan "yksi ihminen → tiimi → osasto → yritys". Täm
 on täsmälleen se mekanismi, joka on jo käynnissä empiirisesti: ks. osan I
 kohdassa I.2 mainittu Palagashvilin havainto solo-yritysperustamisten
 kasvusta AI-altistuneilla toimialoilla.
+
+Digitaalisen koordinoinnin halpeneminen ei yksin riitä fyysisessä
+taloudessa: kun sopimukset, maksut ja todentaminen hoituvat agenttien
+kesken, pullonkaulaksi jää tavaran liikkuminen. Autonomiset rahtidronet
+(I.5) ovat tämän fyysinen vastinpari. Ne eivät alenna Coasen
+tarkoittamaa transaktiokustannusta vaan kuljetuskustannusta — ero on
+syytä pitää selvänä — mutta ne tekevät logistiikasta samalla tavalla
+tilauksesta ostettavaa kuin laskennasta tai työstä: pienikin toimija voi
+ostaa kuljetuksen tarpeen mukaan ilman omaa kalustoa tai pitkää
+sopimusta suuren kuljetusyhtiön kanssa. Mitä pidemmälle molemmat
+kehittyvät yhtä aikaa, sitä pienempi yksikkö pystyy toimimaan myös
+fyysisessä taloudessa.
 
 Open source ei ole tässä vaiheessa uusi keksintö vaan jo olemassa oleva
 todiste siitä, että kolmas vaihe on osittain mahdollinen: se on commons,
@@ -616,6 +675,20 @@ Näiden kolmen osatekijän erottelu on tärkeä myös siksi, että ne voivat
 liikkua eri tahtiin: maa voi olla nopea kohdassa 1 mutta hidas kohdassa
 3, tai päinvastoin. Neliportainen asteikko yllä on siis yksinkertaistus
 useammasta rinnakkaisesta akselista, ei yhdestä.
+
+**Esimerkki: rahtidronet.** Rahtidronet ovat ehkä selvin tämänhetkinen
+esimerkki siitä, että kilpailuedun ratkaisee lupa eikä tekniikka.
+Ruanda (2016) ja Ghana (2019) ottivat droneilla tehtävät
+lääketoimitukset kansalliseen käyttöön vuosia ennen kuin useimmat
+rikkaat maat pääsivät kokeiluja pidemmälle (I.5). Tekninen kyvykkyys oli
+samaa — Zipline on kalifornialainen yritys — mutta ero syntyi siitä,
+kuinka nopeasti ilmatila ja toimintaluvat saatiin järjestettyä. EU:ssa
+sama tekniikka törmää osatekijään 2 (BVLOS-lento vaatii
+tapauskohtaisen riskiarvion ja luvan) ja osatekijään 3 (U-space-kehys on
+voimassa, mutta sen käyttöönotto etenee jäsenmaa kerrallaan). Ruanda ja
+Ghana eivät kuitenkaan ole asteikon pisteitä 3 tai 4 sellaisenaan: ne
+ovat toimivia valtioita, jotka tekivät kapean, tarkoin rajatun
+poikkeuksen. Esimerkki havainnollistaa mekanismia, ei koko asteikkoa.
 
 - **Aikaväli: ehdotus 10 vuotta (2026 → 2036).** Riittävän lyhyt
   tuntuakseen ajankohtaiselta ja konkreettiselta, mutta riittävän pitkä
