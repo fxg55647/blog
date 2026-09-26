@@ -106,8 +106,8 @@ varauksena:
 2. **Commons hallinnan ongelmana** (Ostrom) — miksi yhteiset resurssit
    onnistuvat tai epäonnistuvat: boundaries, monitoring, sanktiot, halpa
    konfliktinratkaisu.
-3. **COW-malli**: Coase, Ostrom ja Williamson samassa kehyksessä (Ararilin
-   2013 synteesi) — commonsin toimivuus riippuu oikeuksien määrittelyn,
+3. **COW-malli**: Coase, Ostrom ja Williamson samassa kehyksessä (Araral 2013;
+   Aligica & Tarko 2014) — commonsin toimivuus riippuu oikeuksien määrittelyn,
    valvonnan, kannustimien ja toimeenpanon kustannuksista.
 4. **Olemassa oleva blockchain × commons -kirjallisuus** — mitä on jo tehty
    (Frontiers 2021/2025, Ostrom Project, "crypto commons", grass-roots-paperi)
@@ -179,6 +179,17 @@ on, että sekä yrityksen raja että toimivan commonsin raja määräytyvät
 lopulta samasta asiasta: kuinka kalliita oikeuksien määrittely, valvonta,
 kannustimet ja toimeenpano ovat kussakin tapauksessa.
 
+Eduardo Araral sovelsi samaa Coase–Ostrom–Williamson-yhdistelmää
+empiirisesti Filippiinien noin 400 vuotta vanhoihin
+zangjera-kastelujärjestelmiin: polysentrinen paikallinen hallinto alensi
+viljelijöiden sopeutumistoimien transaktiokustannuksia paremman
+toimeenpanon, markkinoille pääsyn, osuuskuntien ja muodollisten
+sopimusten kautta (Araral, 2013). Tuoreimpana Rayamajhee ja Paniagua
+(2026) pyrkivät yhdistämään Coasen, Buchananin ja Ostromin
+lähestymistavat ulkoisvaikutusten hallintaan yhdeksi kehykseksi:
+milloin ulkoisvaikutus kannattaa hoitaa markkinoilla, organisaatiossa
+tai kollektiivisesti.
+
 ### I.2 AI-agentit ja transaktiokustannukset: tuore kirjallisuus
 
 Tuoreempi kirjallisuus on alkanut kysyä, mitä tapahtuu kun AI-agentit
@@ -213,7 +224,12 @@ molemmat ovat pohjimmiltaan sama ilmiö kahdesta eri suunnasta
 katsottuna. Tähän aukkoon osa II vastaa.
 
 *(Lähteet osa I:een: Coase, R. H. (1937). The Nature of the Firm.
-Economica, 4(16), 386–405. — Aligica, P. D. & Tarko, V. Institutional
+Economica, 4(16), 386–405. — Araral, E. (2013). A transaction cost
+approach to climate adaptation: Insights from Coase, Ostrom and
+Williamson and evidence from the 400-year old zangjeras. Environmental
+Science & Policy, 25, 147–156. — Rayamajhee, V. & Paniagua, P. (2026).
+The anatomy of externalities. Cambridge Journal of Economics,
+[doi:10.1093/cje/beag003](https://doi.org/10.1093/cje/beag003). — Aligica, P. D. & Tarko, V. Institutional
 Diversity and Political Economy: The Ostroms and Beyond. Oxford
 University Press, 2014. — "The Coasean Singularity? Demand, Supply, and
 Market Design with AI Agents", NBER, 2025,
@@ -297,18 +313,24 @@ widespread commercial drone operations",
 [hoganlovells.com](https://www.hoganlovells.com/en/publications/rising-to-new-challenges-the-eus-legal-framework-for-widespread-commercial-drone-operations).
 — Unmanned Airspace, "EASA, European Commission propose new 'U-space
 light'",
-[unmannedairspace.info](https://www.unmannedairspace.info/uncategorized/39180/).)*
+[unmannedairspace.info](https://www.unmannedairspace.info/uncategorized/39180/).
+— FlyingMag, "Zipline Drone Delivery Secures Latest BVLOS Approval in
+Wave of FAA Exemptions",
+[flyingmag.com](https://www.flyingmag.com/zipline-drone-delivery-secures-latest-bvlos-approval-in-wave-of-faa-exemptions/).)*
 
 ### I.6 Muut lähteet, joihin osa II nojaa
 
 *(Lähteet kohtaan I.4: EU:n yleinen tietosuoja-asetus (EU) 2016/679, art.
 20. — Maksupalveludirektiivi (EU) 2015/2366 (PSD2). — Asetus (EU)
-2024/1183 (eIDAS 2.0, EU Digital Identity Wallet). — W3C, Verifiable
-Credentials Data Model. — Zhang, F., Maram, D., Malvai, H., Goldfeder, S.
+2024/1183 (eIDAS 2.0, voimaan 20.5.2024; jäsenmaiden on tarjottava EU
+Digital Identity Wallet joulukuuhun 2026 mennessä). — W3C, Verifiable
+Credentials Data Model v2.0, W3C Recommendation 15.5.2025,
+[w3.org/TR/vc-data-model-2.0](https://www.w3.org/TR/vc-data-model-2.0/). — Zhang, F., Maram, D., Malvai, H., Goldfeder, S.
 & Juels, A. (2020). DECO: Liberating Web Data Using Decentralized Oracles
-for TLS. ACM CCS 2020. — TLSNotary, Reclaim Protocol, Opacity. — Android
-Key Attestation ja Play Integrity API (Android-dokumentaatio).
-Tarkistettava ennen julkaisua.)*
+for TLS. ACM CCS 2020,
+[doi:10.1145/3372297.3417239](https://dl.acm.org/doi/10.1145/3372297.3417239).
+— TLSNotary, Reclaim Protocol, Opacity. — Android Key Attestation ja Play
+Integrity API (Android-dokumentaatio).)*
 
 Osa II käyttää lisäksi seuraavia olemassa olevia tuloksia; ne esitellään
 tarkemmin siinä kohdassa, jossa niitä käytetään:
@@ -679,8 +701,12 @@ useammasta rinnakkaisesta akselista, ei yhdestä.
 **Esimerkki: rahtidronet.** Rahtidronet ovat ehkä selvin tämänhetkinen
 esimerkki siitä, että kilpailuedun ratkaisee lupa eikä tekniikka.
 Ruanda (2016) ja Ghana (2019) ottivat droneilla tehtävät
-lääketoimitukset kansalliseen käyttöön vuosia ennen kuin useimmat
-rikkaat maat pääsivät kokeiluja pidemmälle (I.5). Tekninen kyvykkyys oli
+lääketoimitukset kansalliseen käyttöön vuosia ennen rikkaita maita:
+Yhdysvalloissa Zipline sai ilmailuviranomaisen (FAA) Part 135
+-lentotoimintaluvan näköyhteyden ulkopuolisiin toimituksiin vasta
+kesäkuussa 2022, ja FAA myönsi ensimmäisen kaupallisen BVLOS-luvan
+elokuussa 2023; Lontoossa NHS:n sairaaloiden väliset drone-toimitukset
+alkoivat huhtikuussa 2026 (I.5). Tekninen kyvykkyys oli
 samaa — Zipline on kalifornialainen yritys — mutta ero syntyi siitä,
 kuinka nopeasti ilmatila ja toimintaluvat saatiin järjestettyä. EU:ssa
 sama tekniikka törmää osatekijään 2 (BVLOS-lento vaatii
@@ -805,6 +831,11 @@ argumentiksi eikä listaksi erillisiä havaintoja.
   -paperiin ja muuhun tuoreeseen "headless firm" -kirjallisuuteen
   (ks. `_material/prior-art-haku.md`) — mikä on tässä muistiossa uutta
   niihin nähden?
-- Osa I / osa II -raja: jäsennyksen kohta 3 viittaa "Ararilin 2013"
-  -synteesiin, mutta osa I nojaa Aligica & Tarko (2014) -teokseen —
-  yhtenäistetään viite (ks. `_material/prior-art-haku.md`).
+- ~~Osa I / osa II -raja: jäsennyksen kohta 3 viittaa "Ararilin 2013"
+  -synteesiin, mutta osa I nojaa Aligica & Tarko (2014) -teokseen.~~
+  Ratkaistu: "Araril" = Eduardo Araral (2013), molemmat nyt osassa I.
+- Rayamajhee & Paniagua (2026) luettava kokonaan: tiivistelmän perusteella
+  se yhdistää Coasen ja Ostromin ulkoisvaikutusten hallintaan, mutta ei
+  väitä yritystä ja commonsia samaksi ongelmaksi eikä käsittele
+  teknologiaa. Varmistettava ennen kuin kattoteesin uutuutta (II.1)
+  korostetaan.
