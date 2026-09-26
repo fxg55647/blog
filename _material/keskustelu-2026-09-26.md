@@ -258,3 +258,15 @@ aikaan. Tämä on historiallista päättelyä, ei ennuste.
   mittarina, *exit*/*voice* ja tarkistettava väite.
 - Lähteet tarkistettu: DECO, eIDAS 2.0, W3C VC 2.0, Araral 2013,
   Rayamajhee & Paniagua 2026 sekä drone-aikajana.
+- I.6 ja II.6: tokenisaatio. Mukana kaksi tasoa (olemassa olevan saatavan
+  tokenisointi vs. tuotannollisen oikeuden natiivi tokenisointi), Chia CAT
+  ja Pareto Credit Vaults esimerkkeinä (✅ tarkistettu virallisesta
+  dokumentaatiosta), periaate "kaikki voi olla tokenisoitavissa" rajoineen
+  sekä johtopäätös 6.
+  - **Keskeinen kytkentä:** tokenisaatio on keino tuoda arvo järjestelmän
+    sisälle. Siksi se jatkaa argumenttia II.1:n toimeenpanorajan yli:
+    todentaminen halpenee → toimeenpano halpenee tokenisoiduilta osin →
+    vaihtokyky kasvaa.
+  - **Raja:** token on vain niin hyvä kuin sen kytkös todelliseen
+    oikeuteen. Fyysisissä oikeuksissa se toimii vain lain tunnustuksen
+    kautta.

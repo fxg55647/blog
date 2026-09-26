@@ -27,7 +27,7 @@ ylipäätään syntyivät. Koska kyse on samasta pohjimmaisesta ongelmasta,
 sama teknologinen isku ratkaisee molemmat yhtä aikaa, ei kahta erillistä
 kehityskulkua.
 
-Tästä seuraa viisi konkreettista johtopäätöstä, joita postauksessa
+Tästä seuraa kuusi konkreettista johtopäätöstä, joita postauksessa
 puolustetaan: toimijoiden kyky vaihtaa kumppania kasvaa ja yritykset
 voivat pienentyä, kun sekä ulkoiset transaktiot että itse työvoima
 muuttuvat agenttipohjaisiksi; open source ja yhteisomistus
@@ -35,8 +35,9 @@ kukoistavat uutena kilpailukykyisenä vaihtoehtona suljetulle omistukselle;
 talouden tehokkuus kasvaa huomattavasti transaktiokustannusten
 vapauttaessa resursseja tuottavampaan käyttöön; maat, joilla on vähiten
 institutionaalista kitkaa muutokselle, saavat merkittävän kilpailuedun;
-ja datasiilot purkautuvat, kun asiakas voi todistaa omat tietonsa ilman
-datan haltijan suostumusta.
+datasiilot purkautuvat, kun asiakas voi todistaa omat tietonsa ilman
+datan haltijan suostumusta; ja toimeenpano halpenee siltä osin kuin
+oikeudet tokenisoidaan.
 
 Postaus esittelee myös kirjoittajan oman konseptin, Neutral Witnessin —
 koneellisen välikerroksen, joka mahdollistaa toimintakykyisen luottamuksen
@@ -142,8 +143,11 @@ varauksena:
 9. **[Kirjoittajan näkemys -laatikko] Datasiilojen purkautuminen ilman
    haltijan suostumusta** — asiakas todistaa ehjällä laitteella mitä
    palvelu näytti (II.5)
-10. **[Kirjoittajan näkemys -laatikko] Johtopäätökset** (ks. oma kohta alla)
-11. **Mitä teoria ei väitä / varaukset** — sama varovaisuus kuin
+10. **[Kirjoittajan näkemys -laatikko] Tokenisaatio: arvo järjestelmän
+    sisälle** — kaksi tasoa, "kaikki voi olla tokenisoitavissa" ja sen
+    raja, kytkentä toimeenpanoon (II.6)
+11. **[Kirjoittajan näkemys -laatikko] Johtopäätökset** (ks. oma kohta alla)
+12. **Mitä teoria ei väitä / varaukset** — sama varovaisuus kuin
     alkuperäisessä muistiossa: uutuusväitteet ovat hypoteeseja ennen
     systemaattista prior-art-kartoitusta.
 
@@ -319,7 +323,40 @@ light'",
 Wave of FAA Exemptions",
 [flyingmag.com](https://www.flyingmag.com/zipline-drone-delivery-secures-latest-bvlos-approval-in-wave-of-faa-exemptions/).)*
 
-### I.6 Muut lähteet, joihin osa II nojaa
+### I.6 Tokenisaatio: olemassa olevia rakenteita
+
+Tokenisaatiolla tarkoitetaan oikeuden esittämistä siirrettävänä,
+ohjelmoitavana merkintänä hajautetussa kirjanpidossa. Kaksi esimerkkiä
+havainnollistaa, mitä on jo käytössä.
+
+**Chia Asset Token (CAT).** Chia-lohkoketjun CAT on yleinen
+vaihdettavan tokenin standardi. Kunkin tokenin säännöt määrittelee sen
+TAIL-ohjelma (Token Asset Issuance Limiter): miten tokenia lasketaan
+liikkeeseen, miten sitä saa käyttää ja voiko sen sulattaa takaisin.
+Standardin toinen versio (CAT2) korvasi ensimmäisen heinäkuussa 2022
+tietoturva-auditoinnissa löytyneen haavoittuvuuden vuoksi. CAT ei ole
+itsessään arvopaperi vaan rakennuspalikka, jolla voidaan toteuttaa
+monenlaisia omaisuus- ja saatavarakenteita.
+
+**Pareto Credit Vaults.** Pareto on yksityisen luoton markkinapaikka,
+jossa lainanantajat tallettavat USDC:tä holviin ja saavat vastineeksi
+tokenin, joka edustaa niiden lainapositiota ja kertyvää korkoa.
+Luottoa arvioi ja valvoo kuraattori, lainaaminen on rajattu
+KYC/KYB-tunnistetuille osapuolille, ja suhdetta sääntelee ketjussa
+allekirjoitettu puitelainasopimus. Holvien tokeneita on käytetty
+vakuutena muissa hajautetun rahoituksen protokollissa. Pareto on
+esimerkki hybridistä, jossa ketjun tila ja juridinen sopimusrakenne
+toimivat yhdessä.
+
+*(Lähteet kohtaan I.6: Chia Documentation, "CATs",
+[docs.chia.net/academy-cat](https://docs.chia.net/academy-cat/), ja "CAT2
+Intro and FAQ",
+[docs.chia.net/guides/cat2-intro](https://docs.chia.net/guides/cat2-intro/).
+— Pareto Docs, [docs.pareto.credit](https://docs.pareto.credit/). —
+Pareto, "FalconX Credit Vault As Collateral on Morpho and Gauntlet",
+[paragraph.com/@pareto](https://paragraph.com/@pareto/falconx-credit-vault-collateral-morpho-gauntlet).)*
+
+### I.7 Muut lähteet, joihin osa II nojaa
 
 *(Lähteet kohtaan I.4: EU:n yleinen tietosuoja-asetus (EU) 2016/679, art.
 20. — Maksupalveludirektiivi (EU) 2015/2366 (PSD2). — Asetus (EU)
@@ -397,7 +434,8 @@ toimeenpanoa. Toimeenpano voi halventua lähinnä silloin, kun arvo on
 järjestelmän sisällä — esimerkiksi vakuutena sulkutilillä tai
 ohjelmoitavassa sopimuksessa, jolloin rikkomus voi laukaista
 seuraamuksen automaattisesti. Kun vastapuolen omaisuus on järjestelmän
-ulkopuolella, tarvitaan edelleen tuomioistuin.
+ulkopuolella, tarvitaan edelleen tuomioistuin. Tokenisaatio on keino
+siirtää arvoa järjestelmän sisälle (ks. II.6).
 
 Siksi vallan hajautumista ei voi päätellä pelkästään yritysten koosta.
 Olennaista on, voiko toimija vaihtaa kumppania ja jatkaa toimintaansa
@@ -809,7 +847,64 @@ poikkeuksen. Esimerkki havainnollistaa mekanismia, ei koko asteikkoa.
 > ehdon paremmin kuin raakadatan vienti, koska vastaanottaja voi
 > arvioida sen ilman alkuperäistä palvelua.
 
-### II.6 Johtopäätökset (kirjoittajan oma näkemys -laatikko)
+### II.6 Tokenisaatio: arvo järjestelmän sisälle
+
+> **Kirjoittajan näkemys.** Tokenisaatiolla on kaksi taloudellisesti
+> hyvin erilaista tasoa.
+>
+> **Taso 1: olemassa olevan saatavan tokenisointi.** Token edustaa
+> osaketta, velkaa tai rahasto-osuutta. Lohkoketju tehostaa siirtoa,
+> selvitystä ja ohjelmoitavuutta, mutta tokenin sisältö riippuu
+> edelleen siitä, kuka on juridisesti velvollinen ja mitä oikeuksia
+> haltijalla on ketjun ulkopuolella. Pareton holvit (I.6) ovat tämän
+> tason hybridi. Yrityksen resurssiraja ei tällä tasolla välttämättä
+> muutu: olemassa oleva rakenne vain digitalisoituu.
+>
+> **Taso 2: tuotannollisen oikeuden natiivi tokenisointi.** Tokenina on
+> itse tuotannollinen oikeus: laskenta-aika, koneen kapasiteettislotti,
+> kuljetusikkuna, patentin käyttöoikeus tietyllä toimialalla, pääsy
+> dataan tietyin kyselyrajoin tai oikeus lunastaa suoritus, jos
+> attestaatiokriteeri täyttyy. Token ei välttämättä ole vapaasti
+> siirrettävä tai spekulatiivinen; se voi olla myös siirtokelvoton
+> käyttövaltuus tai sulkutilillä oleva oikeus. Tämä taso muuttaa
+> yrityksen rajaa suoraan: markkinoille tulee oikeuksia, jotka aiemmin
+> olivat implisiittisesti yrityksen sisällä. Chian CAT-standardin
+> kaltaiset ohjelmoitavat tokenit (I.6) ovat tähän tarvittava
+> rakennuspalikka.
+>
+> **Periaatteessa kaikki voi olla tokenisoitavissa.** Mikä tahansa
+> oikeus, joka voidaan määritellä, voidaan esittää tokenina. Token on
+> kuitenkin vain niin hyvä kuin sen kytkös todelliseen oikeuteen: talon
+> token ei häädä asukasta, jos tuomioistuin ei tunnusta sitä. Tämä on
+> sama raja kuin "todentaminen ei ole totuus" (II.1). Tokenisaatio
+> toimii siksi täysin natiivisti vain digitaalisille oikeuksille —
+> laskenta, data, lisenssit, ohjelmistot — ja fyysisille oikeuksille
+> vain siinä määrin kuin laki tunnustaa tokenin.
+>
+> **Kytkentä toimeenpanon rajaan.** II.1:n mukaan toimeenpano halpenee
+> lähinnä silloin, kun arvo on järjestelmän sisällä. Tokenisaatio on
+> nimenomaan keino tuoda arvo järjestelmän sisälle: kun oikeus on
+> tokenina sulkutilillä tai vakuutena, rikkomus voi laukaista
+> seuraamuksen ilman tuomioistuinta. Postauksen argumentti etenee siis
+> kolmessa vaiheessa:
+>
+> 1. todentaminen halpenee (attestaatio, Neutral Witness, II.2);
+> 2. toimeenpano halpenee siltä osin kuin oikeudet on tokenisoitu;
+> 3. vaihtokyky kasvaa, koska siirrettävä oikeus kulkee toimijan mukana
+>    — Pareton holvitokenin käyttö vakuutena toisessa protokollassa on
+>    tästä pieni esimerkki.
+>
+> Ilman tokenisaatiota argumentti pysähtyy toimeenpanon rajaan.
+> Tokenisaation kanssa se jatkuu — mutta vain niin pitkälle kuin
+> tokenisointi ulottuu.
+>
+> **Raja.** Tokenisaatio ei itsessään hajauta valtaa. Token voi yhtä
+> hyvin vahvistaa keskitettyä liikkeeseenlaskijaa, jos oikeuksien lähde
+> ja hallinta pysyvät keskitettyinä. Multi-issuance-tyyppinen token,
+> jonka liikkeeseenlaskija voi lyödä tai jäädyttää, on rakenteeltaan
+> lähempänä yrityksen sisäistä kirjanpitoa kuin commonsia.
+
+### II.7 Johtopäätökset (kirjoittajan oma näkemys -laatikko)
 
 Merkitään kokonaan kirjoittajan omaksi, kärjistetyksi johtopäätökseksi
 (ei vakiintuneeksi teoriaksi eikä varovaiseksi hypoteesiksi H1...Hn-
@@ -825,7 +920,7 @@ listan tapaan) — tämä on postauksen kärki, ei liite:
 >    ongelma, sama teknologinen isku — transaktio-, verifiointi- ja
 >    valvontakustannusten romahdus — ratkaisee molemmat yhdellä kertaa,
 >    ei kahta erillistä kehityskulkua. Tämä on koko postauksen kattoteesi,
->    johon kohdat 1–5 ovat sen ilmentymiä eri talouden osa-alueilla.
+>    johon kohdat 1–6 ovat sen ilmentymiä eri talouden osa-alueilla.
 > 1. **Vaihtokyky kasvaa, ja yritykset voivat pienentyä** — halpa
 >    todentaminen voi helpottaa kumppanin vaihtamista ja vähentää
 >    tarvetta koota toimintaa saman yrityksen sisään; lisäksi työvoima
@@ -851,8 +946,13 @@ listan tapaan) — tämä on postauksen kärki, ei liite:
 > 5. **Datasiilot purkautuvat ilman haltijan suostumusta** — kun asiakas
 >    voi todistaa ehjällä laitteella, mitä palvelu hänelle näytti,
 >    organisaatio ei enää pysty lukitsemaan asiakasta datalla (II.5).
+> 6. **Toimeenpano halpenee siltä osin kuin oikeudet tokenisoidaan** —
+>    kun arvo on järjestelmän sisällä tokenina, rikkomus voi laukaista
+>    seuraamuksen ilman tuomioistuinta. Tämä ulottuu täysin natiivisti
+>    digitaalisiin oikeuksiin ja fyysisiin vain lain tunnustuksen kautta
+>    (II.6).
 
-Näiden kuuden väitteen tulee näkyä postauksessa selvästi kirjoittajan
+Näiden seitsemän väitteen tulee näkyä postauksessa selvästi kirjoittajan
 omana kantana — ei esitetä "todistettuna" tai vakiintuneena tuloksena,
 vaan samalla tavalla merkittynä kuin Neutral Witness-kappale. Kohta 0 on
 tärkein: se on se lause, joka sitoo koko postauksen (Coase-osio,
