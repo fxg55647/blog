@@ -27,13 +27,15 @@ ylipäätään syntyivät. Koska kyse on samasta pohjimmaisesta ongelmasta,
 sama teknologinen isku ratkaisee molemmat yhtä aikaa, ei kahta erillistä
 kehityskulkua.
 
-Tästä seuraa neljä konkreettista johtopäätöstä, joita postauksessa
+Tästä seuraa viisi konkreettista johtopäätöstä, joita postauksessa
 puolustetaan: yritykset pienenevät, kun sekä ulkoiset transaktiot että
 itse työvoima muuttuvat agenttipohjaisiksi; open source ja yhteisomistus
 kukoistavat uutena kilpailukykyisenä vaihtoehtona suljetulle omistukselle;
 talouden tehokkuus kasvaa huomattavasti transaktiokustannusten
-vapauttaessa resursseja tuottavampaan käyttöön; ja maat, joilla on vähiten
-institutionaalista kitkaa muutokselle, saavat merkittävän kilpailuedun.
+vapauttaessa resursseja tuottavampaan käyttöön; maat, joilla on vähiten
+institutionaalista kitkaa muutokselle, saavat merkittävän kilpailuedun;
+ja datasiilot purkautuvat, kun asiakas voi todistaa omat tietonsa ilman
+datan haltijan suostumusta.
 
 Postaus esittelee myös kirjoittajan oman konseptin, Neutral Witnessin —
 koneellisen välikerroksen, joka mahdollistaa toimintakykyisen luottamuksen
@@ -43,6 +45,10 @@ miten näitä kustannuksia käytännössä alennetaan. Ydinhypoteesi ei ole enä
 tutkimaton alue: se kytkeytyy suoraan tuoreeseen "Coasean singularity"
 -kirjallisuuteen (NBER 2025), mutta laajentaa sen yritysten rajoista
 commonsin hallintaan asti.
+
+Postaus on jaettu kahteen osaan: **osa I** kokoaa aiemman tutkimuksen
+(mitä muut ovat jo sanoneet), **osa II** esittää kirjoittajan omat
+päätelmät.
 
 *(Tarkistettava vielä kirjoittajan kanssa: onko sävy/pituus oikea, ja*
 *puuttuuko jokin keskeinen väite. Neutral Witness -kappale tulee myöhemmin*
@@ -62,19 +68,27 @@ kansiossa `_material/`:
   Williamson), Ostrom-blockchain-kirjallisuus, Ostromin periaatteet
   teknisinä vaatimuksina, ja puuttuva synteesi
 
-## Kirjoitustapa: kolme tasoa eroteltuna läpi koko postauksen
+## Kirjoitustapa: kaksi osaa, kolme tasoa
+
+Postaus jaetaan kahteen peräkkäiseen osaan: **osa I (aiempi tutkimus)**
+sisältää vain tason 1, **osa II (kirjoittajan omat päätelmät)** tasot 2
+ja 3. Rajan pitää olla lukijalle selvä: kaikki osa I:ssä on jonkun muun
+sanomaa ja lähteistettyä, kaikki osa II:ssa on kirjoittajan omaa —
+vaikka osa II viittaakin osa I:n lähteisiin.
 
 Sama periaate kuin alkuperäisessä muistiossa (luku 0), mutta nyt
 läpileikkaavana tyylikeinona koko postauksessa, ei vain alkuun kirjoitettuna
 varauksena:
 
 1. **Vakiintunut teoria** — Coase, Ostrom, Williamson, Hayek: esitetään
-   normaalina leipätekstinä.
+   normaalina leipätekstinä. *(Osa I.)*
 2. **Tässä postauksessa johdettu synteesi** — esim. COW-mallin ja
    protokollatalouden yhdistäminen: merkitään selkeästi synteesiksi.
+   *(Osa II.)*
 3. **Kirjoittajan oma johtopäätös / konsepti** — erityisesti Neutral Witness,
    mutta myös lopun kärjistetyt johtopäätökset (ks. alla) — nostetaan
    **omaksi, visuaalisesti erottuvaksi laatikoksi** tekstin sekaan, esim.:
+   *(Osa II.)*
 
    > **Kirjoittajan näkemys.** [teksti tähän]
 
@@ -85,6 +99,8 @@ varauksena:
    tämän laatikkomuodon sisään, ei tavallisena leipätekstinä.
 
 ## Mahdollinen jäsennys
+
+**Osa I — Aiempi tutkimus**
 
 1. **Yritys transaktiokustannusten ratkaisuna** (Coase) — lyhyt, pohjustava.
 2. **Commons hallinnan ongelmana** (Ostrom) — miksi yhteiset resurssit
@@ -97,11 +113,14 @@ varauksena:
    (Frontiers 2021/2025, Ostrom Project, "crypto commons", grass-roots-paperi)
    ja miksi se silti jää paloitelluksi (blockchain-governance vs.
    AI-commons-riskit vs. Ostrom-instituutiot erikseen).
-5. **Puuttuva synteesi**: mitä tapahtuu, kun verifiointi, monitorointi ja
-   toimeenpano lähestyvät nollakustannusta samanaikaisesti usean kypsyneen
-   teknologian ansiosta? Ydinväite: "The firm and the commons may be two
-   historical solutions to the same underlying problem: trust and
-   coordination were expensive."
+
+**Osa II — Kirjoittajan omat päätelmät**
+
+5. **Puuttuva synteesi / kattoteesi**: mitä tapahtuu, kun verifiointi,
+   monitorointi ja toimeenpano lähestyvät nollakustannusta samanaikaisesti
+   usean kypsyneen teknologian ansiosta? Ydinväite: "The firm and the
+   commons may be two historical solutions to the same underlying problem:
+   trust and coordination were expensive."
 6. **[Kirjoittajan näkemys -laatikko] Neutral Witnessin paikka tässä**:
    blockchain antaa yhteisen muistin, AI antaa tulkinnan, sensorit antavat
    havainnon — mutta tarvitaan uskottava ketju havainnosta väitteeseen. Tämä
@@ -119,15 +138,22 @@ varauksena:
      perinteistä yritysrajaa
 8. **Tapausvertailu: jäykkä vs. ketterä talous** (uusi osio, ks. oma kohta
    alla)
-9. **[Kirjoittajan näkemys -laatikko] Johtopäätökset** (ks. oma kohta alla)
-10. **Mitä teoria ei väitä / varaukset** — sama varovaisuus kuin
+9. **[Kirjoittajan näkemys -laatikko] Datasiilojen purkautuminen ilman
+   haltijan suostumusta** — asiakas todistaa ehjällä laitteella mitä
+   palvelu näytti (II.5)
+10. **[Kirjoittajan näkemys -laatikko] Johtopäätökset** (ks. oma kohta alla)
+11. **Mitä teoria ei väitä / varaukset** — sama varovaisuus kuin
     alkuperäisessä muistiossa: uutuusväitteet ovat hypoteeseja ennen
     systemaattista prior-art-kartoitusta.
 
-## 5. Puuttuva synteesi: sama infrastruktuuri, kaksi ratkaisua
+---
 
-*(Kirjoitettu kokonaan auki koekappaleeksi — loput jäsennyksen kohdista
-ovat yhä luonnostasolla yllä.)*
+## Osa I: Aiempi tutkimus
+
+*Tässä osassa on vain se, mitä muut ovat jo sanoneet. Kirjoittajan omat
+päätelmät alkavat osasta II.*
+
+### I.1 Coase ja Ostrom: yritys ja commons
 
 Ronald Coase kysyi vuonna 1937, miksi tuotantoa ylipäätään organisoidaan
 yrityksissä, jos hintamekanismi voi koordinoida resursseja. Vastaus oli,
@@ -153,6 +179,8 @@ on, että sekä yrityksen raja että toimivan commonsin raja määräytyvät
 lopulta samasta asiasta: kuinka kalliita oikeuksien määrittely, valvonta,
 kannustimet ja toimeenpano ovat kussakin tapauksessa.
 
+### I.2 AI-agentit ja transaktiokustannukset: tuore kirjallisuus
+
 Tuoreempi kirjallisuus on alkanut kysyä, mitä tapahtuu kun AI-agentit
 alentavat näitä kustannuksia rajusti. MIT:n, Harvardin ja Boston
 Universityn tutkijoiden NBER-paperi kysyy suoraan, romahduttaako
@@ -176,27 +204,15 @@ transaktiokustannusten aleneminen todella siirtää tuotantoa pois
 perinteisen yrityksen sisältä ("AI, Transaction Costs, and a Quiet Shift
 Toward Self-Employment").
 
+### I.3 Aukko: kaksi kirjallisuushaaraa, jotka eivät kohtaa
+
 Nämä kaksi kirjallisuushaaraa — "AI-agentit romahduttavat yrityksen
 rajan" ja "AI/blockchain voi toteuttaa Ostromin periaatteita" — eivät
 kuitenkaan vielä kohtaa toisiaan. Kumpikaan ei sano suoraan, että
 molemmat ovat pohjimmiltaan sama ilmiö kahdesta eri suunnasta
-katsottuna. Tässä on tämän muistion oma synteesi: **sama infrastruktuuri,
-joka tekee markkinatransaktiosta yrityksen sisäisen koordinoinnin
-kaltaisen — halpa haku, todennettava väite, matala neuvottelukustannus,
-automaattinen toimeenpano — voi tehdä commonsista yrityksen kaltaisesti
-koordinoitavan ilman että commonsista tulee yritys.** Yritys ja tragedy
-of the commons eivät ole kaksi erillistä ongelmaa, jotka sattuvat
-molemmat liittyvät luottamukseen; ne ovat sama transaktiokustannus- ja
-luottamusongelma kahdessa eri institutionaalisessa muodossa — toinen
-ratkaisi sen omistamalla, toinen (onnistuessaan) ratkaisi sen Ostromin
-instituutioilla, ja kumpikaan ratkaisu ei ollut ainoa mahdollinen, vaan
-se paras saatavilla oleva kompromissi silloin kun verifiointi,
-monitorointi ja toimeenpano olivat kalliita. Kun nämä kustannukset
-romahtavat samanaikaisesti usean kypsyneen teknologian ansiosta, ei ole
-syytä olettaa että vaikutus rajoittuisi vain toiseen näistä
-institutionaalisista muodoista.
+katsottuna. Tähän aukkoon osa II vastaa.
 
-*(Lähteet tähän osioon: Coase, R. H. (1937). The Nature of the Firm.
+*(Lähteet osa I:een: Coase, R. H. (1937). The Nature of the Firm.
 Economica, 4(16), 386–405. — Aligica, P. D. & Tarko, V. Institutional
 Diversity and Political Economy: The Ostroms and Beyond. Oxford
 University Press, 2014. — "The Coasean Singularity? Demand, Supply, and
@@ -212,7 +228,101 @@ Self-Employment",
 [labormarketmatters.com/p/ai-and-independent-work-in-7-charts](https://www.labormarketmatters.com/p/ai-and-independent-work-in-7-charts).
 Täydellinen lista `_material/prior-art-haku.md`:ssä.)*
 
-## 6. Neutral Witness: kirjoittajan oma konsepti
+### I.4 Datan siirrettävyys ja lähteen todistaminen
+
+Yksilön datan siirtämistä organisaatiosta toiseen on lähestytty kahdesta
+suunnasta.
+
+**Organisaation kautta.** EU:n tietosuoja-asetuksen artikla 20 antaa
+henkilölle oikeuden saada tietonsa koneluettavassa muodossa ja siirtää ne
+toiselle palveluntarjoajalle. Maksupalveludirektiivi PSD2 (2015/2366)
+velvoittaa pankit avaamaan tilitiedot asiakkaan valtuuttamille
+kolmansille osapuolille (open banking). Suomalaislähtöinen MyData-liike
+on ajanut ihmiskeskeistä henkilötiedon hallintaa, ja Tim Berners-Leen
+Solid-projekti henkilökohtaisia "data podeja". W3C:n Verifiable
+Credentials -standardi ja EU:n digitaalinen identiteettilompakko (eIDAS
+2.0, asetus 2024/1183) mahdollistavat, että organisaation
+digitaalisesti allekirjoittama väite kulkee ihmisen mukana ja
+vastaanottaja voi todentaa sen lähteen itse. Kaikille näille on yhteistä,
+että **organisaation on osallistuttava**: se joko luovuttaa datan,
+avaa rajapinnan tai allekirjoittaa väitteen — vapaaehtoisesti tai
+sääntelyn pakottamana.
+
+**Ilman organisaation osallistumista.** Toinen, tuoreempi linja kysyy,
+voiko käyttäjä todistaa mitä verkkopalvelu hänelle näytti ilman että
+palvelu tekee mitään. DECO (Zhang, Maram, Malvai, Goldfeder & Juels, ACM
+CCS 2020) osoitti, että käyttäjä voi tuottaa kryptografisen todisteen
+TLS-yhteyden yli palvelimelta saadusta datasta — ja paljastaa siitä vain
+valitun osan (esim. "saldo ylittää X") — ilman palvelimen muutoksia tai
+suostumusta. Samaa "zkTLS"-periaatetta toteuttavat mm. TLSNotary sekä
+tuotteistetut Reclaim Protocol ja Opacity. Heikompana, mutta
+käytännössä yleisempänä vaihtoehtona toimivat laiteattestaatioon
+nojaavat kaappaukset: Androidin laitteistopohjainen avainattestaatio ja
+Play Integrity API antavat palvelimelle todisteen siitä, että sovellus
+ajetaan muokkaamattomana aidolla, lukitulla laitteella.
+
+### I.5 Muut lähteet, joihin osa II nojaa
+
+*(Lähteet kohtaan I.4: EU:n yleinen tietosuoja-asetus (EU) 2016/679, art.
+20. — Maksupalveludirektiivi (EU) 2015/2366 (PSD2). — Asetus (EU)
+2024/1183 (eIDAS 2.0, EU Digital Identity Wallet). — W3C, Verifiable
+Credentials Data Model. — Zhang, F., Maram, D., Malvai, H., Goldfeder, S.
+& Juels, A. (2020). DECO: Liberating Web Data Using Decentralized Oracles
+for TLS. ACM CCS 2020. — TLSNotary, Reclaim Protocol, Opacity. — Android
+Key Attestation ja Play Integrity API (Android-dokumentaatio).
+Tarkistettava ennen julkaisua.)*
+
+Osa II käyttää lisäksi seuraavia olemassa olevia tuloksia; ne esitellään
+tarkemmin siinä kohdassa, jossa niitä käytetään:
+
+- **Hayek (1945)**: hajautettu tieto ja sen hyödyntäminen
+  hintajärjestelmän kautta — pohja kolmivaiheisen talousvertailun
+  episteemiselle argumentille (II.3).
+- **Leeson (2007), "Better Off Stateless: Somalia"**: dokumentoi
+  valtiotonta, klaani- ja sopimuspohjaista kaupankäyntiä ja
+  turvallisuuden järjestämistä (II.4, piste 4).
+- **Machiavelli, *Ruhtinas* — condottieri-ongelma**: palkatut asejoukot,
+  jotka saattoivat kaapata tai kiristää työnantajaansa renessanssin
+  Italian kaupunkivaltioissa (II.4).
+- **Historialliset vapaakaupungit ja -satamat**, jotka houkuttelivat
+  kauppiaita ympäristöään paremman oikeusjärjestyksen ja turvallisuuden
+  ansiosta (II.4).
+- **RAND, "Confidential Computing, Secure Enclaves, and Attestation"**:
+  TEE-attestaatio todistaa identiteetin, ei käyttäytymistä (II.2).
+- **confidential.ai ja NVIDIA H100**: ZK-todisteiden ja TEE-attestaation
+  yhdistelmä käytännössä sekä laitteistotason confidential computing
+  kiihdyttimissä (II.2).
+
+---
+
+## Osa II: Kirjoittajan omat päätelmät
+
+*Kaikki tästä eteenpäin on kirjoittajan omaa synteesiä ja näkemystä — ei
+vakiintunutta teoriaa. Viittaukset osa I:n lähteisiin eivät tarkoita, että
+lähteet sanoisivat samaa.*
+
+### II.1 Kattoteesi: yritys ja commons ovat sama ongelma — ja niihin voi nyt vastata samalla tavalla
+
+*(Kirjoitettu kokonaan auki koekappaleeksi — loput jäsennyksen kohdista
+ovat yhä luonnostasolla yllä.)*
+
+Tässä on tämän muistion oma synteesi: **sama infrastruktuuri,
+joka tekee markkinatransaktiosta yrityksen sisäisen koordinoinnin
+kaltaisen — halpa haku, todennettava väite, matala neuvottelukustannus,
+automaattinen toimeenpano — voi tehdä commonsista yrityksen kaltaisesti
+koordinoitavan ilman että commonsista tulee yritys.** Yritys ja tragedy
+of the commons eivät ole kaksi erillistä ongelmaa, jotka sattuvat
+molemmat liittyvät luottamukseen; ne ovat sama transaktiokustannus- ja
+luottamusongelma kahdessa eri institutionaalisessa muodossa — toinen
+ratkaisi sen omistamalla, toinen (onnistuessaan) ratkaisi sen Ostromin
+instituutioilla, ja kumpikaan ratkaisu ei ollut ainoa mahdollinen, vaan
+se paras saatavilla oleva kompromissi silloin kun verifiointi,
+monitorointi ja toimeenpano olivat kalliita. Kun nämä kustannukset
+romahtavat samanaikaisesti usean kypsyneen teknologian ansiosta, ei ole
+syytä olettaa että vaikutus rajoittuisi vain toiseen näistä
+institutionaalisista muodoista.
+
+### II.2 Neutral Witness: kirjoittajan oma konsepti
 
 > **Kirjoittajan näkemys.** Neutral Witness ei ole vakiintunutta
 > teoriaa eikä tässä muistiossa johdettua yhteistä synteesiä, vaan
@@ -257,8 +367,9 @@ Täydellinen lista `_material/prior-art-haku.md`:ssä.)*
 > institutionaalinen Goodhart-kone. Kannustinraja voidaan kirjoittaa
 > muotoon `E[hyöty vilpistä] < p(havaitseminen) x seuraamus + menetetty
 > vakuus + mainehaitta + tulevan pääsyn arvo + juridinen vastuu` — sama
-> logiikka jota sovellettiin jo edellä turvallisuuden tarjoajien
-> lojaalisuuteen neljännessä maavertailupisteessä (piraattikaupunki).
+> logiikka jota sovelletaan jäljempänä turvallisuuden tarjoajien
+> lojaalisuuteen neljännessä maavertailupisteessä (piraattikaupunki,
+> ks. II.4).
 > Tavoite on totuudellinen minimidata: kerätään se, mikä on päätöksen
 > kannalta tarpeellista ja voidaan todentaa — ei kaikkea mikä teknisesti
 > olisi mahdollista kerätä.
@@ -286,7 +397,7 @@ Attestation",
 [confidential.ai/docs/zk](https://confidential.ai/docs/zk). Täydellinen
 lista `_material/prior-art-haku.md`:ssä, osio 6.)*
 
-## 7. Kolmivaiheinen talousvertailu: suunnitelmatalous, kapitalismi, optimoitu talous
+### II.3 Kolmivaiheinen talousvertailu: suunnitelmatalous, kapitalismi, optimoitu talous
 
 Yrityksen ja markkinan välinen jännite näyttäytyy selkeimmin, kun sen
 asettaa historialliseen kolmivaiheiseen kehykseen. Kehys on tarkoituksella
@@ -303,7 +414,7 @@ koska mitään rinnakkaista, riippumatonta koetta ei tehdä.
 **Vaihe II: kapitalismi joukkona pieniä kilpailevia suunnitelmatalouksia.**
 Kapitalismi ei poistanut suunnittelua — se hajautti sen suureen määrään
 keskenään kilpailevia yrityksiä. Yrityksen sisällä on edelleen hierarkia
-ja suunnittelu (ks. osio 1 yllä); yritysten *välillä* toimivat hinnat,
+ja suunnittelu (ks. I.1 yllä); yritysten *välillä* toimivat hinnat,
 kilpailu, markkinoille tulo, poistuminen ja konkurssi. Tämän episteeminen
 etu ei ole se, että joku yritys tietäisi oikean vastauksen etukäteen,
 vaan että useat toimijat voivat testata rinnakkain erilaisia hypoteeseja:
@@ -328,9 +439,9 @@ agenttien avulla ostaa ulkoa työn, kapasiteetin, datan tai logistiikan
 tarpeen mukaan sen sijaan, että palkkaisi kaiken pysyvästi — "yksi
 ihminen + N AI-agenttia + avoimet protokollamarkkinat" korvaa joissakin
 tehtävissä vanhan portaan "yksi ihminen → tiimi → osasto → yritys". Tämä
-on täsmälleen se mekanismi, joka on jo käynnissä empiirisesti: ks. osiossa
-5 mainittu Palagashvilin havainto solo-yritysperustamisten kasvusta
-AI-altistuneilla toimialoilla.
+on täsmälleen se mekanismi, joka on jo käynnissä empiirisesti: ks. osan I
+kohdassa I.2 mainittu Palagashvilin havainto solo-yritysperustamisten
+kasvusta AI-altistuneilla toimialoilla.
 
 Open source ei ole tässä vaiheessa uusi keksintö vaan jo olemassa oleva
 todiste siitä, että kolmas vaihe on osittain mahdollinen: se on commons,
@@ -338,7 +449,7 @@ joka toimii ilman perinteistä yritysrajaa nimenomaan siksi, että sen
 koordinointikustannukset (koodin haku, väitteen — "tämä toimii" —
 todentaminen, versionhallinta, ylläpitäjien maineeseen perustuva
 laadunvalvonta) ovat poikkeuksellisen alhaiset verrattuna vastaavaan
-suljettuun kehitykseen. Tämä on sama ilmiö kuin osion 5 ydinsynteesi:
+suljettuun kehitykseen. Tämä on sama ilmiö kuin kohdan II.1 kattoteesi:
 sama infrastruktuuri, joka tekee markkinatransaktiosta yrityksen sisäisen
 koordinoinnin kaltaisen, voi tehdä commonsista yrityksen kaltaisesti
 koordinoitavan ilman että commonsista tulee yritys. Jos protokollatalouden
@@ -351,7 +462,7 @@ American Economic Review, 35(4), 519–530. Muu materiaali
 `_material/tyomuistiinpanot.md`, osiot 4 ja 14, ja
 `_material/uudelleenkirjoitettu-muistio.md`, osio 12.)*
 
-## Uusi osio: tapausvertailu — neliportainen institutionaalisen kitkan asteikko
+### II.4 Tapausvertailu — neliportainen institutionaalisen kitkan asteikko
 
 Tarkoitus havainnollistaa protokollatalous-hypoteesia konkreettisella,
 ajatuskoemuotoisella vertailulla — **ei empiirinen ennuste**, vaan
@@ -416,7 +527,7 @@ epädemokraattinen) valtiorakenne, vai ei mitään:
    nimenomaisesti Ruhtinaassa).
 
    Ratkaisu on sama kannustinlogiikka kuin Neutral Witnessin
-   rehellisen datan mekanismisuunnittelussa (ks. kohta 5.3 yllä):
+   rehellisen datan mekanismisuunnittelussa (ks. II.2 yllä):
    `E[hyöty petoksesta] < p(havaitseminen) x seuraamus + menetetty
    tulevan pääsyn arvo + mainehaitta`. Jos sekä turvallisuuden
    tarjoajat että kaupungin asukkaat saavat osuuden tulevasta
@@ -450,7 +561,8 @@ epädemokraattinen) valtiorakenne, vai ei mitään:
    pettäminen — mutta yksi tai muutama saattaisi selvitä ja menestyä.
    Tämä on täsmälleen sama "variaatio → valinta → monistuminen"
    -logiikka, joka esiteltiin jo yleisenä episteemisenä argumenttina
-   Hayek-osiossa (kohta 4 yllä): hajautettu, rinnakkainen kokeilu ei ole
+   kolmivaiheisen talousvertailun vaiheessa II (II.3 yllä): hajautettu,
+   rinnakkainen kokeilu ei ole
    arvokasta siksi että jokainen yritys onnistuisi, vaan siksi että
    harvempien onnistumisten malli voidaan sen jälkeen monistaa muualle.
    Piraattikaupunki-skenaario on siis konkreettinen ilmentymä samasta
@@ -466,7 +578,7 @@ piste 3 on nopea *ja* vakaa (valtiorakenne antaa perälaudan), kun taas
 piste 4 olisi nopein mutta myös haurain (ei perälautaa, kaikki riippuu
 kannustinsuunnittelun onnistumisesta).
 
-### Tarkennus: mistä "institutionaalinen kitka" oikeastaan koostuu
+#### Tarkennus: mistä "institutionaalinen kitka" oikeastaan koostuu
 
 "Jäykkyys" ei tarkoita pelkkää hallinnon *hitautta* (paperiprosessit,
 fax) — se on eri kysymys kuin se, onko autonomisten agenttien toiminta
@@ -515,7 +627,49 @@ useammasta rinnakkaisesta akselista, ei yhdestä.
   ei ennusteeksi tai empiiriseksi vertailututkimukseksi — samalla
   varovaisuudella kuin muualla muistiossa (uutuusväitteet = hypoteeseja).
 
-## Uusi osio: johtopäätökset (kirjoittajan oma näkemys -laatikko)
+### II.5 Datasiilot purkautuvat: asiakas todistaa tietonsa itse
+
+> **Kirjoittajan näkemys.** Osan I.4 organisaatiolähtöiset ratkaisut
+> (GDPR:n siirto-oikeus, PSD2, allekirjoitetut todisteet) edellyttävät,
+> että datan haltija toimii. Siksi datasiilot purkautuvat niillä vain
+> sääntelyn tahdissa, ja juuri tässä jäykkä maa (II.4, piste 1) jää
+> jälkeen. Kirjoittajan väite on, että siilon purkamiseen ei tarvita
+> haltijan suostumusta lainkaan: asiakas näkee oman datansa jo nyt —
+> nettipankissa, koirarekisterissä, vakuutusyhtiön portaalissa — ja riittää,
+> että hän voi *todistaa* mitä näki.
+>
+> **Mekanismi.** Asiakas avaa palvelun Leiman omassa selainnäkymässä ja
+> tallentaa näkymän. Sovellus kirjaa verkkotunnuksen ja HTTPS-yhteyden,
+> rajaa ja peittää kaiken mitä asiakas ei halua näyttää, ja sitoo kuvan
+> ja metatiedot tarkistussummalla, joka leimataan aikaleimalla.
+> Hyväksytään vain ehjät laitteet: rootatut, avatun käynnistyslataimen
+> tai muokatun sovelluksen laitteet hylätään kaikilla käytettävissä
+> olevilla keinoilla (laitteistopohjainen avainattestaatio, Play
+> Integrity). Vastaanottaja — toinen pankki, vuokranantaja, vakuuttaja —
+> saa todisteen, jonka lähteen se voi arvioida kysymättä alkuperäiseltä
+> palvelulta mitään.
+>
+> **Mitä tämä todistaa ja mitä ei.** Aikaleima todistaa, että kaappaus
+> oli olemassa tiettynä hetkenä eikä sitä ole muutettu sen jälkeen.
+> Laiteattestaatio ja sovelluksen oma kaappaus tekevät sivun
+> väärentämisestä ennen kaappausta vaikeaa, mutta luottamus siirtyy
+> osin laitevalmistajalle ja Googlelle — tämä on käytännöllinen, ei
+> kryptografisesti ehdoton tae. zkTLS (I.4) olisi vahvempi, koska todiste
+> syntyy itse TLS-yhteydestä; se on luonteva seuraava askel samalle
+> mekanismille. Kummassakaan tapauksessa todiste ei kerro, onko
+> palvelun näyttämä tieto *totta* — vain sen, että palvelu näytti sen.
+>
+> **Taloudellinen seuraus.** Datasiilo on Coasen mielessä
+> transaktiokustannus: asiakkaan vaihtaessa palveluntarjoajaa luottamus
+> on rakennettava alusta, koska vanha historia ei siirry uskottavasti.
+> Kun asiakas voi viedä todennetun historiansa mukanaan ilman
+> haltijan yhteistyötä, organisaatiot menettävät kyvyn lukita asiakasta
+> datalla, ja kilpailu siirtyy palvelun laatuun. Tämä on
+> institutionaalisen kitkan *ohittamista*, ei sen purkamista: jäykkä
+> maa voi hidastaa virallisia rajapintoja, mutta ei estää asiakasta
+> todistamasta mitä omalla näytöllään näkee.
+
+### II.6 Johtopäätökset (kirjoittajan oma näkemys -laatikko)
 
 Merkitään kokonaan kirjoittajan omaksi, kärjistetyksi johtopäätökseksi
 (ei vakiintuneeksi teoriaksi eikä varovaiseksi hypoteesiksi H1...Hn-
@@ -531,7 +685,7 @@ listan tapaan) — tämä on postauksen kärki, ei liite:
 >    ongelma, sama teknologinen isku — transaktio-, verifiointi- ja
 >    valvontakustannusten romahdus — ratkaisee molemmat yhdellä kertaa,
 >    ei kahta erillistä kehityskulkua. Tämä on koko postauksen kattoteesi,
->    johon kohdat 1–4 ovat sen ilmentymiä eri talouden osa-alueilla.
+>    johon kohdat 1–5 ovat sen ilmentymiä eri talouden osa-alueilla.
 > 1. **Yritykset pienenevät** — sekä siksi, että ulkoisten transaktioiden
 >    kustannus laskee (Coase), että siksi, että työvoima itsessään
 >    muuttuu yhä enemmän agenttipohjaiseksi (ihminen + N AI-agenttia
@@ -548,14 +702,19 @@ listan tapaan) — tämä on postauksen kärki, ei liite:
 >    vapauttaa resursseja tuottavampaan käyttöön laajasti koko
 >    taloudessa.
 > 4. **Maat, joissa on vähemmän jäykkiä institutionaalisia esteitä,
->    saavat kilpailuedun** — ks. maavertailu-tapaus yllä.
+>    saavat kilpailuedun** — ks. maavertailu-tapaus yllä (II.4).
+> 5. **Datasiilot purkautuvat ilman haltijan suostumusta** — kun asiakas
+>    voi todistaa ehjällä laitteella, mitä palvelu hänelle näytti,
+>    organisaatio ei enää pysty lukitsemaan asiakasta datalla (II.5).
 
-Näiden viiden väitteen tulee näkyä postauksessa selvästi kirjoittajan
+Näiden kuuden väitteen tulee näkyä postauksessa selvästi kirjoittajan
 omana kantana — ei esitetä "todistettuna" tai vakiintuneena tuloksena,
 vaan samalla tavalla merkittynä kuin Neutral Witness-kappale. Kohta 0 on
 tärkein: se on se lause, joka sitoo koko postauksen (Coase-osio,
 Ostrom/commons-osio, COW-malli, Neutral Witness ja maavertailu) yhdeksi
 argumentiksi eikä listaksi erillisiä havaintoja.
+
+---
 
 ## Avoimet kysymykset ennen kirjoittamista
 
@@ -573,3 +732,6 @@ argumentiksi eikä listaksi erillisiä havaintoja.
   -paperiin ja muuhun tuoreeseen "headless firm" -kirjallisuuteen
   (ks. `_material/prior-art-haku.md`) — mikä on tässä muistiossa uutta
   niihin nähden?
+- Osa I / osa II -raja: jäsennyksen kohta 3 viittaa "Ararilin 2013"
+  -synteesiin, mutta osa I nojaa Aligica & Tarko (2014) -teokseen —
+  yhtenäistetään viite (ks. `_material/prior-art-haku.md`).
