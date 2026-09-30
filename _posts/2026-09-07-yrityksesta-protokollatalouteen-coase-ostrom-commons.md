@@ -1098,6 +1098,31 @@ välillä. Esimerkki havainnollistaa mekanismia, ei todista sitä.
 > kuitenkin työpaikoilla EU:n tekoälyasetuksella kiellettyä (art.
 > 5(1)(f)), joten raja on vedettävä tarkasti.
 >
+> **Esimerkki: jaettu prompt injection -tarkistus.** Nyt jokainen
+> tekoälyagentteja käyttävä organisaatio tarkistaa itse, sisältääkö
+> agentin lukema teksti sille suunnattuja haitallisia ohjeita — usein
+> täsmälleen samat verkkosivut ja dokumentit. Protokollamallissa tarkistus
+> tehtäisiin kerran koko maailmalle. Teksti pilkotaan pieniksi paloiksi,
+> kunkin palan hash lasketaan, ja avoimesta, yhdessä ylläpidetystä
+> kannasta katsotaan, onko pala jo tarkistettu. Tunnettu hash palauttaa
+> valmiin tuloksen; tuntematon pala tarkistetaan kokonaan ja tulos
+> lisätään kantaan. Kyse on siis välimuistista, ei estolistasta: tekstin
+> muuntelu ei ohita suojausta, se vain maksaa yhden täyden tarkistuksen.
+> Toteutuksen on silti ratkaistava muutama asia. Vaarallisin virhe on
+> haitalliselle palalle tallennettu tuomio "turvallinen", joten tuomiot
+> on voitava tarkistaa uudelleen, niistä on oltava useampi riippumaton
+> arvio ja ne on allekirjoitettava mallin versiolla — Neutral Witnessin
+> tehtävä (II.2). Tuomiot vanhenevat, kun uusia hyökkäystekniikoita
+> ymmärretään, joten niillä on oltava versio ja mitätöintimahdollisuus.
+> Palojen on limityttävä, jottei ohjetta voi piilottaa palojen rajalle.
+> Kanta tallentaa luokituksen, ei päätöstä: sama teksti on harmiton
+> lukuoikeudella toimivalle agentille ja vaarallinen maksuja tekevälle,
+> ja päätöksen tekee käyttäjä omassa kontekstissaan. Kyselyt eivät saa
+> paljastaa, mitä agentti lukee, mikä onnistuu esimerkiksi kysymällä vain
+> hashin alkuosalla tai käyttämällä paikallista kopiota. Kannan
+> hallinta on II.8:n kysymys. *(Sidonnaisuus: kirjoittaja kehittää itse
+> prompt injection -tunnistusta.)*
+>
 > **Raja.** Verkostovaikutus suosii edelleen suuria: protokolla voittaa
 > vain, jos siihen liittyminen on halvempaa kuin alustalla pysyminen.
 > Blueskyn kaltaiset avoimet sosiaalisen median verkot ovat tästä
