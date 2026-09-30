@@ -270,3 +270,15 @@ aikaan. Tämä on historiallista päättelyä, ei ennuste.
   - **Raja:** token on vain niin hyvä kuin sen kytkös todelliseen
     oikeuteen. Fyysisissä oikeuksissa se toimii vain lain tunnustuksen
     kautta.
+- 2026-09-30: I.5 laajennettu ilmailuun (AOG Technics -tapaus, ✅), uudet
+  I.7 (protokollat ja alustat: Masnick 2019, Marlinspike 2016, PowerPoint
+  Live, ✅) ja I.8 (päätöksenteko ja omistus: Hansmann 1996, Apache Way,
+  SourceCred, Optimism RetroPGF, peer prediction, Prelec 2004, Posner &
+  Weyl 2018, ✅). Osaan II lisätty ilmailun resurssimarkkina II.6:een,
+  II.7 "Protokollat alustojen tilalle" (mikromaksut, koodauksen
+  halpeneminen, sovittimet ilman yhteistä standardia, kokousprotokolla) ja
+  II.8 "Päätöksenteko: kuka saa äänen" (osapuoliryhmät, äänivalta
+  päätöstyypeittäin, kolme signaalia, identiteetti edellytyksenä).
+  Johtopäätös 7 lisätty.
+  - Kokousprotokollan koko muistiinpano:
+    `_material/semanttinen-kokousprotokolla.md` (mahdollinen jatkopostaus).

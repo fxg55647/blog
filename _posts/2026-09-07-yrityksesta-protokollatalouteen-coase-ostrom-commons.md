@@ -27,7 +27,7 @@ ylipäätään syntyivät. Koska kyse on samasta pohjimmaisesta ongelmasta,
 sama teknologinen isku ratkaisee molemmat yhtä aikaa, ei kahta erillistä
 kehityskulkua.
 
-Tästä seuraa kuusi konkreettista johtopäätöstä, joita postauksessa
+Tästä seuraa seitsemän konkreettista johtopäätöstä, joita postauksessa
 puolustetaan: toimijoiden kyky vaihtaa kumppania kasvaa ja yritykset
 voivat pienentyä, kun sekä ulkoiset transaktiot että itse työvoima
 muuttuvat agenttipohjaisiksi; open source ja yhteisomistus
@@ -36,8 +36,9 @@ talouden tehokkuus kasvaa huomattavasti transaktiokustannusten
 vapauttaessa resursseja tuottavampaan käyttöön; maat, joilla on vähiten
 institutionaalista kitkaa muutokselle, saavat merkittävän kilpailuedun;
 datasiilot purkautuvat, kun asiakas voi todistaa omat tietonsa ilman
-datan haltijan suostumusta; ja toimeenpano halpenee siltä osin kuin
-oikeudet tokenisoidaan.
+datan haltijan suostumusta; toimeenpano halpenee siltä osin kuin
+oikeudet tokenisoidaan; ja alustat väistyvät protokollien tieltä siellä,
+missä protokollaan liittyminen on halvempaa kuin alustalla pysyminen.
 
 Postaus esittelee myös kirjoittajan oman konseptin, Neutral Witnessin —
 koneellisen välikerroksen, joka mahdollistaa toimintakykyisen luottamuksen
@@ -146,8 +147,13 @@ varauksena:
 10. **[Kirjoittajan näkemys -laatikko] Tokenisaatio: arvo järjestelmän
     sisälle** — kaksi tasoa, "kaikki voi olla tokenisoitavissa" ja sen
     raja, kytkentä toimeenpanoon (II.6)
-11. **[Kirjoittajan näkemys -laatikko] Johtopäätökset** (ks. oma kohta alla)
-12. **Mitä teoria ei väitä / varaukset** — sama varovaisuus kuin
+11. **[Kirjoittajan näkemys -laatikko] Protokollat alustojen tilalle** —
+    mikromaksut ja koodauksen halpeneminen, esimerkkinä kokousprotokolla
+    (II.7)
+12. **[Kirjoittajan näkemys -laatikko] Päätöksenteko: kuka saa äänen** —
+    osapuoliryhmät, Hansmann, kontribuutio ja vertaisarvio (II.8)
+13. **[Kirjoittajan näkemys -laatikko] Johtopäätökset** (ks. oma kohta alla)
+14. **Mitä teoria ei väitä / varaukset** — sama varovaisuus kuin
     alkuperäisessä muistiossa: uutuusväitteet ovat hypoteeseja ennen
     systemaattista prior-art-kartoitusta.
 
@@ -282,7 +288,7 @@ nojaavat kaappaukset: Androidin laitteistopohjainen avainattestaatio ja
 Play Integrity API antavat palvelimelle todisteen siitä, että sovellus
 ajetaan muokkaamattomana aidolla, lukitulla laitteella.
 
-### I.5 Autonomiset rahtidronet ja ilmatilan sääntely
+### I.5 Ilmailu: rahtidronet, ilmatilan sääntely ja osien jäljitettävyys
 
 Autonominen rahtikuljetus droneilla on jo arkikäytössä muutamissa
 maissa. Ruanda käynnisti lokakuussa 2016 maailman ensimmäisen
@@ -305,6 +311,16 @@ U-space-kehys (täytäntöönpanoasetukset (EU) 2021/664, 2021/665 ja
 vasta osassa jäsenmaita; EASA ja komissio ovat ehdottaneet kevennettyä
 "U-space light" -mallia käyttöönoton nopeuttamiseksi.
 
+Ilmailun turvallisuus nojaa myös paperiseen todistusketjuun: jokaisen
+varaosan mukana kulkee lentokelpoisuustodistus (Authorised Release
+Certificate). Brittiläinen varaosavälittäjä AOG Technics myi vuosina
+2019–2023 yli 60 000 moottorinosaa, pääosin CFM56-moottoreihin,
+väärennetyillä todistuksilla. Petos paljastui vuonna 2023, kun lentoyhtiö
+tarkisti osan aitouden valmistajalta. Koneita asetettiin tilapäisesti
+lentokieltoon eri puolilla maailmaa, tappiot arvioitiin noin 39 miljoonaksi
+punnaksi, ja yhtiön johtaja tuomittiin neljän vuoden ja kahdeksan
+kuukauden vankeuteen.
+
 *(Lähteet kohtaan I.5: Gavi, "Rwanda launches world's first national
 drone delivery service powered by Zipline",
 [gavi.org](https://www.gavi.org/news/media-room/rwanda-launches-worlds-first-national-drone-delivery-service-powered-zipline).
@@ -319,6 +335,12 @@ widespread commercial drone operations",
 — Unmanned Airspace, "EASA, European Commission propose new 'U-space
 light'",
 [unmannedairspace.info](https://www.unmannedairspace.info/uncategorized/39180/).
+— Aerospace Global News, "AOG Technics boss jailed for 4 years in £40m
+fake aircraft parts fraud",
+[aerospaceglobalnews.com](https://aerospaceglobalnews.com/news/aog-technics-director-jailed-fake-cfm56-parts/).
+— FlightGlobal, "Fraudulent UK spares firm generated nearly £7m from
+unapproved CFM56 parts",
+[flightglobal.com](https://www.flightglobal.com/mro/2026/02/fraudulent-uk-spares-firm-generated-nearly-7m-from-unapproved-cfm56-parts/).
 — FlyingMag, "Zipline Drone Delivery Secures Latest BVLOS Approval in
 Wave of FAA Exemptions",
 [flyingmag.com](https://www.flyingmag.com/zipline-drone-delivery-secures-latest-bvlos-approval-in-wave-of-faa-exemptions/).)*
@@ -356,7 +378,82 @@ Intro and FAQ",
 Pareto, "FalconX Credit Vault As Collateral on Morpho and Gauntlet",
 [paragraph.com/@pareto](https://paragraph.com/@pareto/falconx-credit-vault-collateral-morpho-gauntlet).)*
 
-### I.7 Muut lähteet, joihin osa II nojaa
+### I.7 Protokollat ja alustat
+
+Internetin varhaiset peruspalvelut, sähköposti (SMTP) ja web (HTTP), ovat
+avoimia protokollia, joita kuka tahansa voi toteuttaa. Myöhemmin
+viestintä ja sosiaalinen media keskittyivät suljetuille alustoille. Mike
+Masnick (2019) esitti, että kehitys pitäisi kääntää: protokollat alustojen
+sijaan, jolloin palveluntarjoajat kilpailisivat saman protokollan päällä.
+Twitterin silloinen toimitusjohtaja Jack Dorsey mainitsi esseen, kun hän
+käynnisti hankkeen avoimesta sosiaalisen median standardista; hankkeesta
+kehittyi Bluesky. Vastakkaisen kannan esitti Signalin perustaja Moxie
+Marlinspike (2016): hajautetut, federoidut järjestelmät jäävät paikalleen,
+koska muutoksista on sovittava kaikkien toteuttajien kesken, ja siksi
+nopeasti kehittyvä ekosysteemi vaatii keskittämistä.
+
+Sama jännite näkyy etäpalavereissa. Microsoftin PowerPoint Live lähettää
+Teams-kokouksessa esityksen osallistujille dokumenttina eikä
+ruudunjakovideona. Microsoftin mukaan tämä vie huomattavasti vähemmän
+kaistaa kuin ruudunjako, ja osallistujat voivat esimerkiksi selata
+kalvoja itse ja nähdä ne tekstitettyinä tai käännettyinä. Ratkaisu toimii
+kuitenkin vain Microsoftin alustan sisällä.
+
+*(Lähteet kohtaan I.7: Masnick, M. (2019). Protocols, Not Platforms: A
+Technological Approach to Free Speech. Knight First Amendment Institute,
+[knightcolumbia.org](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech).
+— Marlinspike, M. (2016). Reflections: The ecosystem is moving. Signal
+blog. — Microsoft, "Share slides in Microsoft Teams meetings with
+PowerPoint Live",
+[support.microsoft.com](https://support.microsoft.com/en-us/teams/meetings/share-slides-in-microsoft-teams-meetings-with-powerpoint-live).)*
+
+### I.8 Päätöksenteko ja omistus
+
+Henry Hansmann (1996) selitti Coasen kehyksessä, miksi yritysten
+omistajina on sijoittajien lisäksi asiakkaita (osuuskunnat),
+työntekijöitä tai tuottajia. Omistus päätyy sille osapuoliryhmälle, joka
+minimoi markkinasopimisen kustannusten ja omistamisen kustannusten summan.
+Omistamisen kustannuksista keskeinen on kollektiivinen päätöksenteko:
+mitä erilaisemmat omistajien edut, sitä kalliimpaa. Siksi useamman
+osapuoliryhmän yhteisomistus on historiallisesti ollut harvinaista.
+
+Avoimissa ohjelmistoprojekteissa päätösvalta on usein sidottu
+tekemiseen. Apache Software Foundationin "Apache Way" perustuu
+ansaittuun auktoriteettiin: nykyiset committerit äänestävät uusista
+committereista, ja projektin johtoryhmä (PMC) valitsee uudet jäsenensä
+kontribuutioiden perusteella. Kontribuutioiden automaattista mittaamista
+on myös kokeiltu. SourceCred laski yhteisön jäsenille PageRank-tyyppisellä
+algoritmilla pisteet ja jakoi niiden perusteella tokeneita; sitä
+ylläpitänyt organisaatio lopetti toimintansa, mutta ohjelmisto on yhä
+avoimesti saatavilla. Optimism-kollektiivin Retroactive Public Goods
+Funding palkitsee jälkikäteen: valitut arvioijat jakavat rahoitusta
+hankkeille sen perusteella, mikä osoittautui hyödylliseksi. Perusteluna
+on, että on helpompaa sopia siitä, mikä oli hyödyllistä, kuin siitä, mikä
+tulee olemaan.
+
+Mekanismisuunnittelussa on kehitetty menetelmiä, jotka palkitsevat
+rehellisistä arvioista silloinkin, kun oikeaa vastausta ei tiedetä:
+vertaisennustemenetelmä (peer prediction; Miller, Resnick & Zeckhauser,
+2005) ja Prelecin (2004) "Bayesian Truth Serum". Neliöllisessä
+äänestyksessä (Posner & Weyl, 2018) äänten hinta kasvaa neliöllisesti,
+jolloin asiasta voimakkaasti välittävä voi painottaa kantaansa mutta ei
+voi ostaa päätöstä.
+
+*(Lähteet kohtaan I.8: Hansmann, H. (1996). The Ownership of Enterprise.
+Belknap Press of Harvard University Press. — The Apache Software
+Foundation, "Merit – The Apache Way",
+[theapacheway.com/merit](https://theapacheway.com/merit/). — SourceCred,
+"SourceCred (The Organization) Is Winding Down",
+[discourse.sourcecred.io](https://discourse.sourcecred.io/t/sourcecred-the-organization-is-winding-down/1383).
+— Optimism, "RetroPGF: Impact = Profit Framework",
+[gov.optimism.io](https://gov.optimism.io/t/retropgf-impact-profit-framework/7034).
+— Miller, N., Resnick, P. & Zeckhauser, R. (2005). Eliciting Informative
+Feedback: The Peer-Prediction Method. Management Science, 51(9),
+1359–1373. — Prelec, D. (2004). A Bayesian Truth Serum for Subjective
+Data. Science, 306(5695), 462–466. — Posner, E. A. & Weyl, E. G. (2018).
+Radical Markets. Princeton University Press.)*
+
+### I.9 Muut lähteet, joihin osa II nojaa
 
 *(Lähteet kohtaan I.4: EU:n yleinen tietosuoja-asetus (EU) 2016/679, art.
 20. — Maksupalveludirektiivi (EU) 2015/2366 (PSD2). — Asetus (EU)
@@ -872,6 +969,21 @@ poikkeuksen. Esimerkki havainnollistaa mekanismia, ei koko asteikkoa.
 > kaltaiset ohjelmoitavat tokenit (I.6) ovat tähän tarvittava
 > rakennuspalikka.
 >
+> **Esimerkki: ilmailun resurssimarkkina.** Varaosat, huoltopaikat,
+> työkalut, miehistöt sekä rahti- ja dronekapasiteetti ovat ilmailussa
+> usein olemassa mutta informaation ja luottamuksen siiloissa.
+> Huoltoslotti tai rahtikapasiteetti on juuri tason 2 tuotannollinen
+> oikeus, jonka voisi tarjota koneellisesti löydettävänä ja kaupattavana.
+> Kaupan ehto on kuitenkin luottamus osan alkuperään, ja AOG Technics
+> -tapaus (I.5) osoittaa, että paperinen todistusketju on väärennettävissä.
+> Kun todistus ja huoltohistoria attestoidaan lähteellä, aitouden voi
+> tarkistaa kysymättä jokaiselta ketjun välikädeltä erikseen, ja Neutral
+> Witness voi todentaa luvanvaraiset dokumentit paljastamatta niitä
+> jokaiselle mahdolliselle ostajalle. Pitkän aikavälin visio on
+> reaaliaikainen kapasiteettimarkkina, ei pelkkä uusi listausportaali.
+> Raja on sama kuin muussakin attestaatiossa: se todistaa, kuka väitteen
+> esitti, ei sitä, että fyysinen osa vastaa väitettä.
+>
 > **Periaatteessa kaikki voi olla tokenisoitavissa.** Mikä tahansa
 > oikeus, joka voidaan määritellä, voidaan esittää tokenina. Token on
 > kuitenkin vain niin hyvä kuin sen kytkös todelliseen oikeuteen: talon
@@ -904,7 +1016,104 @@ poikkeuksen. Esimerkki havainnollistaa mekanismia, ei koko asteikkoa.
 > jonka liikkeeseenlaskija voi lyödä tai jäädyttää, on rakenteeltaan
 > lähempänä yrityksen sisäistä kirjanpitoa kuin commonsia.
 
-### II.7 Johtopäätökset (kirjoittajan oma näkemys -laatikko)
+### II.7 Protokollat alustojen tilalle
+
+> **Kirjoittajan näkemys.** Alusta on yritys, protokolla on commons.
+> Alustalla koordinointi tapahtuu yhden omistajan sisällä, protokollassa
+> yhteisten sääntöjen varassa, joita kuka tahansa voi toteuttaa.
+> Protokollat hävisivät alustoille kahdesta syystä (I.7): niistä on
+> vaikea ansaita, ja ne kehittyvät hitaasti, koska muutoksista on
+> sovittava. Kirjoittajan väite on, että molemmat esteet ovat
+> madaltumassa:
+>
+> - **Mikromaksut** tekevät protokollan käytöstä ansaittavaa ilman, että
+>   sen ympärille tarvitaan yritystä tai tilausmallia.
+> - **Koodauksen halpeneminen** tekee toteutuksista ja päivityksistä
+>   halpoja. Kun sovittimet yhteensopimattomien formaattien välille ovat
+>   lähes ilmaisia, yhteensopivuus ei enää välttämättä vaadi komiteassa
+>   sovittua yhteistä standardia.
+> - **Päällekkäinen työ vähenee**, kun jokaisen organisaation ei tarvitse
+>   rakentaa samaa uudelleen, ja **byrokratia** voi siirtyä lomakkeista
+>   koneellisesti käsiteltäviin protokolliin.
+>
+> Tästä seuraa, että periaatteessa mikä tahansa toistuva koordinaatio
+> voidaan muuttaa protokollaksi.
+>
+> **Esimerkki: kokousprotokolla.** Nykyinen ruudunjako muuttaa kalvot,
+> taulukot ja dokumentit videoksi, vaikka ne ovat valmiiksi koneellisesti
+> ymmärrettäviä. Protokollamalli lähettäisi ensin merkityksen ja pikselit
+> vain tarvittaessa: itse dokumentin sekä tapahtumavirran siitä, kuka
+> puhuu, mikä kalvo tai kaavion kohta on esillä ja mitä päätetään. Idea on
+> jo olemassa suljetun alustan sisällä (PowerPoint Live, I.7), mutta ei
+> avoimena, yhteisenä kerroksena — juuri tämä on alustan ja protokollan
+> ero. Avoimena kerroksena kokouksesta tulisi rakenteinen tapahtuma:
+> tekoälyagentit voisivat osallistua suoraan tapahtumavirtaan, ja
+> päätöksen voisi jäljittää siihen tietoon, jonka osallistujat sillä
+> hetkellä näkivät. Samalla periaatteella voisi välittää myös eleet
+> rakenteisena tietona videon sijaan; tunteiden päätteleminen niistä on
+> kuitenkin työpaikoilla EU:n tekoälyasetuksella kiellettyä (art.
+> 5(1)(f)), joten raja on vedettävä tarkasti.
+>
+> **Raja.** Verkostovaikutus suosii edelleen suuria: protokolla voittaa
+> vain, jos siihen liittyminen on halvempaa kuin alustalla pysyminen.
+> Blueskyn kaltaiset avoimet sosiaalisen median verkot ovat tästä
+> ajankohtaisia koetapauksia.
+
+### II.8 Päätöksenteko: kuka saa äänen
+
+> **Kirjoittajan näkemys.** Vaihtokyvyn rinnalla toinen vallan mittari on
+> vaikutusmahdollisuus yhteisiin sääntöihin (*voice*, II.1). Avoimen
+> projektin päätöksentekomallit säätävät lopulta äänivaltaa
+> osapuoliryhmien välillä: kehittäjät, pääoma ja käyttäjät — sekä ryhmät,
+> jotka helposti unohtuvat: ulkopuoliset, joihin päätökset vaikuttavat,
+> tulevat käyttäjät, infrastruktuurin tarjoajat, muut kuin koodia
+> tuottavat työntekijät sekä ihmisten puolesta toimivat tekoälyagentit.
+>
+> **Hansmannin kustannus halpenee.** Useamman osapuoliryhmän
+> yhteisomistus on ollut harvinaista, koska erilaisten etujen
+> yhteensovittaminen on kallista (I.8). Juuri tätä kustannusta uudet
+> välineet alentavat: äänestys, laskenta ja tuloksen toimeenpano voivat
+> tapahtua automaattisesti, ja tekoäly voi tiivistää pitkän keskustelun
+> näyttämään, missä ollaan samaa ja missä eri mieltä. Jos kustannus
+> laskee, monen osapuolen omistus tulee mahdolliseksi — Hansmannin teoria
+> uudella kustannustasolla.
+>
+> **Äänivalta päätöstyypeittäin.** Säätö ei ole yksi liukusäädin vaan
+> taulukko: kehittäjät painavat teknisissä päätöksissä, käyttäjät
+> arvovalinnoissa, pääoma taloudessa ja ulkopuoliset
+> ulkoisvaikutuksissa. Kun ryhmät eivät kilpaile samoista päätöksistä,
+> moni ristiriita katoaa.
+>
+> **Kontribuution mittaaminen.** Päätösvallan sitominen tekemiseen on
+> järkevää ja yleistä (Apache, I.8), mutta pelkkä määrä on huono mittari:
+> sitä pelataan pilkkomalla työtä, tekoäly inflatoi sen, eikä kaikki
+> arvokas työ näy laskurissa. Teknisesti voidaan todistaa, kuka teki
+> muutoksen, mutta ei sitä, kuinka arvokas se oli — sama raja kuin
+> "todentaminen ei ole totuus". Kolmea signaalia yhdessä on vaikeampi
+> pelata kuin yhtäkään erikseen:
+>
+> | Signaali | Vahvuus | Heikkous |
+> |---|---|---|
+> | Kontribuutioiden määrä | halpa ja objektiivinen | helppo pelata, tekoäly inflatoi |
+> | Vertaisarvio | tavoittaa laadun | klikit, suljettu kerho |
+> | Jälkikäteinen vaikutus | vaikea pelata etukäteen | hidas |
+>
+> Painoarvon kannattaa myös vanhentua ajan myötä, jotta varhaiset
+> osallistujat eivät linnoittaudu. Vertaisarvioiden rehellisyyttä voidaan
+> tukea peer prediction -tyyppisillä mekanismeilla (I.8) — sama ajatus kuin
+> Neutral Witnessin rehellisen datan mekanismisuunnittelussa (II.2).
+>
+> **Identiteetti on edellytys.** Henkilö ja ääni -periaate ja neliöllinen
+> äänestys toimivat vain, jos yksi ihminen ei voi äänestää sadalla
+> tunnuksella. Todennettu identiteetti (I.4) on siksi uusien
+> päätöksentekotapojen edellytys, ei sivuseikka.
+>
+> **Raja.** Päätöksenteon voi nykyään järjestää hyvin monella tavalla,
+> mutta sitä, että uudet tavat toimivat hyvin, ei ole vielä osoitettu.
+> Tokeneilla äänestettäessä eniten omistava päättää, ja osallistuminen jää
+> usein vähäiseksi.
+
+### II.9 Johtopäätökset (kirjoittajan oma näkemys -laatikko)
 
 Merkitään kokonaan kirjoittajan omaksi, kärjistetyksi johtopäätökseksi
 (ei vakiintuneeksi teoriaksi eikä varovaiseksi hypoteesiksi H1...Hn-
@@ -920,7 +1129,7 @@ listan tapaan) — tämä on postauksen kärki, ei liite:
 >    ongelma, sama teknologinen isku — transaktio-, verifiointi- ja
 >    valvontakustannusten romahdus — ratkaisee molemmat yhdellä kertaa,
 >    ei kahta erillistä kehityskulkua. Tämä on koko postauksen kattoteesi,
->    johon kohdat 1–6 ovat sen ilmentymiä eri talouden osa-alueilla.
+>    johon kohdat 1–7 ovat sen ilmentymiä eri talouden osa-alueilla.
 > 1. **Vaihtokyky kasvaa, ja yritykset voivat pienentyä** — halpa
 >    todentaminen voi helpottaa kumppanin vaihtamista ja vähentää
 >    tarvetta koota toimintaa saman yrityksen sisään; lisäksi työvoima
@@ -951,8 +1160,13 @@ listan tapaan) — tämä on postauksen kärki, ei liite:
 >    seuraamuksen ilman tuomioistuinta. Tämä ulottuu täysin natiivisti
 >    digitaalisiin oikeuksiin ja fyysisiin vain lain tunnustuksen kautta
 >    (II.6).
+> 7. **Alustat väistyvät protokollien tieltä siellä, missä liittyminen on
+>    halvempaa kuin pysyminen** — mikromaksut ja koodauksen halpeneminen
+>    poistavat protokollien kaksi historiallista heikkoutta, ja uudet
+>    päätöksentekomekanismit tekevät monen osapuolen hallinnasta
+>    mahdollista (II.7–II.8).
 
-Näiden seitsemän väitteen tulee näkyä postauksessa selvästi kirjoittajan
+Näiden kahdeksan väitteen tulee näkyä postauksessa selvästi kirjoittajan
 omana kantana — ei esitetä "todistettuna" tai vakiintuneena tuloksena,
 vaan samalla tavalla merkittynä kuin Neutral Witness-kappale. Kohta 0 on
 tärkein: se on se lause, joka sitoo koko postauksen (Coase-osio,
