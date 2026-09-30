@@ -45,9 +45,11 @@ koneellisen välikerroksen, joka mahdollistaa toimintakykyisen luottamuksen
 syntymisen osapuolten välille ilman että kenenkään tarvitsee paljastaa
 salaista tietoaan toisilleen — yhtenä konkreettisena ehdotuksena siitä,
 miten näitä kustannuksia käytännössä alennetaan. Ydinhypoteesi ei ole enää
-tutkimaton alue: se kytkeytyy suoraan tuoreeseen "Coasean singularity"
--kirjallisuuteen (NBER 2025), mutta laajentaa sen yritysten rajoista
-commonsin hallintaan asti.
+tutkimaton alue: yrityksen ja commonsin yhteys Coasen kehyksessä on jo
+Benklerin (2002) *Coase's Penguin* -artikkelin aihe, ja tekoälyagenttien
+vaikutusta markkinoihin käsittelee tuore "Coasean singularity"
+-kirjallisuus (NBER). Postauksen oma lisä on näiden yhdistäminen
+nykyiseen, useamman teknologian yhtäaikaiseen kustannusten laskuun.
 
 Postaus on jaettu kahteen osaan: **osa I** kokoaa aiemman tutkimuksen
 (mitä muut ovat jo sanoneet), **osa II** esittää kirjoittajan omat
@@ -110,7 +112,7 @@ varauksena:
    onnistuvat tai epäonnistuvat: boundaries, monitoring, sanktiot, halpa
    konfliktinratkaisu.
 3. **COW-malli**: Coase, Ostrom ja Williamson samassa kehyksessä (Araral 2013;
-   Aligica & Tarko 2014) — commonsin toimivuus riippuu oikeuksien määrittelyn,
+   Aligica 2014) — commonsin toimivuus riippuu oikeuksien määrittelyn,
    valvonnan, kannustimien ja toimeenpanon kustannuksista.
 4. **Olemassa oleva blockchain × commons -kirjallisuus** — mitä on jo tehty
    (Frontiers 2021/2025, Ostrom Project, "crypto commons", grass-roots-paperi)
@@ -181,14 +183,24 @@ kontekstiin sovitettu monitorointi, asteittaiset sanktiot ja halpa
 konfliktinratkaisu.
 
 Näitä kahta tutkimusperinnettä ei ole tarpeen keksiä yhdistettäväksi
-tyhjästä — se on jo tehty. Paul Dragos Aligica on yhdessä Vlad Tarkon
-kanssa rakentanut "institutionaalisen diversiteetin" teoriaa, joka
+tyhjästä — se on jo tehty. Paul Dragos Aligica on rakentanut
+"institutionaalisen diversiteetin" teoriaa, joka
 asettaa Coasen, Ostromin ja Williamsonin saman analyyttisen kehyksen
 sisään (Aligica, *Institutional Diversity and Political Economy: The
 Ostroms and Beyond*, Oxford University Press, 2014). Yhteinen havainto
 on, että sekä yrityksen raja että toimivan commonsin raja määräytyvät
 lopulta samasta asiasta: kuinka kalliita oikeuksien määrittely, valvonta,
 kannustimet ja toimeenpano ovat kussakin tapauksessa.
+
+Yochai Benkler (2002) rakensi saman sillan digitaaliseen talouteen jo
+kaksi vuosikymmentä sitten. *Coase's Penguin* -artikkelissa hän esitti
+yritysten ja markkinoiden rinnalle kolmannen tuotantotavan,
+commons-pohjaisen vertaistuotannon (esimerkkinä Linux), ja selitti sen
+Coasen kehyksellä: kun viestinnän kustannukset laskevat ja työ voidaan
+pilkkoa moduuleiksi, osallistujien yhteistyö voi olla tehokkaampaa kuin
+yrityksen hierarkia tai markkinasopimukset. Benklerin vertaistuotanto ei
+perustu hintoihin, joten sitä ei pidä samaistaa agenttien väliseen
+kaupankäyntiin.
 
 Eduardo Araral sovelsi samaa Coase–Ostrom–Williamson-yhdistelmää
 empiirisesti Filippiinien noin 400 vuotta vanhoihin
@@ -204,35 +216,48 @@ tai kollektiivisesti.
 ### I.2 AI-agentit ja transaktiokustannukset: tuore kirjallisuus
 
 Tuoreempi kirjallisuus on alkanut kysyä, mitä tapahtuu kun AI-agentit
-alentavat näitä kustannuksia rajusti. MIT:n, Harvardin ja Boston
-Universityn tutkijoiden NBER-paperi kysyy suoraan, romahduttaako
-agenttien mahdollistama lähes-ilmainen markkinakoordinointi perinteisen
-yrityksen tarpeen — käsite "Coasean singularity" ("The Coasean
-Singularity? Demand, Supply, and Market Design with AI Agents", NBER,
-2025). Rinnakkaisessa, toisessa kirjallisuushaarassa Ostromin
+alentavat näitä kustannuksia rajusti. Shahidi, Rusak, Manning, Fradkin
+ja Horton käsittelevät NBER-luvussaan "The Coasean Singularity? Demand,
+Supply, and Market Design with AI Agents" sitä, miten kuluttajien
+agentit muuttavat markkinoita, yritysten valintoja ja markkinasuunnittelua.
+Agentit voivat alentaa transaktiokustannuksia, mutta ne voivat myös
+lisätä ruuhkaa ja hintojen hämärtämistä, ja hyvinvointivaikutus jää
+empiiriseksi kysymykseksi. Luku on ilmestynyt NBER:n työpajaversiona
+vuonna 2025 ja myöhemmin teosversiona. Rinnakkaisessa, toisessa kirjallisuushaarassa Ostromin
 periaatteita on alettu soveltaa suoraan agenttipohjaiseen
 commons-hallintaan: "Kami of the Commons: Towards Designing Agentic AI
 to Steward the Commons" (arXiv 2602.14940) kuvaa spekulatiivisen
 suunnittelun kautta AI-"stewardeja", jotka toteuttavat Ostromin
-graduated sanctions- ja mutual monitoring -periaatteita, ja "Ostrom
+graduated sanctions- ja mutual monitoring -periaatteita, ja käsittelee
+myös poistumisoikeutta sekä sitä, miten itse hallintaa suorittavaa
+agenttia hallitaan. "Ostrom
 Amongst the Machines: Blockchain as a Knowledge Commons" (Bodon,
 Bustamante ym., Pitt Law) käsittelee blockchainia knowledge commonsina
 nimenomaan Ostromin kehyksessä. Empiirisemmältä suunnalta Liya
-Palagashvili (Mercatus Center, GMU) on osoittanut Coase-pohjaisella
-analyysillä ja kahdella riippumattomalla yhdysvaltalaisella aineistolla,
-että solo-tyyppiset yritysperustamiset kasvavat nopeimmin juuri
-AI-altistuneilla toimialoilla — konkreettinen tuki sille, että
-transaktiokustannusten aleneminen todella siirtää tuotantoa pois
-perinteisen yrityksen sisältä ("AI, Transaction Costs, and a Quiet Shift
-Toward Self-Employment").
+Palagashvili (Mercatus Center, GMU) on kuvannut Coase-pohjaisessa
+tutkimuksessaan, että yhden hengen yrityksiksi arvioitujen
+perustamishakemusten määrä on kasvanut nopeimmin AI-altistuneilla
+toimialoilla ("AI, Transaction Costs, and a Quiet Shift Toward
+Self-Employment"). Tekijä itse kutsuu tulosta alustavaksi ja
+kuvailevaksi: hakemukset eivät suoraan mittaa syntyneitä yrityksiä, eikä
+aineisto osoita syy-yhteyttä. Tulos on siis signaali, ei näyttö siitä,
+että transaktiokustannusten aleneminen siirtää tuotantoa pois
+yrityksistä.
 
 ### I.3 Aukko: kaksi kirjallisuushaaraa, jotka eivät kohtaa
 
-Nämä kaksi kirjallisuushaaraa — "AI-agentit romahduttavat yrityksen
-rajan" ja "AI/blockchain voi toteuttaa Ostromin periaatteita" — eivät
-kuitenkaan vielä kohtaa toisiaan. Kumpikaan ei sano suoraan, että
-molemmat ovat pohjimmiltaan sama ilmiö kahdesta eri suunnasta
-katsottuna. Tähän aukkoon osa II vastaa.
+Aukko on kapeampi kuin ensi silmäyksellä näyttää. Benkler (2002) on jo
+selittänyt commonsin ja yrityksen rinnakkaiselon samalla Coasen
+kustannuskehyksellä, Rozas ym. (2021) ovat käsitelleet Ostromin
+periaatteiden toteuttamista lohkoketjulla tokenisaatio ja sääntöjen
+automatisointi mukaan lukien, ja *Kami of the Commons* käsittelee
+poistumisoikeutta. Sen sijaan kaksi tuoretta kirjallisuushaaraa —
+"AI-agentit muuttavat yrityksen rajaa" ja "AI/blockchain voi toteuttaa
+Ostromin periaatteita" — eivät vielä juuri viittaa toisiinsa. Osa II
+yrittää yhdistää ne: sama nykyinen kustannusten lasku (agentit,
+attestaatio, tokenisaatio) tarkasteltuna sekä yrityksen rajan että
+commonsin hallinnan kannalta. Tämä on rajattu synteesi, ei väite
+tutkimattomasta alueesta.
 
 *(Lähteet osa I:een: Coase, R. H. (1937). The Nature of the Firm.
 Economica, 4(16), 386–405. — Araral, E. (2013). A transaction cost
@@ -240,9 +265,16 @@ approach to climate adaptation: Insights from Coase, Ostrom and
 Williamson and evidence from the 400-year old zangjeras. Environmental
 Science & Policy, 25, 147–156. — Rayamajhee, V. & Paniagua, P. (2026).
 The anatomy of externalities. Cambridge Journal of Economics,
-[doi:10.1093/cje/beag003](https://doi.org/10.1093/cje/beag003). — Aligica, P. D. & Tarko, V. Institutional
+[doi:10.1093/cje/beag003](https://doi.org/10.1093/cje/beag003). — Aligica, P. D. (2014). Institutional
 Diversity and Political Economy: The Ostroms and Beyond. Oxford
-University Press, 2014. — "The Coasean Singularity? Demand, Supply, and
+University Press. — Benkler, Y. (2002). Coase's Penguin, or, Linux and
+The Nature of the Firm. Yale Law Journal, 112(3), 369–446,
+[benkler.org](https://www.benkler.org/CoasesPenguin.html). — Rozas, D.,
+Tenorio-Fornés, A., Díaz-Molina, S. & Hassan, S. (2021). When Ostrom
+Meets Blockchain: Exploring the Potentials of Blockchain for Commons
+Governance. SAGE Open, 11(1),
+[doi:10.1177/21582440211002526](https://doi.org/10.1177/21582440211002526). — Shahidi, P., Rusak, G.,
+Manning, B. S., Fradkin, A. & Horton, J. J. "The Coasean Singularity? Demand, Supply, and
 Market Design with AI Agents", NBER, 2025,
 [nber.org/system/files/chapters/c15309/c15309.pdf](https://www.nber.org/system/files/chapters/c15309/c15309.pdf).
 — "Kami of the Commons: Towards Designing Agentic AI to Steward the
@@ -303,9 +335,11 @@ Global Healthissa julkaistu tutkimus on arvioinut Ruandan
 veritoimitusten vaikutuksia.
 
 EU:ssa droneilla tapahtuva näköyhteyden ulkopuolinen lentäminen (BVLOS)
-kuuluu EASA:n "specific"-luokkaan, jossa jokainen operaatio vaatii
-riskiarvion (SORA) ja luvan, ellei se mahdu valmiiseen
-standardiskenaarioon. Miehittämättömän ilmaliikenteen hallinnan
+kuuluu EASA:n "specific"-luokkaan. Siinä operaattori tarvitsee joko
+ilmoituksen valmiin standardiskenaarion (STS) mukaisesti, luvan
+riskiarvion (SORA tai valmis PDRA-arvio) perusteella tai laajemman
+operaattorisertifikaatin (LUC), joka antaa oikeuden hyväksyä omia
+operaatioitaan. Miehittämättömän ilmaliikenteen hallinnan
 U-space-kehys (täytäntöönpanoasetukset (EU) 2021/664, 2021/665 ja
 2021/666) tuli voimaan 26.1.2023, mutta U-space-alueita on käytössä
 vasta osassa jäsenmaita; EASA ja komissio ovat ehdottaneet kevennettyä
@@ -376,7 +410,9 @@ Intro and FAQ",
 [docs.chia.net/guides/cat2-intro](https://docs.chia.net/guides/cat2-intro/).
 — Pareto Docs, [docs.pareto.credit](https://docs.pareto.credit/). —
 Pareto, "FalconX Credit Vault As Collateral on Morpho and Gauntlet",
-[paragraph.com/@pareto](https://paragraph.com/@pareto/falconx-credit-vault-collateral-morpho-gauntlet).)*
+[paragraph.com/@pareto](https://paragraph.com/@pareto/falconx-credit-vault-collateral-morpho-gauntlet).
+— BIS (2023). The tokenisation continuum. BIS Bulletin 72,
+[bis.org](https://www.bis.org/publications/bulletin-72-tokenisation-continuum).)*
 
 ### I.7 Protokollat ja alustat
 
@@ -674,10 +710,10 @@ sopimukset) laskee ulkoisen koordinoinnin kustannusta: sama ihminen voi
 agenttien avulla ostaa ulkoa työn, kapasiteetin, datan tai logistiikan
 tarpeen mukaan sen sijaan, että palkkaisi kaiken pysyvästi — "yksi
 ihminen + N AI-agenttia + avoimet protokollamarkkinat" korvaa joissakin
-tehtävissä vanhan portaan "yksi ihminen → tiimi → osasto → yritys". Tämä
-on täsmälleen se mekanismi, joka on jo käynnissä empiirisesti: ks. osan I
-kohdassa I.2 mainittu Palagashvilin havainto solo-yritysperustamisten
-kasvusta AI-altistuneilla toimialoilla.
+tehtävissä vanhan portaan "yksi ihminen → tiimi → osasto → yritys".
+Ensimmäisiä signaaleja tästä on jo nähtävissä (Palagashvilin kuvaileva
+havainto yhden hengen yritysten perustamishakemuksista, I.2), mutta
+syy-yhteyttä ei ole vielä osoitettu.
 
 Digitaalisen koordinoinnin halpeneminen ei yksin riitä fyysisessä
 taloudessa: kun sopimukset, maksut ja todentaminen hoituvat agenttien
@@ -870,18 +906,20 @@ esimerkki siitä, että kilpailuedun ratkaisee lupa eikä tekniikka.
 Ruanda (2016) ja Ghana (2019) ottivat droneilla tehtävät
 lääketoimitukset kansalliseen käyttöön vuosia ennen rikkaita maita:
 Yhdysvalloissa Zipline sai ilmailuviranomaisen (FAA) Part 135
--lentotoimintaluvan näköyhteyden ulkopuolisiin toimituksiin vasta
-kesäkuussa 2022, ja FAA myönsi ensimmäisen kaupallisen BVLOS-luvan
-elokuussa 2023; Lontoossa NHS:n sairaaloiden väliset drone-toimitukset
-alkoivat huhtikuussa 2026 (I.5). Tekninen kyvykkyys oli
+-lentotoimintasertifikaatin kesäkuussa 2022 ja erillisen luvan
+kaupallisiin toimituksiin näköyhteyden ulkopuolelle syyskuussa 2023;
+Lontoossa NHS ilmoitti sairaaloiden välisten näytekuljetusten
+drone-kokeilusta syyskuussa 2024 (I.5). Tekninen kyvykkyys oli
 samaa — Zipline on kalifornialainen yritys — mutta ero syntyi siitä,
 kuinka nopeasti ilmatila ja toimintaluvat saatiin järjestettyä. EU:ssa
-sama tekniikka törmää osatekijään 2 (BVLOS-lento vaatii
-tapauskohtaisen riskiarvion ja luvan) ja osatekijään 3 (U-space-kehys on
-voimassa, mutta sen käyttöönotto etenee jäsenmaa kerrallaan). Ruanda ja
-Ghana eivät kuitenkaan ole asteikon pisteitä 3 tai 4 sellaisenaan: ne
-ovat toimivia valtioita, jotka tekivät kapean, tarkoin rajatun
-poikkeuksen. Esimerkki havainnollistaa mekanismia, ei koko asteikkoa.
+sama tekniikka törmää osatekijään 2 (BVLOS-lento vaatii ilmoituksen,
+luvan tai sertifikaatin) ja osatekijään 3 (U-space-kehys on voimassa,
+mutta sen käyttöönotto etenee jäsenmaa kerrallaan). Ruanda ja Ghana
+eivät kuitenkaan ole asteikon pisteitä 3 tai 4 sellaisenaan: ne ovat
+toimivia valtioita, jotka tekivät kapean, tarkoin rajatun poikkeuksen.
+Aloituspäivien ero ei myöskään eristä sääntelyn vaikutusta: myös
+reitit, kuljetustarve, kalusto ja hyväksytty riskitaso eroavat maiden
+välillä. Esimerkki havainnollistaa mekanismia, ei todista sitä.
 
 - **Aikaväli: ehdotus 10 vuotta (2026 → 2036).** Riittävän lyhyt
   tuntuakseen ajankohtaiselta ja konkreettiselta, mutta riittävän pitkä
@@ -988,10 +1026,16 @@ poikkeuksen. Esimerkki havainnollistaa mekanismia, ei koko asteikkoa.
 > oikeus, joka voidaan määritellä, voidaan esittää tokenina. Token on
 > kuitenkin vain niin hyvä kuin sen kytkös todelliseen oikeuteen: talon
 > token ei häädä asukasta, jos tuomioistuin ei tunnusta sitä. Tämä on
-> sama raja kuin "todentaminen ei ole totuus" (II.1). Tokenisaatio
-> toimii siksi täysin natiivisti vain digitaalisille oikeuksille —
-> laskenta, data, lisenssit, ohjelmistot — ja fyysisille oikeuksille
-> vain siinä määrin kuin laki tunnustaa tokenin.
+> sama raja kuin "todentaminen ei ole totuus" (II.1). Raja ei
+> kuitenkaan kulje digitaalisen ja fyysisen välillä vaan tosiasiallisessa
+> hallinnassa: token toimii itsestään vain, jos protokolla itse hallitsee
+> resurssia, johon oikeus kohdistuu. Tokenisoitu laskentaoikeuskin
+> riippuu palveluntarjoajasta, joka voi jättää sen toteuttamatta, ja
+> fyysinen oikeus toimii vain siinä määrin kuin laki tunnustaa tokenin.
+> Tokenisaatio ei myöskään poista luotto-, säilytys- tai hallintoriskiä
+> (BIS 2023), ja maksujen automatisointi onnistuu usein myös
+> tavallisella tietokannalla tai sulkutilillä. Lohkoketjun tarve on
+> osoitettava kussakin käyttötapauksessa erikseen.
 >
 > **Kytkentä toimeenpanon rajaan.** II.1:n mukaan toimeenpano halpenee
 > lähinnä silloin, kun arvo on järjestelmän sisällä. Tokenisaatio on
@@ -1157,9 +1201,9 @@ listan tapaan) — tämä on postauksen kärki, ei liite:
 >    organisaatio ei enää pysty lukitsemaan asiakasta datalla (II.5).
 > 6. **Toimeenpano halpenee siltä osin kuin oikeudet tokenisoidaan** —
 >    kun arvo on järjestelmän sisällä tokenina, rikkomus voi laukaista
->    seuraamuksen ilman tuomioistuinta. Tämä ulottuu täysin natiivisti
->    digitaalisiin oikeuksiin ja fyysisiin vain lain tunnustuksen kautta
->    (II.6).
+>    seuraamuksen ilman tuomioistuinta. Tämä ulottuu vain niin pitkälle
+>    kuin protokolla tosiasiallisesti hallitsee resurssia; muualla
+>    tarvitaan edelleen palveluntarjoajan tai lain tuki (II.6).
 > 7. **Alustat väistyvät protokollien tieltä siellä, missä liittyminen on
 >    halvempaa kuin pysyminen** — mikromaksut ja koodauksen halpeneminen
 >    poistavat protokollien kaksi historiallista heikkoutta, ja uudet
@@ -1192,7 +1236,7 @@ argumentiksi eikä listaksi erillisiä havaintoja.
   (ks. `_material/prior-art-haku.md`) — mikä on tässä muistiossa uutta
   niihin nähden?
 - ~~Osa I / osa II -raja: jäsennyksen kohta 3 viittaa "Ararilin 2013"
-  -synteesiin, mutta osa I nojaa Aligica & Tarko (2014) -teokseen.~~
+  -synteesiin, mutta osa I nojaa Aligican (2014) teokseen.~~
   Ratkaistu: "Araril" = Eduardo Araral (2013), molemmat nyt osassa I.
 - Rayamajhee & Paniagua (2026) luettava kokonaan: tiivistelmän perusteella
   se yhdistää Coasen ja Ostromin ulkoisvaikutusten hallintaan, mutta ei
