@@ -15,6 +15,7 @@ show_excerpts: true
 
 header_pages:
   - about.md
+  - en/index.md
 
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
@@ -25,3 +26,27 @@ exclude:
   - vendor
   - .jekyll-cache
   - README.md
+
+# Kieliversiot: suomi on oletus (_posts/), englanti en/_posts/-kansiossa.
+# Saman postauksen kieliversiot yhdistetään yhteisellä `ref`-arvolla.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post-lang
+      lang: fi
+  - scope:
+      path: "en"
+    values:
+      lang: en
+  - scope:
+      path: "en"
+      type: posts
+    values:
+      lang: en
+      permalink: /en/:year/:month/:day/:title/
+
+feed:
+  categories:
+    - en

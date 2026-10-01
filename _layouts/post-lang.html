@@ -1,0 +1,17 @@
+---
+layout: post
+---
+{%- assign current_lang = page.lang -%}
+{%- if page.ref -%}
+  {%- assign translation = site.posts | where: "ref", page.ref | where_exp: "p", "p.lang != current_lang" | first -%}
+{%- endif -%}
+{%- if translation -%}
+<p class="lang-switch"><em>
+  {%- if page.lang == "en" -%}
+    <a href="{{ translation.url | relative_url }}">Lue suomeksi →</a>
+  {%- else -%}
+    <a href="{{ translation.url | relative_url }}">Read in English →</a>
+  {%- endif -%}
+</em></p>
+{%- endif -%}
+{{ content }}

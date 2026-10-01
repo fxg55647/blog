@@ -4,7 +4,9 @@ Jekyll-pohjainen blogi, joka julkaistaan GitHub Pagesilla `.github/workflows/pag
 
 ## Rakenne
 
-- `_posts/` — julkaistut postaukset (tyhjä toistaiseksi)
+- `_posts/` — julkaistut postaukset suomeksi
+- `en/_posts/` — samat postaukset englanniksi (osoitteet alkavat `/en/`). Kieliversiot
+  linkittyvät toisiinsa, kun niillä on sama `ref`-arvo front matterissa
 - `_drafts/` — kesken olevat postaukset, joita Jekyll ei koskaan sisällytä normaaliin buildiin
 - `_material/` — taustamateriaali ja tutkimusmuistiinpanot postauksia varten, ei koskaan julkaistavaa sisältöä (alaviivalla alkava kansio, Jekyll ohittaa sen automaattisesti)
 

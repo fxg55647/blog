@@ -1,0 +1,41 @@
+---
+layout: default
+---
+{%- assign current_lang = page.lang | default: "fi" -%}
+{%- assign posts = site.posts | where: "lang", current_lang -%}
+<div class="home">
+  {%- if page.heading -%}
+    <h1 class="page-heading">{{ page.heading }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if posts.size > 0 -%}
+    {%- if current_lang == "en" -%}
+      {%- assign date_format = "%b %-d, %Y" -%}
+      {%- assign list_title = "Posts" -%}
+      {%- assign feed_url = "/feed/en.xml" -%}
+      {%- assign feed_text = "Subscribe via RSS" -%}
+    {%- else -%}
+      {%- assign date_format = "%-d.%-m.%Y" -%}
+      {%- assign list_title = "Postaukset" -%}
+      {%- assign feed_url = "/feed.xml" -%}
+      {%- assign feed_text = "Tilaa RSS-syöte" -%}
+    {%- endif -%}
+    <h2 class="post-list-heading">{{ list_title }}</h2>
+    <ul class="post-list">
+      {%- for post in posts -%}
+      <li>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+    <p class="rss-subscribe"><a href="{{ feed_url | relative_url }}">{{ feed_text }}</a></p>
+  {%- endif -%}
+</div>
