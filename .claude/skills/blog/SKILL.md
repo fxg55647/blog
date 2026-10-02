@@ -1,6 +1,6 @@
 ---
-name: uusi-postaus
-description: Tekee käyttäjän muistiinpanoista valmiin blogipostauksen ja julkaisee sen suoraan main-haaraan ilman erillistä hyväksyntää. Käytä kun käyttäjä antaa muistiinpanoja ja pyytää niistä postausta, tai kutsuu /uusi-postaus.
+name: blog
+description: Tekee käyttäjän muistiinpanoista valmiin blogipostauksen ja julkaisee sen suoraan main-haaraan ilman erillistä hyväksyntää. Käytä kun käyttäjä antaa muistiinpanoja ja pyytää niistä postausta, tai kutsuu /blog.
 ---
 
 # Uusi postaus muistiinpanoista
