@@ -33,6 +33,20 @@ Jokaisessa postauksessa on aina nämä neljä osaa tässä järjestyksessä:
 3. **`## Uutuusarvo`** — vähintään yksi kappale (ks. vaihe 3a).
 4. **`## Teoreettinen arvo`** — vähintään yksi kappale (ks. vaihe 3b).
 
+Pituudesta:
+
+- **Oletus: noin 800–1500 sanaa** (suomenkielinen versio, kaikki osat mukaan lukien).
+- **Alaspäin joustetaan aina, kun materiaalia on vähän.** Pituus seuraa sitä,
+  mitä muistiinpanoissa ja haussa oikeasti on. Älä täytä tekstiä toistolla,
+  yleisellä taustalla tai keksityillä esimerkeillä. Lyhyestä muistiinpanosta
+  voi tulla 300–500 sanan postaus. Pakolliset osat ovat silloinkin mukana,
+  mutta ne voivat olla lyhyitä (esim. uutuusarvo yksi kappale).
+- **Ylöspäin vain käyttäjän pyynnöstä.** Jos muistiinpanoissa lukee esim.
+  "pitkä", "laaja", "syvällinen" tai sanamäärä, noudata sitä. Silloin
+  uutuushaku ja arvoarvio tehdään myös perusteellisemmin.
+- Jos käyttäjä pyytää "lyhyt", pysy alle 600 sanan.
+- Englanninkielinen versio on sisällöltään sama, joten pituuskin on suunnilleen sama.
+
 Tiivistelmästä:
 
 - Postaus alkaa aina tiivistelmällä, joka on **mahdollisimman kansantajuinen**,
@@ -132,6 +146,8 @@ Julkaise vain, jos **kaikki** pätevät:
 - [ ] Teksti ei sisällä salasanoja, API-avaimia, puhelinnumeroita, osoitteita,
       sähköposteja eikä yksityishenkilöiden nimiä tai tietoja, ellei
       muistiinpanoista käy selvästi ilmi että ne on tarkoitettu julkaistaviksi.
+- [ ] Pituus on oletushaarukassa tai käyttäjän pyytämä, ja jos se on lyhyempi,
+      syy on materiaalin vähyys. Tekstissä ei ole täytettä.
 - [ ] Postaus alkaa kansantajuisella tiivistelmäkappaleella, ja väliotsikoita
       on 2–4 kappaleen välein.
 - [ ] Suomenkielisessä on esittely sekä osiot `## Uutuusarvo` ja
