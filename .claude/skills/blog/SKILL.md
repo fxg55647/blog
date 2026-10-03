@@ -153,6 +153,7 @@ Julkaise vain, jos **kaikki** pätevät:
 - [ ] Suomenkielisessä on esittely sekä osiot `## Uutuusarvo` ja
       `## Teoreettinen arvo` (englanninkielisessä `## Novelty` ja
       `## Theoretical value`), ja arvo-osiossa on vertailukohta, oletukset ja haarukka.
+- [ ] Molemmissa on `description`, pituus 120–155 merkkiä.
 - [ ] Front matter on oikein (ks. vaihe 7) ja `date` ei ole tulevaisuudessa —
       muuten Jekyll ei näytä postausta.
 - [ ] Postaus ei ole keskeneräinen siten, että siinä olisi `TODO`, `[lähde?]`
@@ -184,10 +185,16 @@ joten niitä ei kirjoiteta.
 title: "Otsikko"
 date: 2026-10-01 14:05:00 +0300
 categories: aihe1 aihe2
+description: "Noin 120–155 merkin kuvaus hakutuloksiin"
 ref: suomenkielinen-slug
 version: 1
 ---
 ```
+
+`description` näkyy Googlen hakutuloksessa ja somejaoissa. Kirjoita 120–155
+merkkiä (tarkista pituus), molemmille kielille omansa: mistä postaus kertoo ja
+mitä siinä ehdotetaan, tärkeimmät hakusanat alkupuolelle. Älä kopioi
+tiivistelmän ensimmäistä virkettä sellaisenaan, jos se ei yksin kerro aihetta.
 
 Versioinnin ja myöhempien muokkausten säännöt ovat `CLAUDE.md`:ssä.
 

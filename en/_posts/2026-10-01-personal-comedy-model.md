@@ -1,5 +1,6 @@
 ---
 title: "The personal comedy model"
+description: "What happens when everyone has a personal AI comedian that learns exactly what makes them laugh? Novelty, a value estimate and effects on shared humour."
 date: 2026-10-01 04:45:00 +0300
 categories: ai huumori
 ref: henkilokohtainen-komiikkamalli

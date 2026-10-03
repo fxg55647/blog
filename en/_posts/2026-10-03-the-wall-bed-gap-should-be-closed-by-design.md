@@ -1,5 +1,6 @@
 ---
 title: "The wall bed gap should be closed by design, not just by rules"
+description: "A 2026 daycare death in Vantaa showed rules aren't enough. Proposal: close the gap between a wall bed and the wall with a flexible, child-safe fabric."
 date: 2026-10-03 04:05:44 +0300
 categories: turvallisuus suunnittelu
 ref: kaappisangyn-rako-pitaisi-sulkea-rakenteella

@@ -1,5 +1,6 @@
 ---
 title: "The early adopter investment paradox: the service may disappear, the record should not"
+description: "Early adopters build a service's value but lose the most when it dies. Proposal: ask less of them up front and let them own their data in open formats."
 date: 2026-10-03 04:11:12 +0300
 categories: talous commons
 ref: varhaisen-kayttajan-investointiparadoksi

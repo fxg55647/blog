@@ -1,5 +1,6 @@
 ---
 title: "Kaappisängyn rako pitäisi sulkea rakenteella, ei vain ohjeilla"
+description: "Vantaan päiväkotiturma 2026 osoitti, ettei ohje riitä. Ehdotan kaappisängyn ja seinän välisen raon sulkemista joustavalla, lapsen kestävällä kankaalla."
 date: 2026-10-03 04:05:44 +0300
 categories: turvallisuus suunnittelu
 ref: kaappisangyn-rako-pitaisi-sulkea-rakenteella

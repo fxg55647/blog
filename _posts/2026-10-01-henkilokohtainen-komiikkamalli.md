@@ -1,5 +1,6 @@
 ---
 title: "Henkilökohtainen komiikkamalli"
+description: "Mitä tapahtuu, kun jokaisella on oma tekoälykoomikko, joka oppii mikä juuri häntä naurattaa? Uutuusarvo, arvoarvio ja vaikutus yhteiseen huumoriin."
 date: 2026-10-01 04:45:00 +0300
 categories: ai huumori
 ref: henkilokohtainen-komiikkamalli

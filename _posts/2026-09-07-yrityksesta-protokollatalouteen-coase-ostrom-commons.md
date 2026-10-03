@@ -1,5 +1,6 @@
 ---
 title: "Yrityksestä protokollatalouteen — Coase, Ostrom ja commons"
+description: "Yritys ja yhteisresurssien hallinta ratkaisevat saman ongelman: luottamus on kallista. Tekoälyagentit ja kryptografia halventavat sitä. Mitä seuraa?"
 date: 2026-09-07 18:00:00 +0300
 categories: talous ai commons
 ---

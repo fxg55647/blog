@@ -1,5 +1,6 @@
 ---
 title: "A general offence of spiteful harassment: a draft for the Finnish Criminal Code"
+description: "A draft new offence for Finland: harassment with no sensible purpose other than tormenting someone. Criticism, journalism and satire are excluded."
 date: 2026-10-03 04:16:00 +0300
 categories: oikeus some
 ref: kiusanteko-rikoslakiin

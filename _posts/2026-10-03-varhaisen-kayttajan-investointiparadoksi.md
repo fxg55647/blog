@@ -1,5 +1,6 @@
 ---
 title: "Varhaisen käyttäjän investointiparadoksi: palvelu voi kadota, tietueen ei pitäisi"
+description: "Varhaiset käyttäjät rakentavat palvelun arvon mutta menettävät eniten sen kuollessa. Ehdotan: vähemmän panostusta alussa ja oma data avoimessa muodossa."
 date: 2026-10-03 04:11:12 +0300
 categories: talous commons
 ref: varhaisen-kayttajan-investointiparadoksi

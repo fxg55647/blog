@@ -1,0 +1,36 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- comment -%} Kieliversiot hakukoneille (hreflang) {%- endcomment -%}
+  {%- assign alt_url = nil -%}
+  {%- if page.ref -%}
+    {%- assign current_lang = page.lang -%}
+    {%- assign translation = site.posts | where: "ref", page.ref | where_exp: "p", "p.lang != current_lang" | first -%}
+    {%- if translation -%}{%- assign alt_url = translation.url -%}{%- endif -%}
+  {%- elsif page.url == "/" -%}
+    {%- assign alt_url = "/en/" -%}
+  {%- elsif page.url == "/en/" -%}
+    {%- assign alt_url = "/" -%}
+  {%- endif -%}
+  {%- if alt_url -%}
+    {%- if page.lang == "en" -%}
+      {%- assign fi_url = alt_url -%}{%- assign en_url = page.url -%}
+    {%- else -%}
+      {%- assign fi_url = page.url -%}{%- assign en_url = alt_url -%}
+    {%- endif %}
+  <link rel="alternate" hreflang="fi" href="{{ fi_url | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ fi_url | absolute_url }}">
+  {%- endif -%}
+  {%- if page.lang == "en" %}
+  <link type="application/atom+xml" rel="alternate" href="{{ "/feed/en.xml" | absolute_url }}" title="{{ site.title | escape }} (English)">
+  {%- else -%}
+    {%- feed_meta -%}
+  {%- endif -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>

@@ -1,5 +1,6 @@
 ---
 title: "Kiusanteko rikoslakiin: luonnos yleisestä kiusantekorikoksesta"
+description: "Luonnos uudeksi rikokseksi: rangaistavaa olisi kiusanteko, jolla ei ole muuta järkevää tarkoitusta. Kritiikki, journalismi ja satiiri rajataan ulos."
 date: 2026-10-03 04:16:00 +0300
 categories: oikeus some
 ref: kiusanteko-rikoslakiin

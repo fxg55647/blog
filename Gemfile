@@ -3,6 +3,8 @@ source "https://rubygems.org"
 gem "jekyll"
 gem "minima"
 gem "jekyll-feed"
+gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
 
 # Windows/JRuby yhteensopivuus
 platforms :mingw, :x64_mingw, :mswin, :jruby do

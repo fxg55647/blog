@@ -7,11 +7,17 @@ baseurl: "/blog"
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 minima:
   skin: dark
 
 show_excerpts: true
+
+# Google Search Console -vahvistus (jekyll-seo-tag tuottaa meta-tagin)
+webmaster_verifications:
+  google: AUvYmDvjgoLmw_9peUJ133vydpyRPRGJk0yh2dzxPTw
 
 header_pages:
   - about.md
@@ -26,10 +32,16 @@ exclude:
   - vendor
   - .jekyll-cache
   - README.md
+  - CLAUDE.md
 
 # Kieliversiot: suomi on oletus (_posts/), englanti en/_posts/-kansiossa.
 # Saman postauksen kieliversiot yhdistetään yhteisellä `ref`-arvolla.
 defaults:
+  - scope:
+      path: ""
+    values:
+      lang: fi
+      locale: fi_FI
   - scope:
       path: ""
       type: posts
@@ -40,11 +52,13 @@ defaults:
       path: "en"
     values:
       lang: en
+      locale: en_US
   - scope:
       path: "en"
       type: posts
     values:
       lang: en
+      locale: en_US
       permalink: /en/:year/:month/:day/:title/
 
 feed:
