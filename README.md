@@ -49,3 +49,8 @@ Sivusto aukeaa osoitteessa `http://localhost:4000/blog/`.
 Workflow käynnistyy automaattisesti kun `main`-haaraan pushataan muutoksia.
 Jotta julkaisu toimii, GitHub-repon asetuksista **Settings → Pages → Build and deployment →
 Source** täytyy olla kertaluontoisesti asetettu arvoon **GitHub Actions**.
+
+Etusivun pysyvä nosto valitaan `featured_ref`-kentällä kummankin etusivun
+front matterissa. Satunnainen nosto arpoo saman kielen muita kirjoituksia
+sivun latautuessa ja Arvo toinen -painikkeella. Ilman JavaScriptiä näkyy
+ensimmäinen ehdokas. Arvonta ei toista edellistä valintaa.

@@ -15,6 +15,44 @@ layout: page
   {%- assign feed_url = "/feed.xml" -%}
   {%- assign feed_text = "Tilaa RSS-syöte" -%}
 {%- endif -%}
+{%- assign featured = posts | where: "ref", page.featured_ref | first -%}
+{%- assign random_posts = posts -%}
+{%- if featured -%}
+  {%- assign random_posts = posts | where_exp: "post", "post.url != featured.url" -%}
+{%- endif -%}
+<section class="home-picks" aria-label="{% if current_lang == 'en' %}Discover articles{% else %}Löydä luettavaa{% endif %}">
+  {% if featured %}
+  <article class="home-pick">
+    <p class="pick-label">{% if current_lang == 'en' %}Start here{% else %}Aloita tästä{% endif %}</p>
+    <h2><a href="{{ featured.url | relative_url }}">{{ featured.title | escape }}</a></h2>
+    <p>{{ featured.description | default: featured.excerpt | strip_html | truncatewords: 40 }}</p>
+    <a href="{{ featured.url | relative_url }}">{{ read_more }} →</a>
+  </article>
+  {% endif %}
+  {% if random_posts.size > 0 %}
+  <article class="home-pick home-pick-random" data-random-pick>
+    <p class="pick-label">{% if current_lang == 'en' %}A chance discovery{% else %}Satunnainen kirjoitus{% endif %}</p>
+    <div data-random-content aria-live="polite" aria-atomic="true">
+      {% assign initial = random_posts | first %}
+      <h2><a href="{{ initial.url | relative_url }}">{{ initial.title | escape }}</a></h2>
+      <p>{{ initial.description | default: initial.excerpt | strip_html | truncatewords: 40 }}</p>
+      <a href="{{ initial.url | relative_url }}">{{ read_more }} →</a>
+    </div>
+    {% if random_posts.size > 1 %}
+    <button type="button" class="pick-shuffle" data-random-button hidden>{% if current_lang == 'en' %}Pick another{% else %}Arvo toinen{% endif %} ↻</button>
+    {% endif %}
+    {% for post in random_posts %}
+    <template data-random-option>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+      <p>{{ post.description | default: post.excerpt | strip_html | truncatewords: 40 }}</p>
+      <a href="{{ post.url | relative_url }}">{{ read_more }} →</a>
+    </template>
+    {% endfor %}
+  </article>
+  {% endif %}
+</section>
+<h2 class="latest-heading">{% if current_lang == 'en' %}Latest articles{% else %}Uusimmat kirjoitukset{% endif %}</h2>
+<script src="{{ '/assets/js/home-random.js' | relative_url }}" defer></script>
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
   <li class="post-preview">
@@ -23,7 +61,7 @@ layout: page
       <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time></p>
       {% if site.feed_show_excerpt %}
       <div class="post-entry">
-        {{ post.excerpt | strip_html | truncatewords: site.excerpt_length }}
+        {{ post.description | default: post.excerpt | strip_html | truncatewords: site.excerpt_length }}
         <a href="{{ post.url | relative_url }}" class="post-read-more">[{{ read_more }}]</a>
       </div>
       {% endif %}

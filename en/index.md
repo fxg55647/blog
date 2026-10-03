@@ -1,10 +1,14 @@
 ---
 layout: home
+featured_ref: henkilokohtainen-komiikkamalli
 title: "Leima’s blog"
 subtitle: "Thoughts on building things, AI agents and safe automation."
 permalink: /en/
-description: "Thoughts on building things, AI agents and safe automation. English versions of the posts."
+description: "Ideas about AI, everyday design and society. English versions of the posts."
 ---
 
-English versions of the posts. Writing about building things, safe use of AI agents,
-and what we learn along the way. [Suomenkielinen etusivu →]({{ "/" | relative_url }})
+This blog explores how we could build and organise things better — from AI
+and safe automation to everyday design and society. The articles develop ideas,
+proposals and the reasoning behind them.
+
+[Suomeksi →]({{ "/" | relative_url }})
