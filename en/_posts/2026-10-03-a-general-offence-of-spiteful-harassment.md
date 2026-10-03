@@ -1,19 +1,26 @@
 ---
 title: "A general offence of spiteful harassment: a draft for the Finnish Criminal Code"
-description: "A draft new offence for Finland: harassment with no sensible purpose other than tormenting someone. Criticism, journalism and satire are excluded."
+description: "A draft offence for Finland: harassing hundreds of strangers once each on camera for views. Current law misses it. Criticism and satire are excluded."
 date: 2026-10-03 04:16:00 +0300
 categories: oikeus some
 ref: kiusanteko-rikoslakiin
-version: 1
+version: 2
+last_modified_at: 2026-10-03 04:39:51 +0300
+changes:
+  - version: 2
+    date: 2026-10-03
+    note: "Corrected the core of the post (author's correction): the problem is not long-running harassment of one person, but harassing hundreds of strangers once each to gain viewers"
 ---
 
-The law today punishes stalking, threats and spreading lies, but deliberate,
-long-running spite easily slips through if no single act is enough for any of
-these. Picture a video maker whose whole channel is about mocking and making
-life harder for one ordinary person, week after week, and who earns ad money
-from it. I propose a new, general offence of spiteful harassment: it would be
-a crime to act in a way whose clear main purpose is to torment someone else
-and which has no other sensible purpose. Making money from the harassment
+The law today punishes stalking, threats and spreading lies, but stalking
+requires that the same person is harassed repeatedly. What slips through is
+harassment where each victim gets their share only once. Picture a video
+maker who goes out to embarrass, startle or provoke strangers on camera,
+hundreds or thousands of times, and earns ad money from the videos. None of
+the victims has been stalked, yet harassment is the whole business model. I
+propose a new, general offence of spiteful harassment: it would be a crime to
+act in a way whose clear main purpose is to torment someone else and which
+has no other sensible purpose, even if it targets each person only once. Making money from the harassment
 would not be a defence; if anything, it would make the act worse. At the same
 time, ordinary criticism, journalism and satire must be clearly excluded so
 the law does not become a muzzle on free speech.
@@ -45,6 +52,9 @@ The Supreme Court has also held that not all feedback, however forceful, for
 example to public officials, is punishable, and that stalking requires
 repeated acts aimed at the same person
 ([KKO 2022:9, commentary](https://jyx.jyu.fi/handle/123456789/80996)).
+A one-off act is therefore not stalking, even if the perpetrator repeats the
+same stunt on hundreds of different people. This is exactly the gap the
+draft is meant to fill.
 
 ## Draft: Spiteful harassment
 
@@ -57,17 +67,16 @@ repeated acts aimed at the same person
 >    comparable negative consequence,
 > 2. which, assessed as a whole, has no other significant, acceptable and
 >    independent purpose, and
-> 3. which, considering its triviality, occasional nature or other
->    circumstances, cannot be regarded as ordinary or tolerable conduct
+> 3. which, considering its triviality or other circumstances, cannot be regarded as ordinary or tolerable conduct
 >    belonging to human interaction,
 >
 > shall be sentenced for spiteful harassment to a fine.
 >
-> Spiteful harassment may include, in particular, repeated contact,
-> following, disturbing, making pointless reports or demands, systematically
+> Spiteful harassment may include, in particular, embarrassing, startling or
+> provoking another person, repeated contact, following, disturbing, making pointless reports or demands, systematically
 > obstructing the other person's activities, or producing, publishing or
 > distributing material concerning them, if the conduct meets the conditions
-> in subsection 1.
+> in subsection 1. A single act may suffice.
 >
 > The commercial nature of the conduct, the financial gain derived from it or
 > the gaining of an audience through it does not constitute an acceptable
@@ -75,9 +84,10 @@ repeated acts aimed at the same person
 > person as referred to in subsection 1.
 >
 > When assessing the purpose of the conduct, particular account shall be
-> taken of the content, repetition and duration of the acts, the
-> perpetrator's previous conduct, the targeting of the same person, the
-> perpetrator's statements about their purpose, and whether the conduct had a
+> taken of the content of the acts, whether the perpetrator has acted in the
+> same way towards several different people, the recording of the acts for
+> publication, the repetition of the acts, the perpetrator's previous
+> conduct, the perpetrator's statements about their purpose, and whether the conduct had a
 > genuine purpose independent of the harassment.
 >
 > Spiteful harassment does not, however, include justified criticism,
@@ -94,7 +104,8 @@ repeated acts aimed at the same person
 The subsection on commercial activity would matter precisely in YouTube,
 TikTok, podcast and streaming cases. It would not be enough as a defence to
 say: "I make these videos to get views and ad revenue." If the actual concept
-of the videos is deliberately harassing one person, the commercial motive
+of the videos is deliberately harassing strangers on camera, the commercial
+motive
 would not turn it into an acceptable purpose.
 
 ### A critical video is not a crime because it makes money
@@ -113,8 +124,8 @@ public office, science or art that does not clearly exceed what is acceptable
 
 A more workable legal model would split the offence into basic spiteful
 harassment and aggravated spiteful harassment. In the aggravated form, for
-example, systematic commercial harassment, a large audience, long duration
-or substantial financial gain could raise the maximum penalty from a fine to
+example, systematic commercial harassment, a large number of victims, a large
+audience or substantial financial gain could raise the maximum penalty from a fine to
 imprisonment.
 
 ## Open questions: can the target avoid it, and is online different?
@@ -161,7 +172,8 @@ protected forms of activity.
   counts as harassment even if no one acts repeatedly on their own
   ([LAGBD](https://lagbd.org/Cyber_harcelement_et_action_penale)). This
   matches the draft's open question about the online dimension, but does
-  not deal with commercial motives.
+  not deal with commercial motives. The draft's situation is also its mirror
+  image: one perpetrator and many victims, each encountered only once.
 - **Section 226 of the German Civil Code** (*Schikaneverbot*) prohibits
   exercising a right if its only possible purpose is to harm another
   ([buzer.de](https://www.buzer.de/226_BGB.htm)). The idea of "no other
@@ -176,7 +188,10 @@ in any country that states directly that ad revenue or an audience gained
 from harassment does not make it acceptable. The novelty lies precisely in
 this commercial rule and in combining it with a Norwegian-style general
 provision that has a purpose test precise enough for Finnish law and a free
-speech exception.
+speech exception, and in the draft explicitly covering serial one-off
+harassment of different people. The search for counterparts was originally
+done from the angle of long-running harassment, so I have not separately
+searched other countries for provisions on serial one-off harassment.
 
 ## Theoretical value
 
@@ -188,7 +203,8 @@ illegal content, and the most serious harassment is already punishable as
 stalking, illegal threats or defamation. The new offence is worth only the
 harm that falls between these and that the law would prevent through
 deterrence: harassment that neither frightens nor lies but humiliates and
-obstructs, and is often allowed under platform rules.
+obstructs, where each victim is encountered only once, and which is often
+allowed under platform rules.
 
 ### Fermi estimate: roughly $0.2–18 billion a year
 

@@ -1,20 +1,27 @@
 ---
 title: "Kiusanteko rikoslakiin: luonnos yleisestä kiusantekorikoksesta"
-description: "Luonnos uudeksi rikokseksi: rangaistavaa olisi kiusanteko, jolla ei ole muuta järkevää tarkoitusta. Kritiikki, journalismi ja satiiri rajataan ulos."
+description: "Luonnos uudeksi rikokseksi: satojen tuntemattomien kiusaaminen kerran kameran edessä katsojien vuoksi. Nykylaki ei tavoita sitä. Satiiri rajataan ulos."
 date: 2026-10-03 04:16:00 +0300
 categories: oikeus some
 ref: kiusanteko-rikoslakiin
-version: 1
+version: 2
+last_modified_at: 2026-10-03 04:39:51 +0300
+changes:
+  - version: 2
+    date: 2026-10-03
+    note: "Korjattu postauksen ydin (kirjoittajan korjaus): ongelma ei ole yhteen ihmiseen kohdistuva pitkäkestoinen kiusanteko, vaan se, että tekijä kiusaa satoja tuntemattomia kerran saadakseen katsojia"
 ---
 
 Laki rankaisee nykyään vainoamisesta, uhkailusta ja valheiden levittämisestä,
-mutta harkittu, pitkäkestoinen kiusanteko jää helposti väliin, jos yksittäinen
-teko ei riitä mihinkään näistä. Ajatellaan esimerkiksi videontekijää, jonka
-koko kanavan idea on pilkata ja hankaloittaa yhden tavallisen ihmisen elämää
-viikosta toiseen, ja joka ansaitsee sillä mainosrahaa. Ehdotan tässä uutta,
-yleistä kiusantekorikosta: rangaistavaa olisi toiminta, jonka selvä
-päätarkoitus on kiusata toista ja jolla ei ole mitään muuta järkevää
-tarkoitusta. Se, että kiusaamisella tienaa rahaa, ei kelpaisi puolustukseksi
+mutta vainoaminen edellyttää, että samaa ihmistä kiusataan toistuvasti.
+Väliin jää siksi kiusanteko, jossa jokainen uhri saa osansa vain kerran.
+Ajatellaan videontekijää, joka käy nolaamassa, säikyttelemässä tai
+härnäämässä tuntemattomia ihmisiä kameran edessä satoja tai tuhansia kertoja
+ja ansaitsee videoilla mainosrahaa. Ketään uhreista ei ole vainottu, mutta
+kiusaaminen on koko liiketoiminnan idea. Ehdotan tässä uutta, yleistä
+kiusantekorikosta: rangaistavaa olisi toiminta, jonka selvä päätarkoitus on
+kiusata toista ja jolla ei ole mitään muuta järkevää tarkoitusta, vaikka se
+kohdistuisi kuhunkin vain kerran. Se, että kiusaamisella tienaa rahaa, ei kelpaisi puolustukseksi
 vaan pikemminkin pahentaisi tekoa. Samalla tavallinen kritiikki, journalismi ja
 satiiri pitää rajata selvästi ulos, ettei laista tule sananvapauden kahletta.
 
@@ -45,6 +52,8 @@ Korkein oikeus on myös linjannut, ettei kaikki voimakaskaan palaute
 esimerkiksi viranomaiselle ole rangaistavaa ja että vainoaminen edellyttää
 samaan henkilöön kohdistuvia toistuvia tekoja
 ([KKO 2022:9, kommentaari](https://jyx.jyu.fi/handle/123456789/80996)).
+Kertaluonteinen teko ei siis ole vainoamista, vaikka tekijä toistaisi saman
+tempun sadoille eri ihmisille. Juuri tähän aukkoon luonnos on tarkoitettu.
 
 ## Luonnos: Kiusanteko
 
@@ -57,17 +66,17 @@ samaan henkilöön kohdistuvia toistuvia tekoja
 >    muuta vastaavaa kielteistä seurausta,
 > 2. jolle ei olosuhteet kokonaisuutena arvioiden ole muuta varteenotettavaa,
 >    hyväksyttävää ja itsenäistä tarkoitusta, ja
-> 3. jota ei sen vähäisyys, satunnaisuus tai muu seikka huomioon ottaen voida
+> 3. jota ei sen vähäisyys tai muu seikka huomioon ottaen voida
 >    pitää tavanomaisena tai siedettävänä ihmisten väliseen kanssakäymiseen
 >    kuuluvana menettelynä,
 >
 > on tuomittava kiusanteosta sakkoon.
 >
-> Kiusantekona voidaan pitää erityisesti toistuvaa yhteydenottoa, seuraamista,
-> häiritsemistä, tarkoituksetonta ilmoitusten tai vaatimusten tekemistä, toisen
+> Kiusantekona voidaan pitää erityisesti toisen nolaamista, säikyttelemistä
+> tai härnäämistä, toistuvaa yhteydenottoa, seuraamista, häiritsemistä, tarkoituksetonta ilmoitusten tai vaatimusten tekemistä, toisen
 > toiminnan järjestelmällistä vaikeuttamista taikka tätä koskevan aineiston
 > valmistamista, julkaisemista tai levittämistä, jos menettely täyttää
-> 1 momentissa säädetyt edellytykset.
+> 1 momentissa säädetyt edellytykset. Kiusanteoksi voi riittää yksittäinen teko.
 >
 > Menettelyn kaupallinen luonne, siitä saatava taloudellinen hyöty tai yleisön
 > hankkiminen menettelyn avulla ei muodosta hyväksyttävää tarkoitusta, jos
@@ -75,8 +84,9 @@ samaan henkilöön kohdistuvia toistuvia tekoja
 > tavalla toisen kiusaaminen.
 >
 > Arvioitaessa menettelyn tarkoitusta on otettava huomioon erityisesti tekojen
-> sisältö, toistuvuus ja kesto, tekijän aikaisempi toiminta, toiminnan
-> kohdentaminen samaan henkilöön, tekijän lausumat tarkoituksestaan sekä se,
+> sisältö, se, onko tekijä menetellyt samalla tavalla useita eri henkilöitä
+> kohtaan, tekojen tallentaminen julkaisemista varten, tekojen toistuvuus,
+> tekijän aikaisempi toiminta, tekijän lausumat tarkoituksestaan sekä se,
 > onko menettelyllä ollut kiusanteosta riippumaton todellinen tarkoitus.
 >
 > Kiusantekona ei kuitenkaan pidetä perusteltua arvostelua, mielipiteen
@@ -94,7 +104,8 @@ samaan henkilöön kohdistuvia toistuvia tekoja
 Kaupallisuutta koskeva momentti olisi tärkeä juuri YouTube-, TikTok-, podcast-
 ja striimaustapauksissa. Puolustukseksi ei yksin riittäisi: "teen näitä
 videoita saadakseni näyttökertoja ja mainostuloja". Jos videoiden varsinainen
-konsepti on yhden henkilön tarkoituksellinen kiusaaminen, kaupallinen motiivi
+konsepti on tuntemattomien ihmisten tarkoituksellinen kiusaaminen kameran
+edessä, kaupallinen motiivi
 ei muuttaisi sitä hyväksyttäväksi tarkoitukseksi.
 
 ### Kriittinen video ei ole rikos siksi, että sillä tienaa
@@ -113,8 +124,8 @@ hyväksyttävää (RL 24:9:n 2 momentti,
 
 Toimivampi lakimalli syntyisi jakamalla rikos perusmuotoiseen kiusantekoon ja
 törkeään kiusantekoon. Törkeässä tekomuodossa esimerkiksi järjestelmällinen
-kaupallinen häirintä, suuri yleisö, pitkä kesto tai huomattava taloudellinen
-hyöty voisivat nostaa enimmäisrangaistuksen sakosta vankeuteen.
+kaupallinen häirintä, suuri uhrien määrä, suuri yleisö tai huomattava
+taloudellinen hyöty voisivat nostaa enimmäisrangaistuksen sakosta vankeuteen.
 
 ## Avoimia kysymyksiä: voiko kohde väistää, ja onko verkko eri asia?
 
@@ -158,7 +169,8 @@ suojatuista toimintamuodoista.
   kukaan ei yksin toimisi toistuvasti
   ([LAGBD](https://lagbd.org/Cyber_harcelement_et_action_penale)). Tämä
   vastaa luonnoksen avointa kysymystä verkon erityisyydestä, mutta ei
-  käsittele kaupallisuutta.
+  käsittele kaupallisuutta. Luonnoksen tilanne on lisäksi tämän peilikuva:
+  yksi tekijä ja monta uhria, joista kukin kohdataan vain kerran.
 - **Saksan siviililain 226 §** (*Schikaneverbot*) kieltää oikeuden käytön,
   jos sillä voi olla vain tarkoitus vahingoittaa toista
   ([buzer.de](https://www.buzer.de/226_BGB.htm)). Ajatus "ei muuta
@@ -174,7 +186,10 @@ mistään maasta säännöstä, joka sanoisi suoraan, ettei kiusaamisesta saatu
 mainostulo tai yleisö tee siitä hyväksyttävää. Uutuusarvo on juuri tässä
 kaupallisuussäännössä ja sen yhdistämisessä Norjan kaltaiseen
 yleissäännökseen, jossa on suomalaisittain tarkkarajainen tarkoitustesti ja
-sananvapauspoikkeus.
+sananvapauspoikkeus, sekä siinä, että luonnos kattaa nimenomaan sarjamaisen,
+eri ihmisiin kohdistuvan kertakiusanteon. Vastinehaku tehtiin alun perin
+pitkäkestoisen kiusanteon näkökulmasta, joten juuri sarjamaista
+kertakiusantekoa koskevia säännöksiä muissa maissa en ole hakenut erikseen.
 
 ## Teoreettinen arvo
 
@@ -186,8 +201,8 @@ puuttumaan laittomaan sisältöön, ja vakavin häirintä on jo vainoamisena,
 laittomana uhkauksena tai kunnianloukkauksena rangaistavaa. Uuden rikoksen
 arvo on vain se haitta, joka jää näiden väliin ja jota laki ehkäisisi
 pelotevaikutuksellaan: kiusanteko, joka ei pelota eikä valehtele mutta
-nöyryyttää ja hankaloittaa, ja joka on alustan sääntöjen puitteissa usein
-sallittua.
+nöyryyttää ja hankaloittaa, jossa kukin uhri kohdataan vain kerran, ja joka on
+alustan sääntöjen puitteissa usein sallittua.
 
 ### Fermi-arvio: noin 0,2–18 miljardia dollaria vuodessa
 
