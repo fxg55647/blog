@@ -26,6 +26,15 @@ categories: yleista
 Postauksen sisältö tähän.
 ```
 
+## Ulkoasu
+
+Teema on Beautiful Jekyll 6.0.1 (https://beautifuljekyll.com/), joka ladataan
+jekyll-remote-theme-lisäosalla. Navigaatio määritellään `_config.yml`-tiedostossa.
+`_layouts/home.html` suodattaa artikkelit kielen mukaan. `_layouts/post-lang.html`
+säilyttää kielilinkit ja muutoshistorian. `_includes/head-language.html` lisää
+kieliversioiden hakukonelinkit, RSS-syötteet ja Search Console -vahvistuksen
+teeman head-osaan. Pienet tyylilisäykset ovat `assets/css/blog.css`-tiedostossa.
+
 ## Paikallinen kehitys
 
 ```bash

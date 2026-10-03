@@ -4,24 +4,45 @@ author: Leima
 url: "https://fxg55647.github.io"
 baseurl: "/blog"
 
-theme: minima
+remote_theme: daattali/beautiful-jekyll@6.0.1
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
-minima:
-  skin: dark
+language: fi
+timezone: Europe/Helsinki
+navbar-links:
+  Etusivu: ""
+  Tietoa: "about"
+  English: "en"
+title-on-all-pages: true
+date_format: "%-d.%-m.%Y"
+excerpt_length: 55
+feed_show_excerpt: true
+feed_show_tags: false
+post_search: true
+edit_page_button: false
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+footer-hover-col: "#0085A1"
+social-network-links:
+  rss: true
+site-css:
+  - /assets/css/blog.css
 
-show_excerpts: true
-
-# Google Search Console -vahvistus (jekyll-seo-tag tuottaa meta-tagin)
+# Google Search Console -vahvistus (head-language.html tuottaa meta-tagin)
 webmaster_verifications:
   google: b9hj9Q5y55lpjbNwtY_U2g5OTh88c5tMfY-NMwk1kvk
-
-header_pages:
-  - about.md
-  - en/index.md
 
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
@@ -42,6 +63,9 @@ defaults:
     values:
       lang: fi
       locale: fi_FI
+      language: fi
+      head-extra:
+        - head-language.html
   - scope:
       path: ""
       type: posts
@@ -53,12 +77,14 @@ defaults:
     values:
       lang: en
       locale: en_US
+      language: en
   - scope:
       path: "en"
       type: posts
     values:
       lang: en
       locale: en_US
+      language: en
       permalink: /en/:year/:month/:day/:title/
 
 feed:

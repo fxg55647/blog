@@ -1,6 +1,7 @@
 ---
 layout: home
-title: English
+title: "Leima’s blog"
+subtitle: "Thoughts on building things, AI agents and safe automation."
 permalink: /en/
 description: "Thoughts on building things, AI agents and safe automation. English versions of the posts."
 ---
