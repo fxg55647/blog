@@ -185,8 +185,11 @@ title: "Otsikko"
 date: 2026-10-01 14:05:00 +0300
 categories: aihe1 aihe2
 ref: suomenkielinen-slug
+version: 1
 ---
 ```
+
+Versioinnin ja myöhempien muokkausten säännöt ovat `CLAUDE.md`:ssä.
 
 Englanninkielisessä samat kentät, `title` englanniksi.
 

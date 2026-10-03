@@ -2,12 +2,26 @@
 layout: post
 ---
 {%- assign current_lang = page.lang -%}
+{%- if current_lang == "en" -%}
+  {%- assign date_format = "%b %-d, %Y" -%}
+{%- else -%}
+  {%- assign date_format = "%-d.%-m.%Y" -%}
+{%- endif -%}
+{%- if page.version and page.version > 1 -%}
+<p class="post-meta">
+  {%- if current_lang == "en" -%}
+    Version {{ page.version }} · updated {{ page.last_modified_at | date: date_format }}
+  {%- else -%}
+    Versio {{ page.version }} · päivitetty {{ page.last_modified_at | date: date_format }}
+  {%- endif -%}
+</p>
+{%- endif -%}
 {%- if page.ref -%}
   {%- assign translation = site.posts | where: "ref", page.ref | where_exp: "p", "p.lang != current_lang" | first -%}
 {%- endif -%}
 {%- if translation -%}
 <p class="lang-switch"><em>
-  {%- if page.lang == "en" -%}
+  {%- if current_lang == "en" -%}
     <a href="{{ translation.url | relative_url }}">Lue suomeksi →</a>
   {%- else -%}
     <a href="{{ translation.url | relative_url }}">Read in English →</a>
@@ -15,3 +29,16 @@ layout: post
 </em></p>
 {%- endif -%}
 {{ content }}
+{%- if page.changes and page.changes.size > 0 -%}
+<section class="changelog">
+  <h2>{% if current_lang == "en" %}Revision history{% else %}Muutoshistoria{% endif %}</h2>
+  <ul>
+    {%- for change in page.changes -%}
+    <li><strong>v{{ change.version }}</strong> ({{ change.date | date: date_format }}): {{ change.note | escape }}</li>
+    {%- endfor -%}
+  </ul>
+  <p><a href="https://github.com/fxg55647/blog/commits/main/{{ page.path }}">
+    {%- if current_lang == "en" -%}All changes line by line on GitHub{%- else -%}Kaikki muutokset rivi riviltä GitHubissa{%- endif -%}
+  </a></p>
+</section>
+{%- endif -%}

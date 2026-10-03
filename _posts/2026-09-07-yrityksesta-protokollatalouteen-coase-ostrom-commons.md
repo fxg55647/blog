@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Yrityksestä protokollatalouteen — Coase, Ostrom ja commons"
 date: 2026-09-07 18:00:00 +0300
 categories: talous ai commons
