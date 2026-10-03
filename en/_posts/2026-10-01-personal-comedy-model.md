@@ -3,7 +3,23 @@ title: "The personal comedy model"
 date: 2026-10-01 04:45:00 +0300
 categories: ai huumori
 ref: henkilokohtainen-komiikkamalli
+version: 2
+last_modified_at: 2026-10-03 04:01:14 +0300
+changes:
+  - version: 2
+    date: 2026-10-03
+    note: "Added a plain-language summary at the start and clearer subheadings"
 ---
+
+AI can already write jokes that people find genuinely funny. So far the
+question has mostly been whether a machine can be funny. I ask a different
+one: what happens when everyone has their own joke machine that learns from
+every chuckle and every skip what makes them laugh, and immediately invents
+the next joke just for them? Video apps already search existing content for
+what you are likely to enjoy. This would make the content from scratch for
+you, a bit like a comedian whose entire audience is you. That is why the
+question is not only about entertainment but also about what happens to
+shared humour and to how people behave.
 
 AI-generated humour has been discussed surprisingly much. Yet one question
 has received far less attention than the production of jokes itself:
@@ -75,7 +91,7 @@ weighted novelty more, humans weighted empathy-related factors more
 AI rates its own jokes" may not be enough — the user's own laughter or
 reaction is the more valuable signal.
 
-## Three generations
+## Three generations: joke machine, endless feed and personal comedy model
 
 I would distinguish three generations:
 
@@ -128,7 +144,9 @@ of the question, not in AI humour as such.
 
 ## Theoretical value
 
-**Baseline without the idea.** In the coming years, AI-generated humour will
+### Without the idea, a recommender already does much of the work
+
+In the coming years, AI-generated humour will
 fill feeds anyway: generated feeds like Sora become common, automated humour
 factories (like the short-video study above) produce a huge content pool,
 and current recommenders pick the best fit for each person from it. When the
@@ -137,8 +155,10 @@ personal generation to a large extent. The idea's added value is only the
 difference that content generated in real time for an individual brings on
 top of this.
 
-**Fermi estimate** (measured as ad-funded social media revenue, since that is
-where higher engagement is realised):
+### Fermi estimate: roughly $0.3–6 billion per year
+
+I measure it as ad-funded social media revenue, since that is
+where higher engagement is realised:
 
 | Factor | Value | Source |
 |---|---|---|
@@ -152,7 +172,9 @@ where higher engagement is realised):
 The range is therefore roughly **$0.3–6 billion per year**. An
 order-of-magnitude estimate, not a forecast.
 
-**What moves it most:** the last factor. If the generated pool is so large
+### What moves it most is whether a general pool covers individual taste
+
+The last factor decides it. If the generated pool is so large
 that the recommender almost always finds a "close enough" joke, the
 improvement stays near zero and the idea's value narrows to the lower bound
 or below. If, on the other hand, fine-grained individual taste (rhythm,

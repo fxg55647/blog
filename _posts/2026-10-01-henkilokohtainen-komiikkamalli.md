@@ -3,7 +3,23 @@ title: "Henkilökohtainen komiikkamalli"
 date: 2026-10-01 04:45:00 +0300
 categories: ai huumori
 ref: henkilokohtainen-komiikkamalli
+version: 2
+last_modified_at: 2026-10-03 04:01:14 +0300
+changes:
+  - version: 2
+    date: 2026-10-03
+    note: "Lisätty kansantajuinen tiivistelmä alkuun ja selventävämmät väliotsikot"
 ---
+
+Tekoäly osaa jo kirjoittaa vitsejä, joita ihmiset pitävät aidosti hauskoina.
+Tähän asti on lähinnä kysytty, onko kone hauska. Kysyn tässä toista: mitä
+tapahtuu, kun jokaisella on oma vitsikone, joka oppii jokaisesta
+naurahduksesta ja ohituksesta, mikä juuri häntä naurattaa, ja keksii heti
+seuraavan vitsin hänelle? Videosovellukset etsivät jo valmiista sisällöstä
+sen, mistä todennäköisesti pidät. Tämä tekisi sisällön alusta asti sinulle,
+vähän kuin koomikko, jonka koko yleisö olet sinä. Siksi kysymys ei koske vain
+viihdettä vaan myös sitä, mitä yhteiselle huumorille ja ihmisten
+käyttäytymiselle tapahtuu.
 
 Tekoälyn tuottamasta huumorista on puhuttu yllättävän paljon. Yksi kysymys on
 silti jäänyt paljon vähemmälle huomiolle kuin itse vitsien tuottaminen:
@@ -78,7 +94,7 @@ liittyviä tekijöitä ([Sakabe ym.](https://arxiv.org/abs/2511.09133)).
 Käytännössä pelkkä "AI arvioi omat vitsinsä" ei siis ehkä riitä — käyttäjän
 oma nauru tai reaktio on arvokkaampi signaali.
 
-## Kolme sukupolvea
+## Kolme sukupolvea: vitsikone, loputon syöte ja oma komiikkamalli
 
 Erottaisin kolme sukupolvea:
 
@@ -132,7 +148,9 @@ kysymyksenasettelussa, ei AI-huumorissa sinänsä.
 
 ## Teoreettinen arvo
 
-**Vertailukohta ilman ideaa.** Lähivuosina AI-generoitu huumori täyttää
+### Ilman ideaa suosittelija hoitaa jo suuren osan
+
+Lähivuosina AI-generoitu huumori täyttää
 syötteet joka tapauksessa: Soran kaltaiset generoidut syötteet yleistyvät,
 automaattiset huumoritehtaat (kuten yllä mainittu lyhytvideotutkimus)
 tuottavat valtavan sisältövarannon ja nykyiset suosittelijat poimivat siitä
@@ -140,8 +158,10 @@ kullekin sopivimman. Kun varanto on käytännössä rajaton, hyvä suosittelija
 jäljittelee jo pitkälle henkilökohtaista generointia. Idean lisäarvo on vain
 se ero, jonka yksilölle reaaliajassa generoitu sisältö tuo tämän päälle.
 
-**Fermi-arvio** (mittarina mainosrahoitteisen sosiaalisen median tulot,
-koska siihen sitoutumisen kasvu realisoituu):
+### Fermi-arvio: noin 0,3–6 miljardia dollaria vuodessa
+
+Mittarina käytän mainosrahoitteisen sosiaalisen median tulot,
+koska siihen sitoutumisen kasvu realisoituu:
 
 | Tekijä | Arvo | Lähde |
 |---|---|---|
@@ -155,7 +175,9 @@ koska siihen sitoutumisen kasvu realisoituu):
 Haarukka on siis noin **0,3–6 miljardia dollaria vuodessa**. Suuruusluokka-arvio,
 ei ennuste.
 
-**Mikä heiluttaa eniten:** viimeinen kerroin. Jos generoitu varanto on niin
+### Eniten heiluttaa se, kattaako yleinen varanto yksilön maun
+
+Viimeinen kerroin ratkaisee. Jos generoitu varanto on niin
 suuri, että suosittelija löytää lähes aina "riittävän osuvan" vitsin,
 lisäparannus jää lähelle nollaa ja idean arvo kaventuu alarajalle tai sen
 alle. Jos taas hienojakoinen yksilöllinen maku (rytmi, aiheyhdistelmät,
