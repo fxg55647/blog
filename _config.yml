@@ -17,7 +17,7 @@ show_excerpts: true
 
 # Google Search Console -vahvistus (jekyll-seo-tag tuottaa meta-tagin)
 webmaster_verifications:
-  google: AUvYmDvjgoLmw_9peUJ133vydpyRPRGJk0yh2dzxPTw
+  google: b9hj9Q5y55lpjbNwtY_U2g5OTh88c5tMfY-NMwk1kvk
 
 header_pages:
   - about.md
