@@ -2,21 +2,26 @@
 .blog-post img { max-width: 100%; height: auto; }
 .blog-post pre { overflow-x: auto; overflow-wrap: normal; }
 .lang-switch { margin-bottom: 1.5rem; }
-.changelog { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #ddd; font-size: 0.9em; }
+.changelog { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #ded5bc; font-size: 0.9em; }
 .changelog h2 { font-size: 1.4em; }
 @media (max-width: 575px) {
   .intro-header .post-heading h1 { font-size: 2rem; overflow-wrap: anywhere; }
 }
 
 .home-picks { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 1.25rem; margin: 2.5rem 0 3rem; }
-.home-pick { background: #f7f7f7; border: 1px solid #e2e2e2; border-radius: 8px; padding: 1.5rem; }
-.home-pick-random { background: #f1f7f8; border-color: #d4e5e8; }
-.home-pick .pick-label { font-family: 'Open Sans', sans-serif; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #555; margin: 0 0 1rem; }
+.home-pick { background: #f5ecd9; border: 1px solid #e0d3b7; border-radius: 8px; padding: 1.5rem; }
+.home-pick-random { background: #e8f0df; border-color: #cad9bc; }
+.home-pick .pick-label { font-family: 'Open Sans', sans-serif; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #56634f; margin: 0 0 1rem; }
 .home-pick h2 { font-size: 1.5rem; margin: 0 0 1rem; overflow-wrap: anywhere; }
-.home-pick h2 a { color: #404040; }
-.home-pick h2 a:hover { color: #0085a1; }
+.home-pick h2 a { color: #29362e; }
+.home-pick h2 a:hover { color: #286044; }
 .home-pick p { font-size: 1rem; }
-.pick-shuffle { display: block; margin-top: 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid #0085a1; border-radius: 4px; background: transparent; color: #00667c; cursor: pointer; font: inherit; font-size: 0.9rem; }
-.pick-shuffle:hover { background: #e0eff2; }
-.pick-shuffle:focus-visible, .home-pick a:focus-visible { outline: 3px solid #0085a1; outline-offset: 3px; }
+.pick-shuffle { display: block; margin-top: 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid #286044; border-radius: 4px; background: transparent; color: #194b33; cursor: pointer; font: inherit; font-size: 0.9rem; }
+.pick-shuffle:hover { background: #d7e5cb; }
+.pick-shuffle:focus-visible, .home-pick a:focus-visible { outline: 3px solid #286044; outline-offset: 3px; }
 .latest-heading { font-size: 1.75rem; }
+
+.posts-list .post-preview { border-bottom-color: #ded5bc; }
+.posts-list .post-preview .post-meta, .intro-header .post-heading .post-meta { color: #56634f; }
+.intro-header .page-heading hr.small { border-color: #286044; }
+::selection { background: #d7e5cb; color: #194b33; }
