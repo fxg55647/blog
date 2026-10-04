@@ -1,7 +1,7 @@
 ---
 layout: home
 featured_ref: henkilokohtainen-komiikkamalli
-title: Leiman blogi
+title: "First Principles Blues"
 subtitle: Ajatuksia rakentamisesta, tekoälyagenteista ja turvallisesta automaatiosta.
 ---
 

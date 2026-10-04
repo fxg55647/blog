@@ -4,5 +4,5 @@ title: Tietoa
 permalink: /about/
 ---
 
-Tämä on Leima-projektin blogi. Täällä kirjoitetaan rakentamisesta, tekoälyagenttien
+First Principles Blues on blogi ideoista ja asioiden uudelleenajattelusta. Täällä kirjoitetaan rakentamisesta, tekoälyagenttien
 turvallisesta käytöstä ja siitä, mitä opimme matkan varrella.

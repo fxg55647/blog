@@ -1,7 +1,7 @@
 ---
 layout: home
 featured_ref: henkilokohtainen-komiikkamalli
-title: "Leima’s blog"
+title: "First Principles Blues"
 subtitle: "Thoughts on building things, AI agents and safe automation."
 permalink: /en/
 description: "Ideas about AI, everyday design and society. English versions of the posts."
