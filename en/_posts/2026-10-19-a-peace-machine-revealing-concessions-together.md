@@ -4,10 +4,15 @@ date: 2026-10-19 04:43:00 +0300
 categories: ai suunnittelu
 description: "A peace machine would help clarify a dispute and prepare concessions privately. Messages approved by both participants would be revealed together."
 ref: rauhankone-myonnytykset-esiin-yhta-aikaa
-version: 1
+version: 2
+last_modified_at: 2026-10-19 05:03:54 +0300
+changes:
+  - version: 2
+    date: 2026-10-19
+    note: "Reframed the idea as a possibility for consideration and condensed the assessment of the article’s contribution."
 ---
 
-In an argument, both people may be willing to make concessions, but neither wants to go first. I propose an AI assistant that would help each person clarify their position and prepare a concession privately. Once both had approved their own messages, they would be revealed at the same time. The aim would be to make a joint conversation easier to start and find solutions without either person first having to feel they had lost.
+In an argument, both people may be willing to make concessions, but neither wants to go first. One possibility would be an AI assistant that would help each person clarify their position and prepare a concession privately. Once both had approved their own messages, they would be revealed at the same time. The aim would be to make a joint conversation easier to start and find solutions without either person first having to feel they had lost.
 
 *Concept draft: the proposed mediation process is not a tested service or a promise that a dispute will be resolved.*
 
@@ -15,7 +20,7 @@ In an argument, both people may be willing to make concessions, but neither want
 
 In his 2017 book *Rauhankone – tekoälytutkijan testamentti* (Peace Machine: An AI Researcher's Testament), AI researcher Timo Honkela outlined technology that would help people understand one another, handle emotions, and build a more just society. One underlying observation was that people can mean different things by the same words ([University of Helsinki research portal](https://researchportal.helsinki.fi/fi/publications/rauhankone-teko%C3%A4lytutkijan-testamentti/)).
 
-I use the same name here with that background in mind. My proposal addresses a practical conversation: could a machine help distinguish feelings, claims, and negotiation needs, and make the first concession easier? It is one possible application within the broad direction Honkela explored, not a claim to have reinvented his vision.
+The idea examined here addresses a practical conversation: could a machine help distinguish feelings, claims, and negotiation needs, and make the first concession easier? It is one possible application within the broad direction Honkela explored, not a claim to have reinvented his vision.
 
 ## First ease the emotional load, then clarify the issue
 
@@ -51,21 +56,9 @@ A human mediator could participate. The assistant should also allow people to st
 
 ## Novelty
 
-I searched research, products, and online discussions using terms including *AI mediation*, *private intake*, *blind bidding*, and *simultaneous concessions*. Alongside Honkela's background, three close counterparts help define the proposal.
+Using AI to clarify messages is already a research topic, as illustrated by [LLMediator](https://arxiv.org/abs/2307.16732). The [Ashti developer presentation](https://news.ycombinator.com/item?id=47306987) also describes private preparation before a joint conversation, while [Smartsettle](https://www.smartsettle.com/smartsettle-infinity) uses confidential preferences and blind bidding in negotiations. These starting points therefore cannot be treated as this article's novelty.
 
-### Reformulating messages has already been studied
-
-The [2023 LLMediator study](https://arxiv.org/abs/2307.16732) explored language models in online mediation, including reformulating user messages and drafting mediator responses. It involved an experimental platform and preliminary qualitative evaluation. Using AI to clarify messages in a dispute is therefore not a new basic idea.
-
-### Private preparation already appears in developer proposals
-
-In the [Ashti presentation on Hacker News](https://news.ycombinator.com/item?id=47306987), its creator describes separate private spaces for expressing emotions and preparing a joint conversation. This is a close counterpart concerning both emotions and privacy. It is the creator's product description, not independent evidence of security or mediation outcomes.
-
-### Negotiations already use hidden offers
-
-[Smartsettle Infinity](https://www.smartsettle.com/smartsettle-infinity) describes handling confidential party preferences and blind bidding in multi-issue negotiations. Seeking solutions without revealing everyone's starting positions is therefore an existing approach.
-
-My proposal would emphasize the simultaneous reveal of user-approved concessions, including emotional acknowledgments, combined with clarification of the issue. I did not find exactly this procedure in the descriptions checked. That does not establish that the combination is unique or its effectiveness proven.
+The article adds a specific procedure: each person privately formulates a concession, including an emotional acknowledgment, approves the exact message to be shared, and authorizes its simultaneous reveal with the other person's message. Precisely this combination did not appear in the descriptions checked. It nevertheless remains an idea for consideration that brings existing approaches together; its distinct novelty and effect would need further investigation.
 
 ## Scale of the problem and potential of the solution
 

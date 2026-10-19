@@ -4,15 +4,18 @@ date: 2026-10-19 04:43:00 +0300
 categories: suunnittelu talous
 description: "Pieni sähköinen robottilossi voisi korvata pitkän maantiekierroksen. Tavara kulkisi veden yli silloin, kun olosuhteet sallivat turvallisen ajon."
 ref: robottilossi-tekisi-vedesta-oikotien
-version: 2
-last_modified_at: 2026-10-19 04:51:49 +0300
+version: 3
+last_modified_at: 2026-10-19 05:03:54 +0300
 changes:
+  - version: 3
+    date: 2026-10-19
+    note: "Muutettu idean esittelyä punnitsevaksi ja tiivistetty tekstin omaa lisäarvoa koskeva arvio. Poistettu Suomeen perustuva rahavertailu."
   - version: 2
     date: 2026-10-19
     note: "Lisätty Teslan vuoden 1898 radio-ohjattava vene, patentin kuljetuskäytöt ja erikseen merkitty historiallinen pohdinta."
 ---
 
-Vastaranta näkyy ikkunasta, mutta sinne ajaminen vaatii pitkän kierroksen. Ehdotan pienistä sähköisistä robottilautoista verkostoa, joka veisi ostoksia, paketteja ja työvälineitä lyhyitä matkoja veden yli. Alusten ei tarvitsisi kulkea kaikissa keleissä tai ympäri vuoden. Ne toimisivat halpoina oikoteinä silloin, kun olosuhteet ovat riittävän hyvät, ja jäisivät muulloin laituriin.
+Vastaranta näkyy ikkunasta, mutta sinne ajaminen vaatii pitkän kierroksen. Yksi mahdollisuus olisi pienten sähköisten robottilauttojen verkosto, joka veisi ostoksia, paketteja ja työvälineitä lyhyitä matkoja veden yli. Alusten ei tarvitsisi kulkea kaikissa keleissä tai ympäri vuoden. Ne toimisivat halpoina oikoteinä silloin, kun olosuhteet ovat riittävän hyvät, ja jäisivät muulloin laituriin.
 
 *Idealuonnos: alusta, reittejä ja kustannuksia ei ole suunniteltu tai testattu. Laskelma jäljempänä on kuvitteellinen vertailuesimerkki.*
 
@@ -44,29 +47,13 @@ Historiallinen edeltäjä löytyy yllättävän kaukaa. Nikola Tesla esitteli ra
 
 Samansuuntaiset käyttötavat eivät edes jää pelkäksi arvailuksi: [Teslan patentti US613809A](https://patents.google.com/patent/US613809A/en) mainitsee kirjeiden, pakettien, elintarvikkeiden ja muiden tavaroiden kuljettamisen sekä vaikeapääsyisten alueiden tavoittamisen. Hän siis ajatteli etäohjaukselle myös käytännöllisiä kuljetustehtäviä.
 
-Miettikö Tesla samalla jotakin pienten vesioikoteiden verkoston kaltaista? Sitä nämä lähteet eivät kerro, mutta ajatuksella voi leikitellä. Ehkä nykypäivän kiinnostava mahdollisuus onkin tehdä vanhasta kuljetusvisiosta arkinen palvelu nykytekniikan avulla. Tämä viimeinen rinnastus on omaa pohdintaa, ei väite Teslan suunnitelmista.
+Miettikö Tesla samalla jotakin pienten vesioikoteiden verkoston kaltaista? Sitä nämä lähteet eivät kerro, mutta ajatuksella voi leikitellä. Ehkä nykypäivän kiinnostava mahdollisuus onkin tehdä vanhasta kuljetusvisiosta arkinen palvelu nykytekniikan avulla. Tämä rinnastus on spekulaatiota, ei väite Teslan suunnitelmista.
 
 ## Uutuusarvo
 
-Hain ratkaisuja ja aiempia keskusteluja termeillä *autonomous electric ferry*, *small cargo ferry*, *island grocery delivery* ja *waterway logistics*. Pieni sähköinen automaattilautta ja veden käyttäminen oikotienä eivät ole uusia perusideoita. Kolme vastinetta osuu lähelle ehdotusta.
+Autonomisia sähköaluksia ja niiden käyttöä tavarakuljetuksiin on jo tutkittu ja kokeiltu. Läheinen vastine on Japanin [Smart Island -kokeilu](https://smartisland.mlit.go.jp/demo/33island/), jossa yhdistettiin kauppatavaroiden ja matkustajien kuljetuksia sekä kokeiltiin etävalvontaa. Myös [Roboat II -tutkimus](https://arxiv.org/abs/2007.10220) tarkastelee autonomista alusta kaupunkien vesiväylille. Uudesta alusteknologiasta tai kokonaan uudesta kuljetusideasta ei siten ole kyse.
 
-### Pieniä automaattilauttoja on jo kokeiltu
-
-[Callboatsin CAT 6 -esittelyn](https://callboats.com/cat-6/) mukaan kuuden matkustajan sähkökäyttöinen prototyyppi liikennöi Helsingissä kaupallisesti kesällä 2020. Esittely mainitsee matkustajaliikenteen aikaisen valvovan kapteenin. Tämä on tärkeä ero pelkkään ”miehittämätön lautta” -mielikuvaan: automaation esittely ei vielä tarkoita täysin ilman mukana olevaa henkilöstöä toimivaa palvelua.
-
-[Zeamin taustakuvaus](https://www.zeam.se/en/about) kertoo puolestaan Trondheimin lyhyellä ylityksellä kokeillusta milliAmpere-lautasta ja pienten autonomisten sähkölauttojen kehityksestä. Myös ajatus lyhyestä kaupunkivesireitistä on siis jo käytännön kehitystyötä.
-
-### Saariston tavarakuljetuksia on jo pilotoitu
-
-Japanin liikenneministeriön [Smart Island -hankekuvaus](https://smartisland.mlit.go.jp/demo/33island/) kertoo autonomisella sähköaluksella tehdystä tavara- ja matkustajaliikenteen kokeilusta Ōsakikamijiman ja Ikunoshiman välillä. Mukana olivat kauppatavaroiden toimitukset ja etävalvonnan kokeilu. Kuvaus nostaa myös kannattavuuden ja toteutuksen järjestämisen jatkokysymyksiksi.
-
-Tämä on hyvin läheinen vastine, joten tavaran ja ihmisten kuljettamisen yhdistelmääkään ei voi esittää uutena keksintönä. Oman ehdotukseni painotus olisi tarkoituksella rajatuissa käyttöoloissa sekä saman perusrakenteen monistamisessa pienille reiteille.
-
-### Keskusteluissa ja tutkimuksessa näkyvät myös rajoitteet
-
-[Roboat II -tutkimus vuodelta 2020](https://arxiv.org/abs/2007.10220) käsittelee autonomista alusta kaupunkiympäristössä ja kokeita navigoinnista rajatuilla vesiväylillä. Se antaa teknistä taustaa, mutta ei todista tämän ehdotuksen reittiverkoston kannattavuutta.
-
-Myös [vuoden 2020 Reddit-keskustelussa](https://www.reddit.com/r/Futurology/comments/jhabni) pohditaan autonomisia lauttoja ja sitä, kuinka harvassa sopivat ylityspaikat saattavat olla. Keskustelu ei ole tekninen tutkimus, mutta se osoittaa, että sekä idea että kysymys oikeasta käyttöpaikasta ovat jo olleet julkisesti esillä. Näiden hakujen perusteella pitäisin tätä olemassa olevien ratkaisujen käyttömallin ehdotuksena, en uutena alusteknologiana.
+Tämä teksti tuo keskusteluun rajauksen: millaisia pieniä tavarareittejä voisi palvella yhteisellä kalustolla, jos palvelulta ei vaadittaisi ympärivuotisuutta tai toimintaa kaikissa oloissa? Lisä on käyttömallin ja sen kannattavuusehtojen jäsentäminen. Selvästi uutta teknistä keksintöä ei haussa tunnistettu, eikä käyttömallin ainutlaatuisuutta ole osoitettu.
 
 ## Ongelman mittakaava ja ratkaisun potentiaali
 
@@ -74,17 +61,15 @@ Vertailukohtana ei ole maailma, jossa kaikki kuljetukset tehdään nykyiseen tap
 
 ### Kuvitteellisella reitillä säästyisi 80 000–200 000 ajokilometriä
 
-Oletetaan reitti, jolla palvelu toimisi 200 päivänä vuodessa ja korvaisi 20–50 erillistä maantieajoa päivässä. Oletetaan, että jokaisesta jäisi pois 20 kilometriä sen jälkeen, kun laiturille pääsemisen ja tavaran jatkokuljetuksen ajot on huomioitu. Nämä ovat omia skenaario-oletuksia, eivät tietoja tunnistetusta reitistä tai kysynnästä.
+Oletetaan reitti, jolla palvelu toimisi 200 päivänä vuodessa ja korvaisi 20–50 erillistä maantieajoa päivässä. Oletetaan, että jokaisesta jäisi pois 20 kilometriä sen jälkeen, kun laiturille pääsemisen ja tavaran jatkokuljetuksen ajot on huomioitu. Nämä ovat laskelman skenaario-oletuksia, eivät tietoja tunnistetusta reitistä tai kysynnästä.
 
 Tällöin vältetty ajo olisi **200 × 20–50 × 20 = 80 000–200 000 kilometriä vuodessa**. Laskelma edellyttää aidosti poistuvia ajoja: jos ostokset olisi jo yhdistetty yhteen jakeluautoon, niitä ei saisi laskea erillisiksi automatkoiksi.
 
-Rahalliseksi vertailutasoksi voi ottaa [Suomen vuoden 2026 kilometrikorvauksen, 0,55 euroa kilometriltä](https://www.vero.fi/tietoa-verohallinnosta/uutishuone/uutiset/uutiset/2025/verovapaat-matkakustannusten-korvaukset-vuonna-2026/). Sillä laskettu korvattavan ajon kustannusvertailu olisi **44 000–110 000 euroa vuodessa**. Korvaustaso ei kuitenkaan ole mittaus vältettävästä rajakustannuksesta: auton kiinteät kulut eivät katoa yhden ajon jäädessä pois. Lukua ei siksi pidä kutsua toteutuvaksi säästöksi.
+### Rahallinen hyöty riippuisi paikallisista kustannuksista
 
-### Aluksen kulut ratkaisisivat, jääkö mitään jäljelle
+Vältettyjä kilometrejä ei voi muuttaa yleispäteväksi rahasäästöksi yhden maan korvaustasolla. Laskelman rahallinen vastine olisi paikallisesti vältettävä ajokustannus vähennettynä koko vesipalvelun vuosikustannuksella. Mukaan kuuluisivat aluksen ja laiturien pääomakulut, energia, valvonta, huollot, vakuutukset ja lastinkäsittely. Auton kiinteät kulut eivät välttämättä poistu ajokilometrien mukana.
 
-Tästä vertailutasosta pitäisi vähentää koko vesipalvelun vuosikustannus: aluksen ja laiturien pääomakulut, energia, valvonta, huollot, vakuutukset ja lastinkäsittely. Niistä ei tässä ole tarjouksia tai riittävää kustannusaineistoa. Nettosäästöä tai takaisinmaksuaikaa ei siksi voi vielä perustella.
-
-Laskelmaa heiluttaa eniten se, kuinka monta erillistä kiertomatkaa oikeasti poistuisi. Myös käyttöpäivien määrä ja ihmistyön tarve voisivat muuttaa tuloksen kokonaan. Ensimmäinen selvitys kannattaisi tehdä yhdelle reitille laskemalla todelliset kuljetukset ja pyytämällä toteutuksesta kustannusarviot. Maailmanlaajuinen rahaluku olisi tässä vaiheessa näennäistarkka.
+Yksittäisestä reitistä ei tässä ole riittävää kustannusaineistoa, joten nettosäästölle tai takaisinmaksuajalle ei anneta lukua. Laskelmaa heiluttaa eniten se, kuinka monta erillistä kiertomatkaa oikeasti poistuisi. Myös käyttöpäivien määrä ja ihmistyön tarve voisivat muuttaa tuloksen kokonaan. Ensimmäinen selvitys kannattaisi tehdä yhdelle reitille laskemalla todelliset kuljetukset ja pyytämällä toteutuksesta kustannusarviot. Maailmanlaajuinen rahaluku olisi tässä vaiheessa näennäistarkka.
 
 ### Uutta toimintaa voisi syntyä sinne, missä kuljetus estää sen
 

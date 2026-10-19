@@ -4,10 +4,15 @@ date: 2026-10-19 04:43:00 +0300
 categories: ai suunnittelu
 description: "Rauhankone auttaisi jäsentämään riidan ja valmistelisi myönnytykset yksityisesti. Molempien hyväksymät viestit paljastettaisiin yhtä aikaa."
 ref: rauhankone-myonnytykset-esiin-yhta-aikaa
-version: 1
+version: 2
+last_modified_at: 2026-10-19 05:03:54 +0300
+changes:
+  - version: 2
+    date: 2026-10-19
+    note: "Muutettu idean esittelyä punnitsevaksi ja tiivistetty tekstin omaa lisäarvoa koskeva arvio."
 ---
 
-Riidassa molemmat saattavat olla valmiita tulemaan vastaan, mutta kumpikaan ei halua joustaa ensimmäisenä. Ehdotan tekoälyavustajaa, joka auttaisi kumpaakin jäsentämään oman asiansa ja valmistelemaan myönnytyksen yksityisesti. Kun molemmat olisivat hyväksyneet omat viestinsä, ne paljastettaisiin yhtä aikaa. Tavoitteena olisi helpottaa yhteisen keskustelun aloittamista ja löytää ratkaisuja, joissa kummankaan ei tarvitse ensin kokea hävinneensä.
+Riidassa molemmat saattavat olla valmiita tulemaan vastaan, mutta kumpikaan ei halua joustaa ensimmäisenä. Yksi mahdollisuus olisi tekoälyavustaja, joka auttaisi kumpaakin jäsentämään oman asiansa ja valmistelemaan myönnytyksen yksityisesti. Kun molemmat olisivat hyväksyneet omat viestinsä, ne paljastettaisiin yhtä aikaa. Tavoitteena olisi helpottaa yhteisen keskustelun aloittamista ja löytää ratkaisuja, joissa kummankaan ei tarvitse ensin kokea hävinneensä.
 
 *Idealuonnos: ehdotettu sovittelumenettely ei ole testattu palvelu eikä lupaus riidan ratkeamisesta.*
 
@@ -15,7 +20,7 @@ Riidassa molemmat saattavat olla valmiita tulemaan vastaan, mutta kumpikaan ei h
 
 Tekoälytutkija Timo Honkela esitteli vuonna 2017 kirjassaan *Rauhankone – tekoälytutkijan testamentti* ajatuksen teknologiasta, joka auttaisi ihmisiä ymmärtämään toisiaan, käsittelemään tunteita ja rakentamaan oikeudenmukaisempaa yhteiskuntaa. Taustalla oli myös havainto siitä, että samoilla sanoilla voidaan tarkoittaa eri asioita ([Helsingin yliopiston tutkimusportaali](https://researchportal.helsinki.fi/fi/publications/rauhankone-teko%C3%A4lytutkijan-testamentti/)).
 
-Käytän tässä samaa nimeä tietoisena tästä taustasta. Oma ehdotukseni rajautuu käytännön keskustelutilanteeseen: voisiko kone auttaa erottamaan tunteen, väitteen ja neuvottelutarpeen sekä tehdä ensimmäisestä myönnytyksestä helpomman? Se on yksi mahdollinen sovellus Honkelan avaaman laajan ajatussuunnan piirissä, ei väite saman vision keksimisestä uudelleen.
+Tässä tarkasteltava idea rajautuu käytännön keskustelutilanteeseen: voisiko kone auttaa erottamaan tunteen, väitteen ja neuvottelutarpeen sekä tehdä ensimmäisestä myönnytyksestä helpomman? Se on yksi mahdollinen sovellus Honkelan avaaman laajan ajatussuunnan piirissä, ei väite saman vision keksimisestä uudelleen.
 
 ## Ensin puretaan kuormaa, sitten tarkennetaan asia
 
@@ -51,21 +56,9 @@ Ihmissovittelija voisi olla mukana. Avustajan pitäisi myös sallia keskeyttämi
 
 ## Uutuusarvo
 
-Hain vastineita tutkimuksista, tuotteista ja nettikeskusteluista muun muassa sanoilla *AI mediation*, *private intake*, *blind bidding* ja *simultaneous concessions*. Honkelan taustan lisäksi kolme läheistä vastinetta rajaavat ehdotusta.
+Tekoälyn käyttö viestien selventämisessä on jo tutkimusaihe, esimerkiksi [LLMediatorissa](https://arxiv.org/abs/2307.16732). [Ashtin kehittäjäesittely](https://news.ycombinator.com/item?id=47306987) kuvaa myös yksityistä valmistelua ennen yhteistä keskustelua, ja [Smartsettle](https://www.smartsettle.com/smartsettle-infinity) hyödyntää neuvotteluissa luottamuksellisia mieltymyksiä ja sokkotarjouksia. Näitä lähtökohtia ei siis voi pitää tämän tekstin uutuutena.
 
-### Viestien muotoilua on jo tutkittu
-
-[LLMediator-tutkimuksessa vuodelta 2023](https://arxiv.org/abs/2307.16732) kokeiltiin kielimallia verkkosovittelun tukena, muun muassa käyttäjien viestien uudelleenmuotoiluun ja sovittelijan vastausten luonnosteluun. Kyseessä oli kokeellinen alusta ja alustava laadullinen arviointi. Tekoälyn käyttäminen riitaviestien selventämiseen ei siis ole uusi perusidea.
-
-### Yksityinen valmistelu esiintyy jo kehittäjien ehdotuksissa
-
-[Ashtin esittelyssä Hacker Newsissä](https://news.ycombinator.com/item?id=47306987) tekijä kuvaa erillisiä yksityisiä tiloja tunteiden purkamiseen ja yhteisen keskustelun valmistelua. Tämä on läheinen vertailukohta sekä tunnetason että yksityisyyden kannalta. Se on tekijän oma tuotekuvaus, ei riippumaton näyttö turvallisuudesta tai sovittelutuloksista.
-
-### Piilotettuja tarjouksia käytetään neuvotteluissa
-
-[Smartsettle Infinity](https://www.smartsettle.com/smartsettle-infinity) kuvaa osapuolten luottamuksellisten mieltymysten käsittelyä ja sokkotarjouksia usean asian neuvotteluissa. Ratkaisujen etsiminen ilman kaikkien lähtökohtien paljastamista on siis jo olemassa oleva lähestymistapa.
-
-Oman ehdotukseni painopiste olisi käyttäjän hyväksymien, myös tunnepitoisten myönnytysten samanaikaisessa paljastamisessa ja sen yhdistämisessä asian jäsentämiseen. Tarkistetuista kuvauksista en löytänyt täsmälleen tätä menettelyä. Se ei osoita, että yhdistelmä olisi ainutlaatuinen tai että sen teho olisi osoitettu.
+Tekstin oma lisä on rajattu menettely: kumpikin muotoilee myös tunnepitoisen myönnytyksen yksityisesti, hyväksyy täsmälleen jaettavan viestin ja antaa luvan sen paljastamiseen samanaikaisesti toisen viestin kanssa. Tarkistetuissa kuvauksissa ei tullut vastaan juuri tätä yhdistelmää. Kyse on silti aiempia lähestymistapoja kokoavasta, punnittavasta ideasta, jonka erillinen uutuusarvo ja vaikutus pitäisi selvittää tarkemmin.
 
 ## Ongelman mittakaava ja ratkaisun potentiaali
 

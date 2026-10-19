@@ -4,10 +4,15 @@ date: 2026-10-19 04:43:00 +0300
 categories: suunnittelu
 description: "An open haircut prescription could travel with the customer between barbers, recording lengths, growth patterns, and the techniques that worked."
 ref: hiuksille-oma-resepti
-version: 1
+version: 2
+last_modified_at: 2026-10-19 05:03:54 +0300
+changes:
+  - version: 2
+    date: 2026-10-19
+    note: "Reframed the idea as a possibility for consideration and condensed the assessment of the article’s contribution."
 ---
 
-A good barber gradually learns what works for your particular hair. When you change barbers, that knowledge usually does not come with you, and the explaining starts again. I propose a haircut prescription that travels with the customer: a map recording the instructions for a successful cut and the particular features of their head. You could show it to a new barber much as you would take an eyeglass prescription to a new optician.
+A good barber gradually learns what works for your particular hair. When you change barbers, that knowledge usually does not come with you, and the explaining starts again. One possibility would be a haircut prescription that travels with the customer: a map recording the instructions for a successful cut and the particular features of their head. You could show it to a new barber much as you would take an eyeglass prescription to a new optician.
 
 *Concept draft: this proposes an open description format, not a completed standard or a tested service.*
 
@@ -49,19 +54,9 @@ An experiment would therefore not need to begin with an agreement across the ent
 
 ## Novelty
 
-I searched products, research, and discussions using terms including *haircut prescription*, *haircut passport*, *portable haircut record*, and *haircut diagram*. Reddit and developer-community proposals were included. The results substantially narrow the novelty: personal haircut records and portable prescriptions have already been thought of elsewhere.
+A personal haircut prescription is not a new idea. For example, the [GRÜM concept](https://builder.aws.com/content/39o9xi0S7y7BJm33PD8fmdtaim0/aideas-grum-never-get-a-bad-haircut-again) describes a portable haircut passport with a recipe, while the [HairCut History product page](https://haircuthistory.com/) describes measurements by area and sharing with another barber. The former presents a concept under development and the latter describes a product; their effectiveness has not been tested here.
 
-### Portable prescriptions have already been proposed
-
-A [Reddit discussion from July 2024](https://www.reddit.com/r/SelfBarber/comments/1e5v8tx/do_any_barbers_use_an_app_to_save_clients/) proposes saving customer photographs and haircut preferences in an app. Closer still is the [GRÜM proposal from March 2026](https://builder.aws.com/content/39o9xi0S7y7BJm33PD8fmdtaim0/aideas-grum-never-get-a-bad-haircut-again): its haircut passport would include photographs, a standardized recipe, and barber notes. The presentation describes a concept under development, not independently verified effectiveness.
-
-The [HairCut History product page](https://haircuthistory.com/) describes measurements by area, techniques, photographs, barber notes, and QR sharing. A digital prescription or showing it to another barber is therefore insufficient as the novelty of this proposal. The product page's promises have not been tested here.
-
-### Description systems and digital models already exist
-
-[Hairtechapp](https://www.hairtechapp.com/) offers tools for drawing and sharing cutting diagrams, including files shared between users of the same app. A [2018 study](https://www.jstage.jst.go.jp/article/ijsmer/23/2/23_137/_article) examines a three-dimensional hair simulator to support hairdressers. [Hairspace](https://www.hairspace.me/) describes a robotic clipper under development that would use a stored digital model of the customer's haircut.
-
-My proposal focuses on a common layer between these systems: an open, extensible format that different applications can implement. I did not find a description of precisely such a shared standard in the presentations checked. This is a limited search finding, not evidence that no such standard could already exist.
+This article adds a distinction between the prescription and an individual application: could a haircut be described in an open, interoperable format that different services and eventually devices could read? The sources checked did not describe precisely such a shared standard. This perspective refines earlier ideas, but a need for a new standard, or its absence, does not establish a unique invention.
 
 ## Scale of the problem and potential of the solution
 

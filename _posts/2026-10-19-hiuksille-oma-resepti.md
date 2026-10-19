@@ -4,10 +4,15 @@ date: 2026-10-19 04:43:00 +0300
 categories: suunnittelu
 description: "Avoin hiustenleikkausresepti kulkisi asiakkaan mukana parturilta toiselle. Se tallentaisi pituuksien lisäksi pyörteet ja toimivat ratkaisut."
 ref: hiuksille-oma-resepti
-version: 1
+version: 2
+last_modified_at: 2026-10-19 05:03:54 +0300
+changes:
+  - version: 2
+    date: 2026-10-19
+    note: "Muutettu idean esittelyä punnitsevaksi ja tiivistetty tekstin omaa lisäarvoa koskeva arvio."
 ---
 
-Hyvä parturi oppii ajan mittaan, mitä juuri sinun hiuksillesi kannattaa tehdä. Kun vaihdat parturia, tämä tieto ei yleensä tule mukaasi, ja selittäminen alkaa alusta. Ehdotan asiakkaan mukana kulkevaa hiustenleikkausreseptiä: karttaa, johon kirjataan onnistuneen leikkauksen ohjeet ja oman pään erityispiirteet. Sen voisi näyttää uudelle parturille samaan tapaan kuin silmälasireseptin uudelle optikolle.
+Hyvä parturi oppii ajan mittaan, mitä juuri sinun hiuksillesi kannattaa tehdä. Kun vaihdat parturia, tämä tieto ei yleensä tule mukaasi, ja selittäminen alkaa alusta. Yksi mahdollisuus olisi asiakkaan mukana kulkeva hiustenleikkausresepti: karttaa, johon kirjataan onnistuneen leikkauksen ohjeet ja oman pään erityispiirteet. Sen voisi näyttää uudelle parturille samaan tapaan kuin silmälasireseptin uudelle optikolle.
 
 *Idealuonnos: tässä ehdotetaan avointa kuvausformaattia, ei valmista standardia tai testattua palvelua.*
 
@@ -49,19 +54,9 @@ Näin kokeilun ei tarvitsisi alkaa koko alan yhteisestä päätöksestä. Yksi l
 
 ## Uutuusarvo
 
-Hain tuotteita, tutkimuksia ja keskusteluja sanoilla kuten *haircut prescription*, *haircut passport*, *portable haircut record* ja *haircut diagram*. Mukana olivat myös Redditin ja kehittäjäyhteisöjen ehdotukset. Tulos rajaa uutuusarvoa olennaisesti: henkilökohtainen leikkausmuisti ja siirrettävä resepti on jo keksitty muuallakin.
+Henkilökohtainen leikkausresepti ei ole uusi ajatus. Esimerkiksi [GRÜM-konsepti](https://builder.aws.com/content/39o9xi0S7y7BJm33PD8fmdtaim0/aideas-grum-never-get-a-bad-haircut-again) kuvaa mukana kulkevaa hiuspassia resepteineen, ja [HairCut Historyn tuotesivu](https://haircuthistory.com/) kuvaa aluekohtaisia mittoja ja jakamista toiselle parturille. Ensimmäinen on kehitteillä olevan konseptin esittely, jälkimmäinen tuotekuvaus; niiden toimivuutta ei tässä ole testattu.
 
-### Mukana kulkevaa reseptiä on jo ehdotettu
-
-[Reddit-keskustelussa heinäkuulta 2024](https://www.reddit.com/r/SelfBarber/comments/1e5v8tx/do_any_barbers_use_an_app_to_save_clients/) ehdotetaan asiakkaiden kuvien ja leikkaustoiveiden tallentamista sovellukseen. Vielä läheisempi on [GRÜM-ehdotus maaliskuulta 2026](https://builder.aws.com/content/39o9xi0S7y7BJm33PD8fmdtaim0/aideas-grum-never-get-a-bad-haircut-again): asiakkaan hiuspassiin kuuluisivat kuvat, standardoitu resepti ja parturin muistiinpanot. Esittely kuvaa kehitteillä olevaa konseptia, ei riippumattomasti varmennettua toimivuutta.
-
-[HairCut Historyn tuotesivu](https://haircuthistory.com/) puolestaan kuvaa aluekohtaisia mittoja, tekniikoita, kuvia, parturin merkintöjä ja jakamista QR-koodilla. Pelkkä digitaalinen resepti tai sen näyttäminen toiselle parturille ei siten riitä tämän ehdotuksen uutuudeksi. Tuotesivun lupauksia ei tässä ole testattu.
-
-### Kuvauskieltä ja digitaalisia malleja on jo olemassa
-
-[Hairtechapp](https://www.hairtechapp.com/) tarjoaa leikkauskaavioiden piirtämistä ja jakamista, myös tiedostoina saman sovelluksen käyttäjien kesken. [Vuoden 2018 tutkimus](https://www.jstage.jst.go.jp/article/ijsmer/23/2/23_137/_article) käsittelee kolmiulotteista hiussimulaattoria parturin työn tueksi. [Hairspace](https://www.hairspace.me/) taas kuvaa kehitteillä olevaa robottileikkuria, joka käyttäisi asiakkaan leikkauksesta tallennettua digitaalista mallia.
-
-Ehdotukseni painopiste on näiden välinen yhteinen kerros: avoin, laajennettava ja eri sovellusten toteutettavissa oleva formaatti. Tarkistetuista esittelyistä en löytänyt kuvausta juuri tällaisesta yhteisestä standardista. Tämä on haun rajattu havainto, ei osoitus siitä, ettei standardia voisi jo olla olemassa.
+Tämän tekstin lisä keskusteluun on erottaa resepti yksittäisestä sovelluksesta: voisiko leikkauksen kuvata avoimessa, yhteentoimivassa muodossa, jota eri palvelut ja myöhemmin laitteet voisivat lukea? Tarkistetuista lähteistä ei löytynyt kuvausta juuri tällaisesta yhteisestä standardista. Näkökulma tarkentaa aiempia ajatuksia, mutta uuden standardin tarve tai sen puuttuminen ei vielä osoita ainutlaatuista keksintöä.
 
 ## Ongelman mittakaava ja ratkaisun potentiaali
 
