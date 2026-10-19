@@ -2,7 +2,7 @@
 layout: home
 featured_ref: henkilokohtainen-komiikkamalli
 title: "Orphan Problem Lab"
-subtitle: "For problems without owners, ideas without a home, and things worth rethinking."
+subtitle: "Ongelmille vailla vastuunkantajaa, ideoille vailla kotia ja asioille, joita kannattaa ajatella uudelleen."
 ---
 
 Tässä blogissa tutkitaan, miten asioita voisi rakentaa ja järjestää paremmin —
