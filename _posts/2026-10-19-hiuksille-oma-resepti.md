@@ -4,9 +4,12 @@ date: 2026-10-19 04:43:00 +0300
 categories: suunnittelu
 description: "Avoin hiustenleikkausresepti kulkisi asiakkaan mukana parturilta toiselle. Se tallentaisi pituuksien lisäksi pyörteet ja toimivat ratkaisut."
 ref: hiuksille-oma-resepti
-version: 2
-last_modified_at: 2026-10-19 05:03:54 +0300
+version: 3
+last_modified_at: 2026-10-19 05:15:07 +0300
 changes:
+  - version: 3
+    date: 2026-10-19
+    note: "Päivätty uutuusarvio ja poistettu tarpeeton loppuvaraus."
   - version: 2
     date: 2026-10-19
     note: "Muutettu idean esittelyä punnitsevaksi ja tiivistetty tekstin omaa lisäarvoa koskeva arvio."
@@ -52,11 +55,11 @@ Reseptin perusmuodon ja sitä lukevan esimerkkiohjelman voisi julkaista avoimest
 
 Näin kokeilun ei tarvitsisi alkaa koko alan yhteisestä päätöksestä. Yksi liike voisi tehdä reseptejä, joita asiakkaat voivat näyttää muualla. Yhteinen formaatti auttaisi enemmän sitä mukaa, kun muutkin osaavat lukea ja päivittää sitä. Sen hyödyllisyys pitäisi kuitenkin ansaita käytössä: jos reseptin täyttäminen vie enemmän aikaa kuin uuden asiakkaan haastatteleminen, avoimuus ei yksin tee siitä houkuttelevaa.
 
-## Uutuusarvo
+## Uutuusarvo (lokakuu 2026)
 
 Henkilökohtainen leikkausresepti ei ole uusi ajatus. Esimerkiksi [GRÜM-konsepti](https://builder.aws.com/content/39o9xi0S7y7BJm33PD8fmdtaim0/aideas-grum-never-get-a-bad-haircut-again) kuvaa mukana kulkevaa hiuspassia resepteineen, ja [HairCut Historyn tuotesivu](https://haircuthistory.com/) kuvaa aluekohtaisia mittoja ja jakamista toiselle parturille. Ensimmäinen on kehitteillä olevan konseptin esittely, jälkimmäinen tuotekuvaus; niiden toimivuutta ei tässä ole testattu.
 
-Tämän tekstin lisä keskusteluun on erottaa resepti yksittäisestä sovelluksesta: voisiko leikkauksen kuvata avoimessa, yhteentoimivassa muodossa, jota eri palvelut ja myöhemmin laitteet voisivat lukea? Tarkistetuista lähteistä ei löytynyt kuvausta juuri tällaisesta yhteisestä standardista. Näkökulma tarkentaa aiempia ajatuksia, mutta uuden standardin tarve tai sen puuttuminen ei vielä osoita ainutlaatuista keksintöä.
+Tämän tekstin lisä keskusteluun on erottaa resepti yksittäisestä sovelluksesta: voisiko leikkauksen kuvata avoimessa, yhteentoimivassa muodossa, jota eri palvelut ja myöhemmin laitteet voisivat lukea? Tarkistetuista lähteistä ei löytynyt kuvausta juuri tällaisesta yhteisestä standardista.
 
 ## Ongelman mittakaava ja ratkaisun potentiaali
 

@@ -4,9 +4,12 @@ date: 2026-10-19 04:43:00 +0300
 categories: ai suunnittelu
 description: "Rauhankone auttaisi jäsentämään riidan ja valmistelisi myönnytykset yksityisesti. Molempien hyväksymät viestit paljastettaisiin yhtä aikaa."
 ref: rauhankone-myonnytykset-esiin-yhta-aikaa
-version: 2
-last_modified_at: 2026-10-19 05:03:54 +0300
+version: 3
+last_modified_at: 2026-10-19 05:15:07 +0300
 changes:
+  - version: 3
+    date: 2026-10-19
+    note: "Päivätty uutuusarvio ja poistettu tarpeeton loppuvaraus."
   - version: 2
     date: 2026-10-19
     note: "Muutettu idean esittelyä punnitsevaksi ja tiivistetty tekstin omaa lisäarvoa koskeva arvio."
@@ -54,11 +57,11 @@ Luottamuksellisuus kuuluisi suunnittelun ytimeen: tavoitteena olisi, ettei yksit
 
 Ihmissovittelija voisi olla mukana. Avustajan pitäisi myös sallia keskeyttäminen ja avun hakeminen muualta. Tavoitteena ei olisi sovinto hinnalla millä hyvänsä, vaan ymmärrettävämpi ja vapaaehtoinen keskustelu. Empaattisen myönnytyksen tarkoitus olisi ilmaista ymmärrystä; palvelu ei voisi luvata käyttäjän sanoille yleistä oikeudellista suojaa.
 
-## Uutuusarvo
+## Uutuusarvo (lokakuu 2026)
 
 Tekoälyn käyttö viestien selventämisessä on jo tutkimusaihe, esimerkiksi [LLMediatorissa](https://arxiv.org/abs/2307.16732). [Ashtin kehittäjäesittely](https://news.ycombinator.com/item?id=47306987) kuvaa myös yksityistä valmistelua ennen yhteistä keskustelua, ja [Smartsettle](https://www.smartsettle.com/smartsettle-infinity) hyödyntää neuvotteluissa luottamuksellisia mieltymyksiä ja sokkotarjouksia. Näitä lähtökohtia ei siis voi pitää tämän tekstin uutuutena.
 
-Tekstin oma lisä on rajattu menettely: kumpikin muotoilee myös tunnepitoisen myönnytyksen yksityisesti, hyväksyy täsmälleen jaettavan viestin ja antaa luvan sen paljastamiseen samanaikaisesti toisen viestin kanssa. Tarkistetuissa kuvauksissa ei tullut vastaan juuri tätä yhdistelmää. Kyse on silti aiempia lähestymistapoja kokoavasta, punnittavasta ideasta, jonka erillinen uutuusarvo ja vaikutus pitäisi selvittää tarkemmin.
+Tekstin oma lisä on rajattu menettely: kumpikin muotoilee myös tunnepitoisen myönnytyksen yksityisesti, hyväksyy täsmälleen jaettavan viestin ja antaa luvan sen paljastamiseen samanaikaisesti toisen viestin kanssa. Tarkistetuissa kuvauksissa ei tullut vastaan juuri tätä yhdistelmää.
 
 ## Ongelman mittakaava ja ratkaisun potentiaali
 

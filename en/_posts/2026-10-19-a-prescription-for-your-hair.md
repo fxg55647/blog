@@ -4,9 +4,12 @@ date: 2026-10-19 04:43:00 +0300
 categories: suunnittelu
 description: "An open haircut prescription could travel with the customer between barbers, recording lengths, growth patterns, and the techniques that worked."
 ref: hiuksille-oma-resepti
-version: 2
-last_modified_at: 2026-10-19 05:03:54 +0300
+version: 3
+last_modified_at: 2026-10-19 05:15:07 +0300
 changes:
+  - version: 3
+    date: 2026-10-19
+    note: "Dated the novelty assessment and removed an unnecessary closing qualification."
   - version: 2
     date: 2026-10-19
     note: "Reframed the idea as a possibility for consideration and condensed the assessment of the article’s contribution."
@@ -52,11 +55,11 @@ The basic prescription format and a reference reader could be published openly. 
 
 An experiment would therefore not need to begin with an agreement across the entire industry. One salon could issue prescriptions that customers could show elsewhere. The common format would become more useful as others learned to read and update it. It would nevertheless have to earn its usefulness in practice: if filling out a prescription takes longer than interviewing a new customer, openness alone will not make it attractive.
 
-## Novelty
+## Novelty (October 2026)
 
 A personal haircut prescription is not a new idea. For example, the [GRÜM concept](https://builder.aws.com/content/39o9xi0S7y7BJm33PD8fmdtaim0/aideas-grum-never-get-a-bad-haircut-again) describes a portable haircut passport with a recipe, while the [HairCut History product page](https://haircuthistory.com/) describes measurements by area and sharing with another barber. The former presents a concept under development and the latter describes a product; their effectiveness has not been tested here.
 
-This article adds a distinction between the prescription and an individual application: could a haircut be described in an open, interoperable format that different services and eventually devices could read? The sources checked did not describe precisely such a shared standard. This perspective refines earlier ideas, but a need for a new standard, or its absence, does not establish a unique invention.
+This article adds a distinction between the prescription and an individual application: could a haircut be described in an open, interoperable format that different services and eventually devices could read? The sources checked did not describe precisely such a shared standard.
 
 ## Scale of the problem and potential of the solution
 

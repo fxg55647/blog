@@ -4,9 +4,12 @@ date: 2026-10-19 04:43:00 +0300
 categories: ai suunnittelu
 description: "A peace machine would help clarify a dispute and prepare concessions privately. Messages approved by both participants would be revealed together."
 ref: rauhankone-myonnytykset-esiin-yhta-aikaa
-version: 2
-last_modified_at: 2026-10-19 05:03:54 +0300
+version: 3
+last_modified_at: 2026-10-19 05:15:07 +0300
 changes:
+  - version: 3
+    date: 2026-10-19
+    note: "Dated the novelty assessment and removed an unnecessary closing qualification."
   - version: 2
     date: 2026-10-19
     note: "Reframed the idea as a possibility for consideration and condensed the assessment of the article’s contribution."
@@ -54,11 +57,11 @@ Confidentiality would be central to the design: the aim would be to avoid a perm
 
 A human mediator could participate. The assistant should also allow people to stop and seek help elsewhere. The goal would be an understandable, voluntary conversation, rather than agreement at any cost. An empathetic concession would be intended to express understanding; the service could not promise general legal protection for a user's words.
 
-## Novelty
+## Novelty (October 2026)
 
 Using AI to clarify messages is already a research topic, as illustrated by [LLMediator](https://arxiv.org/abs/2307.16732). The [Ashti developer presentation](https://news.ycombinator.com/item?id=47306987) also describes private preparation before a joint conversation, while [Smartsettle](https://www.smartsettle.com/smartsettle-infinity) uses confidential preferences and blind bidding in negotiations. These starting points therefore cannot be treated as this article's novelty.
 
-The article adds a specific procedure: each person privately formulates a concession, including an emotional acknowledgment, approves the exact message to be shared, and authorizes its simultaneous reveal with the other person's message. Precisely this combination did not appear in the descriptions checked. It nevertheless remains an idea for consideration that brings existing approaches together; its distinct novelty and effect would need further investigation.
+The article adds a specific procedure: each person privately formulates a concession, including an emotional acknowledgment, approves the exact message to be shared, and authorizes its simultaneous reveal with the other person's message. Precisely this combination did not appear in the descriptions checked.
 
 ## Scale of the problem and potential of the solution
 

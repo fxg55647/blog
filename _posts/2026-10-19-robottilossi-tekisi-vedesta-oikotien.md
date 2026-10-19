@@ -4,9 +4,12 @@ date: 2026-10-19 04:43:00 +0300
 categories: suunnittelu talous
 description: "Pieni sähköinen robottilossi voisi korvata pitkän maantiekierroksen. Tavara kulkisi veden yli silloin, kun olosuhteet sallivat turvallisen ajon."
 ref: robottilossi-tekisi-vedesta-oikotien
-version: 3
-last_modified_at: 2026-10-19 05:03:54 +0300
+version: 4
+last_modified_at: 2026-10-19 05:15:07 +0300
 changes:
+  - version: 4
+    date: 2026-10-19
+    note: "Päivätty uutuusarvio ja poistettu tarpeeton loppuvaraus."
   - version: 3
     date: 2026-10-19
     note: "Muutettu idean esittelyä punnitsevaksi ja tiivistetty tekstin omaa lisäarvoa koskeva arvio. Poistettu Suomeen perustuva rahavertailu."
@@ -49,11 +52,11 @@ Samansuuntaiset käyttötavat eivät edes jää pelkäksi arvailuksi: [Teslan pa
 
 Miettikö Tesla samalla jotakin pienten vesioikoteiden verkoston kaltaista? Sitä nämä lähteet eivät kerro, mutta ajatuksella voi leikitellä. Ehkä nykypäivän kiinnostava mahdollisuus onkin tehdä vanhasta kuljetusvisiosta arkinen palvelu nykytekniikan avulla. Tämä rinnastus on spekulaatiota, ei väite Teslan suunnitelmista.
 
-## Uutuusarvo
+## Uutuusarvo (lokakuu 2026)
 
 Autonomisia sähköaluksia ja niiden käyttöä tavarakuljetuksiin on jo tutkittu ja kokeiltu. Läheinen vastine on Japanin [Smart Island -kokeilu](https://smartisland.mlit.go.jp/demo/33island/), jossa yhdistettiin kauppatavaroiden ja matkustajien kuljetuksia sekä kokeiltiin etävalvontaa. Myös [Roboat II -tutkimus](https://arxiv.org/abs/2007.10220) tarkastelee autonomista alusta kaupunkien vesiväylille. Uudesta alusteknologiasta tai kokonaan uudesta kuljetusideasta ei siten ole kyse.
 
-Tämä teksti tuo keskusteluun rajauksen: millaisia pieniä tavarareittejä voisi palvella yhteisellä kalustolla, jos palvelulta ei vaadittaisi ympärivuotisuutta tai toimintaa kaikissa oloissa? Lisä on käyttömallin ja sen kannattavuusehtojen jäsentäminen. Selvästi uutta teknistä keksintöä ei haussa tunnistettu, eikä käyttömallin ainutlaatuisuutta ole osoitettu.
+Tämä teksti tuo keskusteluun rajauksen: millaisia pieniä tavarareittejä voisi palvella yhteisellä kalustolla, jos palvelulta ei vaadittaisi ympärivuotisuutta tai toimintaa kaikissa oloissa? Lisä on käyttömallin ja sen kannattavuusehtojen jäsentäminen.
 
 ## Ongelman mittakaava ja ratkaisun potentiaali
 

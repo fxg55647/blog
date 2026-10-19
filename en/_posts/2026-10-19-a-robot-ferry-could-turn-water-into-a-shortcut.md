@@ -4,9 +4,12 @@ date: 2026-10-19 04:43:00 +0300
 categories: suunnittelu talous
 description: "A small electric robot ferry could replace a long road detour, carrying goods across the water whenever conditions allow safe operation."
 ref: robottilossi-tekisi-vedesta-oikotien
-version: 3
-last_modified_at: 2026-10-19 05:03:54 +0300
+version: 4
+last_modified_at: 2026-10-19 05:15:07 +0300
 changes:
+  - version: 4
+    date: 2026-10-19
+    note: "Dated the novelty assessment and removed an unnecessary closing qualification."
   - version: 3
     date: 2026-10-19
     note: "Reframed the idea as a possibility for consideration and condensed the assessment of the article’s contribution. Removed the Finland-based monetary comparison."
@@ -49,11 +52,11 @@ Similar applications are not even purely speculative: [Tesla's patent US613809A]
 
 Was Tesla also contemplating something like a network of small water shortcuts? These sources do not tell us, but it is an intriguing possibility to consider. Perhaps today's opportunity is to turn an old transport vision into an everyday service using contemporary technology. This comparison is speculation, not a claim about Tesla's plans.
 
-## Novelty
+## Novelty (October 2026)
 
 Autonomous electric vessels and their use for goods transport have already been researched and trialled. A close counterpart is Japan's [Smart Island trial](https://smartisland.mlit.go.jp/demo/33island/), which combined grocery and passenger transport and tested remote supervision. The [Roboat II study](https://arxiv.org/abs/2007.10220) also examines an autonomous vessel for urban waterways. This is therefore neither new vessel technology nor an entirely new transport idea.
 
-This article adds a particular scope: which small cargo routes could use common equipment if the service did not have to operate year-round or in every condition? Its contribution is to clarify an operating model and the conditions for its viability. No clearly new technical invention was identified in the search, and the operating model's uniqueness has not been established.
+This article adds a particular scope: which small cargo routes could use common equipment if the service did not have to operate year-round or in every condition? Its contribution is to clarify an operating model and the conditions for its viability.
 
 ## Scale of the problem and potential of the solution
 
