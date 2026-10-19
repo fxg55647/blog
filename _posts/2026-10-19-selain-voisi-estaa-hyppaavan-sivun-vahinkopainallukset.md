@@ -4,7 +4,12 @@ date: 2026-10-19 04:28:00 +0300
 categories: suunnittelu
 description: "Selaimen suoja voisi estää vahinkopainalluksen, kun sisältö hypähtää sormen alta. Miten se toimisi ja mitä vastaavaa on jo olemassa?"
 ref: selain-voisi-estaa-hyppaavan-sivun-vahinkopainallukset
-version: 1
+version: 2
+last_modified_at: 2026-10-19 04:35:31 +0300
+changes:
+  - version: 2
+    date: 2026-10-19
+    note: "Lisätty palaute estetystä painalluksesta, Androidin käyttöliittymätason jatkosovellus ja digitaalisen turhautumisen vähentäminen."
 ---
 
 Olet painamassa linkkiä, kun sivulle ilmestyy mainos ja sisältö hypähtää. Sormi osuu siihen, missä linkki juuri oli, mutta selain avaa jotakin muuta. Ehdotan selaimeen suojaa, joka tunnistaa tällaisen tilanteen ja jättää epäilyttävän painalluksen tekemättä. Käyttäjä nostaa sormen ja yrittää uudelleen, kun sisältö on paikallaan.
@@ -29,7 +34,15 @@ Pelkkä liike ei riittäisi perusteeksi. Jos sama linkki siirtyy muutaman piksel
 
 Epäilyttävässä tilanteessa selain ei avaisi kumpaakaan kohdetta eikä jonottaisi painallusta myöhemmäksi. Käyttäjä nostaisi sormen ja painaisi uudestaan. Uusi painallus hyväksyttäisiin normaalisti, jos sisältö olisi ehtinyt vakautua.
 
-Tämä on myös ratkaisun heikkous: väärä hälytys näyttää käyttäjälle reagoimattomalta painikkeelta. Kokeilussa pitäisi mitata sekä estettyjä vahinkopainalluksia että aiheettomasti estettyjä oikeita painalluksia. Suoja olisi hyödyllinen vain, jos se poistaisi enemmän vaivaa kuin aiheuttaisi.
+Selain voisi samalla antaa hillityn palautteen: kosketus rekisteröitiin, mutta kohde liikkui ja toiminto jätettiin siksi tekemättä. Esimerkiksi lyhyt visuaalinen merkki, värähdys tai tarvittaessa selite voisi erottaa tilanteen siitä, ettei laite huomannut kosketusta lainkaan. Sopiva palautetapa pitäisi kokeilla niin, ettei suoja itse ala häiritä käyttöä.
+
+Väärä hälytys pakottaisi silti käyttäjän yrittämään uudelleen. Kokeilussa pitäisi mitata sekä estettyjä vahinkopainalluksia että aiheettomasti estettyjä oikeita painalluksia ja sitä, ymmärtääkö käyttäjä saamansa palautteen. Suoja olisi hyödyllinen vain, jos se poistaisi enemmän vaivaa kuin aiheuttaisi.
+
+## Sama ajatus voisi ulottua Androidin käyttöliittymään
+
+Selain olisi ensimmäinen kokeilukohde, mutta lopulta suojaa voisi yrittää toteuttaa myös Androidin käyttöliittymätasolla. Esimerkiksi puhelinvalmistaja voisi kokeilla sitä omassa käyttöliittymäversiossaan, jolloin ajatus voisi ulottua verkkosivuilta myös järjestelmän näkymiin ja mahdollisesti sovelluksiin.
+
+Tämä on jatkokehityksen mahdollisuus, ei väite siitä, että selainratkaisun voisi sellaisenaan siirtää koko puhelimeen. Laajempi toteutus vaatisi oman selvityksensä siitä, miten kohteiden liikkeet tunnistetaan ja painallukset käsitellään eri näkymissä. Periaate ja käyttäjälle annettava palaute voisivat silti olla samat.
 
 ## Uutuusarvo
 
@@ -56,5 +69,11 @@ Uutuusehdotus on siis nykyistä laajempi, kohteen vaihtumisen huomioiva suoja ta
 Hyöty syntyisi väärien sivujen avaamisen, paluun ja uuden yrityksen välttämisestä. Maailmanlaajuinen rahaluku vaatisi kuitenkin tietoa vahinkopainallusten yleisyydestä, niiden kustannuksesta ja siitä, kuinka suuren osan suoja todella estäisi. Näille ei tässä ole riittävää pohjaa.
 
 Vertailukohtana on lähitulevaisuus, jossa sivujen tekijät parantavat vakautta ja selaimissa on jo rajattuja suojia. Idean lisäarvo olisi jäljelle jäävien virheiden torjuminen myös sivuilla, joiden toteutukseen käyttäjä ei voi vaikuttaa. Se ei korjaisi itse hypähtävää sivua.
+
+### Pieni helpotus voisi kertautua suureksi vaikutukseksi
+
+Merkitys ei rajoittuisi säästyneisiin sekunteihin. Jos puhelin tekisi harvemmin jotakin muuta kuin käyttäjä tarkoitti, se voisi vähentää digitaalista turhautumista ja tehdä älypuhelimen käytöstä sujuvampaa ja helpommin lähestyttävää. Selkeä palaute auttaisi samalla ymmärtämään, mitä laite teki ja miksi.
+
+Yksittäinen korjattu painallus on pieni asia. Jos parannus toistuisi suuren käyttäjäjoukon arjessa päivästä toiseen, pienelläkin muutoksella voisi olla suuri kokonaisvaikutus. Kyse olisi sekä nykyisen vaivan vähentämisestä että siitä, että puhelimella hoitaminen voisi tuntua useammasta ihmisestä mielekkäältä. Vaikutuksen suuruus pitäisi selvittää käytössä, ei päätellä pelkästä käyttäjämäärästä.
 
 Lisäksi tällainen suoja voisi tehdä hankalista sivuista käyttökelpoisempia ihmisille, joille toistuva tarkka kohdistaminen on vaikeaa. Tämä on mahdollinen jatkokäyttö, ei osoitettu saavutettavuushyöty. Sen arvioimiseksi pitäisi kokeilla suojaa erilaisten käyttäjien ja sivujen kanssa: milloin uusi yritys on pieni helpotus ja milloin se muodostuu uudeksi esteeksi?

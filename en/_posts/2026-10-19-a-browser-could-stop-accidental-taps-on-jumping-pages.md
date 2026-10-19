@@ -4,7 +4,12 @@ date: 2026-10-19 04:28:00 +0300
 categories: suunnittelu
 description: "A browser safeguard could stop accidental taps when page content jumps under your finger. How would it work, and what already exists?"
 ref: selain-voisi-estaa-hyppaavan-sivun-vahinkopainallukset
-version: 1
+version: 2
+last_modified_at: 2026-10-19 04:35:31 +0300
+changes:
+  - version: 2
+    date: 2026-10-19
+    note: "Added feedback for blocked taps, a possible Android interface-level application, and the potential to reduce digital frustration."
 ---
 
 You are about to tap a link when an ad appears and the page jumps. Your finger lands where the link was a moment ago, but the browser opens something else. I propose a browser safeguard that recognizes this situation and discards the suspicious tap. The user lifts their finger and tries again once the content has settled.
@@ -29,7 +34,15 @@ Movement alone would not be sufficient. If the same link moves a few pixels but 
 
 In a suspicious situation, the browser would neither open either target nor queue the tap for later. The user would lift their finger and tap again. The new tap would be accepted normally if the content had settled.
 
-This is also the weakness: a false alarm looks like an unresponsive button. An experiment would need to measure both prevented accidental taps and legitimate taps blocked unnecessarily. The safeguard would be useful only if it removed more inconvenience than it created.
+The browser could also provide subtle feedback: the touch was registered, but the target moved, so the action was not performed. For example, a brief visual cue, vibration, or an explanation when needed could distinguish this from a device failing to notice the touch at all. The appropriate feedback would need testing so that the safeguard did not become a distraction itself.
+
+A false alarm would still force the user to try again. An experiment would need to measure both prevented accidental taps and legitimate taps blocked unnecessarily, as well as whether users understood the feedback. The safeguard would be useful only if it removed more inconvenience than it created.
+
+## The same idea could extend to the Android interface
+
+The browser would be the first experimental setting, but eventually the safeguard could also be explored at the Android interface level. A phone manufacturer, for example, could test it in its own interface version, potentially extending the idea from websites to system screens and possibly applications.
+
+This is a possible development direction, not a claim that the browser solution could be transferred unchanged to the entire phone. A broader implementation would require a separate investigation into detecting target movement and handling taps across different screens. The principle and user feedback could nevertheless remain the same.
 
 ## Novelty
 
@@ -56,5 +69,11 @@ The proposed addition is therefore a broader safeguard for ordinary links and bu
 The benefit would come from avoiding wrong pages, navigating back, and trying again. A global monetary figure would nevertheless require evidence about the frequency of accidental taps, their cost, and the share this safeguard could actually prevent. There is insufficient basis for those estimates here.
 
 The comparison is a near future in which website developers improve stability and browsers already have limited safeguards. The idea’s additional value would be preventing remaining errors even on sites whose implementation users cannot influence. It would not fix the jumping page itself.
+
+### A small improvement could add up to a large effect
+
+The significance would extend beyond seconds saved. If a phone less often did something other than what its user intended, it could reduce digital frustration and make smartphone use smoother and more approachable. Clear feedback would also help users understand what the device did and why.
+
+A single corrected tap is a small thing. If the improvement recurred in the daily lives of a large group of users, even a minor change could have a substantial overall effect. It would both reduce existing inconvenience and potentially make handling tasks on a phone feel worthwhile to more people. The scale of that effect would need to be established in use, rather than inferred from user numbers alone.
 
 Such a safeguard could also make difficult sites more usable for people who find repeated precise targeting challenging. This is a possible further application, not a demonstrated accessibility benefit. Evaluating it would require testing with different users and sites: when is trying again a small relief, and when does it become another barrier?
