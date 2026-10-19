@@ -23,8 +23,9 @@
 .intro-header .page-heading { text-align: left; }
 .intro-header .page-heading hr.small { margin-left: 0; }
 .intro-header .page-heading h1 { overflow-wrap: anywhere; }
+.intro-header .row { display: block; margin-left: 0; margin-right: 0; }
+.intro-header .row > div { width: 100%; max-width: 100%; margin-left: 0; padding-left: 0; padding-right: 0; }
 @media (min-width: 1200px) {
-  .intro-header .row > div:has(> .page-heading) { flex: 0 0 100%; max-width: 100%; margin-left: 0; }
   .intro-header .page-heading { padding-right: calc(270px + 3rem); }
 }
 
