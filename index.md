@@ -1,8 +1,8 @@
 ---
 layout: home
 featured_ref: henkilokohtainen-komiikkamalli
-title: "First Principles Blues"
-subtitle: Ajatuksia rakentamisesta, tekoälyagenteista ja turvallisesta automaatiosta.
+title: "Orphan Problem Lab"
+subtitle: "For problems without owners, ideas without a home, and things worth rethinking."
 ---
 
 Tässä blogissa tutkitaan, miten asioita voisi rakentaa ja järjestää paremmin —

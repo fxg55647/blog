@@ -1,8 +1,8 @@
 ---
 layout: home
 featured_ref: henkilokohtainen-komiikkamalli
-title: "First Principles Blues"
-subtitle: "Thoughts on building things, AI agents and safe automation."
+title: "Orphan Problem Lab"
+subtitle: "For problems without owners, ideas without a home, and things worth rethinking."
 permalink: /en/
 description: "Ideas about AI, everyday design and society. English versions of the posts."
 ---
