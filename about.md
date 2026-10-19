@@ -4,5 +4,5 @@ title: Tietoa
 permalink: /about/
 ---
 
-Orphan Problem Lab on blogi ideoista ja asioiden uudelleenajattelusta. Täällä kirjoitetaan rakentamisesta, tekoälyagenttien
+Orphan Problem Protocol on blogi ideoista ja asioiden uudelleenajattelusta. Täällä kirjoitetaan rakentamisesta, tekoälyagenttien
 turvallisesta käytöstä ja siitä, mitä opimme matkan varrella.

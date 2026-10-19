@@ -1,0 +1,16 @@
+{% assign sidebar_lang = page.lang | default: 'fi' %}
+{% assign sidebar_posts = site.posts | where: 'lang', sidebar_lang %}
+<aside class="article-sidebar" aria-label="{% if sidebar_lang == 'en' %}Articles{% else %}Kirjoitukset{% endif %}">
+  <details class="article-navigation" open>
+    <summary>{% if sidebar_lang == 'en' %}Articles{% else %}Kirjoitukset{% endif %}</summary>
+    <nav aria-label="{% if sidebar_lang == 'en' %}All articles{% else %}Kaikki kirjoitukset{% endif %}">
+      <h2>{% if sidebar_lang == 'en' %}All articles{% else %}Kaikki kirjoitukset{% endif %}</h2>
+      <ul class="article-titles list-unstyled" role="list">
+        {% for sidebar_post in sidebar_posts %}
+        <li><a href="{{ sidebar_post.url | relative_url }}"{% if sidebar_post.url == page.url %} aria-current="page"{% endif %}>{{ sidebar_post.title | escape }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </details>
+</aside>
+<script src="{{ '/assets/js/article-sidebar.js' | relative_url }}" defer></script>

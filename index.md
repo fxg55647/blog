@@ -1,7 +1,7 @@
 ---
 layout: home
 featured_ref: henkilokohtainen-komiikkamalli
-title: "Orphan Problem Lab"
+title: "Orphan Problem Protocol"
 subtitle: "Ongelmille vailla vastuunkantajaa, ideoille vailla kotia ja asioille, joita kannattaa ajatella uudelleen."
 ---
 
