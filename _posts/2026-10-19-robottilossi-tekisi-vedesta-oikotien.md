@@ -4,7 +4,12 @@ date: 2026-10-19 04:43:00 +0300
 categories: suunnittelu talous
 description: "Pieni sähköinen robottilossi voisi korvata pitkän maantiekierroksen. Tavara kulkisi veden yli silloin, kun olosuhteet sallivat turvallisen ajon."
 ref: robottilossi-tekisi-vedesta-oikotien
-version: 1
+version: 2
+last_modified_at: 2026-10-19 04:51:49 +0300
+changes:
+  - version: 2
+    date: 2026-10-19
+    note: "Lisätty Teslan vuoden 1898 radio-ohjattava vene, patentin kuljetuskäytöt ja erikseen merkitty historiallinen pohdinta."
 ---
 
 Vastaranta näkyy ikkunasta, mutta sinne ajaminen vaatii pitkän kierroksen. Ehdotan pienistä sähköisistä robottilautoista verkostoa, joka veisi ostoksia, paketteja ja työvälineitä lyhyitä matkoja veden yli. Alusten ei tarvitsisi kulkea kaikissa keleissä tai ympäri vuoden. Ne toimisivat halpoina oikoteinä silloin, kun olosuhteet ovat riittävän hyvät, ja jäisivät muulloin laituriin.
@@ -32,6 +37,14 @@ Reittiverkoston perusta voisi olla yhteinen alusmalli ja samantapaiset laiturit,
 Autonominen tai etävalvottu alus tarvitsisi ennalta sovitun toimintatavan huononevaan säähän, yhteyskatkoon ja tekniseen vikaan. Milloin lähtö jätetään tekemättä, minne keskeytynyt alus siirtyy ja kuka käy tarvittaessa paikalla? Nämä olisivat palvelun perusasioita.
 
 Käyttäjälle pitäisi kertoa selvästi, milloin reitti on käytössä ja mikä on varavaihtoehto. Jos tarkoitus on helpottaa arkea, epävarman kuljetuksen odottaminen ei saisi tuottaa uutta hankaluutta. Rajattu saatavuus voisi olla hyväksyttävä ominaisuus, kun se tunnetaan etukäteen.
+
+## Tesla pohti etäohjattua tavarankuljetusta jo vuonna 1898
+
+Historiallinen edeltäjä löytyy yllättävän kaukaa. Nikola Tesla esitteli radio-ohjattavan veneensä New Yorkissa vuonna 1898 ([Nikola Tesla -museo](https://tesla-museum.org/en/qr-en/exhibit-049/)). Kyse oli veneestä, ei nykyisen kaltaisesta autonomisesta robottilossista.
+
+Samansuuntaiset käyttötavat eivät edes jää pelkäksi arvailuksi: [Teslan patentti US613809A](https://patents.google.com/patent/US613809A/en) mainitsee kirjeiden, pakettien, elintarvikkeiden ja muiden tavaroiden kuljettamisen sekä vaikeapääsyisten alueiden tavoittamisen. Hän siis ajatteli etäohjaukselle myös käytännöllisiä kuljetustehtäviä.
+
+Miettikö Tesla samalla jotakin pienten vesioikoteiden verkoston kaltaista? Sitä nämä lähteet eivät kerro, mutta ajatuksella voi leikitellä. Ehkä nykypäivän kiinnostava mahdollisuus onkin tehdä vanhasta kuljetusvisiosta arkinen palvelu nykytekniikan avulla. Tämä viimeinen rinnastus on omaa pohdintaa, ei väite Teslan suunnitelmista.
 
 ## Uutuusarvo
 

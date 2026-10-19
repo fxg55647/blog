@@ -4,7 +4,12 @@ date: 2026-10-19 04:43:00 +0300
 categories: suunnittelu talous
 description: "A small electric robot ferry could replace a long road detour, carrying goods across the water whenever conditions allow safe operation."
 ref: robottilossi-tekisi-vedesta-oikotien
-version: 1
+version: 2
+last_modified_at: 2026-10-19 04:51:49 +0300
+changes:
+  - version: 2
+    date: 2026-10-19
+    note: "Added Tesla’s 1898 radio-controlled boat, transport applications in his patent, and a clearly distinguished historical reflection."
 ---
 
 The opposite shore is visible from your window, but driving there requires a long detour. I propose a network of small electric robot ferries carrying groceries, parcels, and tools over short water crossings. The vessels would not need to operate in every weather or throughout the year. They would provide inexpensive shortcuts when conditions were good enough and remain docked otherwise.
@@ -32,6 +37,14 @@ The network could be based on a common vessel design and similar docks, charging
 An autonomous or remotely supervised vessel would need predefined responses to deteriorating weather, communication loss, and technical failure. When is a departure cancelled, where does an interrupted vessel go, and who attends when needed? These would be basic service questions.
 
 Users should be told clearly when the route is available and what the alternative is. If the purpose is to make daily life easier, waiting for an uncertain delivery must not create another inconvenience. Limited availability could be acceptable if understood in advance.
+
+## Tesla considered remotely controlled goods transport back in 1898
+
+A historical predecessor reaches surprisingly far back. Nikola Tesla demonstrated his radio-controlled boat in New York in 1898 ([Nikola Tesla Museum](https://tesla-museum.org/en/qr-en/exhibit-049/)). It was a boat, rather than an autonomous robot ferry of the kind envisioned here.
+
+Similar applications are not even purely speculative: [Tesla's patent US613809A](https://patents.google.com/patent/US613809A/en) mentions carrying letters, packages, provisions, and other goods, as well as reaching inaccessible regions. He therefore considered practical transport tasks for remote control too.
+
+Was Tesla also contemplating something like a network of small water shortcuts? These sources do not tell us, but it is an intriguing possibility to consider. Perhaps today's opportunity is to turn an old transport vision into an everyday service using contemporary technology. This final comparison is my own reflection, not a claim about Tesla's plans.
 
 ## Novelty
 
