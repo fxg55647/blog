@@ -38,7 +38,7 @@ footer-hover-col: "#194B33"
 social-network-links:
   rss: true
 site-css:
-  - /assets/css/blog.css
+  - /assets/css/blog.css?v=20261019-header
 
 # Google Search Console -vahvistus (head-language.html tuottaa meta-tagin)
 webmaster_verifications:
